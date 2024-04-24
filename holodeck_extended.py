@@ -7,6 +7,9 @@ import os
 from langchain.llms import OpenAI
 import parsing_prompt as pp
 from modules.utils import get_top_down_frame
+import yw_prompt as prompts
+from langchain import PromptTemplate
+import re
 
 def generate_single_scene(args):
     folder_name = args.query.replace(" ", "_").replace("'", "")
@@ -88,10 +91,29 @@ def pos_parser(llm_client, user_input):
     # curr_prompt = pp.parse_prompt1.replace("INPUT", user_input)
     curr_prompt = pp.prompt2.format(input=user_input)
     return llm_client(curr_prompt)
+
+def parse_existing_floor(scene, model, room_id):
+    object_list = scene["floor_objects"]
+    object_information = ""
+    for obj in object_list:
+        if (obj["roomId"]) == room_id:
+            # Object in that room
+            object_name = obj["object_name"]
+            coor_x = obj["position"]["x"] * 100
+            coor_z = obj["position"]["z"] * 100
+            dimension = model.floor_object_generator.database[obj["assetId"]]['assetMetadata']['boundingBox']
+            size_x = int(dimension["x"] * 100)
+            size_z = int(dimension["z"] * 100)
+            rot = obj["rotation"]["y"]
+            object_information += f"{object_name}: {size_x} cm x {size_z} cm, X = {coor_x}, Y = {coor_z}, rotation = {rot}\n"
+    return object_information
+
+def parse_room_layer(scene, model, room_id):
+    obj = scene["floor_objects"][0]
+    return obj["layer"]
     
 
 def add_object(scene, model, llm_client):
-    object_list = ['a red chair']
     rooms_types = [room["roomType"] for room in scene["rooms"]]
     room2area = {room["roomType"]: model.object_selector.get_room_area(room) for room in scene["rooms"]}
     room2size = {room["roomType"]: model.object_selector.get_room_size(room, scene["wall_height"]) for room in scene["rooms"]}
@@ -101,7 +123,6 @@ def add_object(scene, model, llm_client):
     room2floor_capacity = {room_type: [room_area * model.object_selector.floor_capacity_ratio, 0] for room_type, room_area in room2area.items()}
     room2floor_capacity = model.object_selector.update_floor_capacity(room2floor_capacity, scene)
     room2wall_capacity = {room_type: [room_perimeter * model.object_selector.wall_capacity_ratio, 0] for room_type, room_perimeter in room2perimeter.items()}
-    selected_objects = {room["roomType"]: {"floor": [], "wall": []} for room in scene["rooms"]}
 
     # print(rooms_types)
 
@@ -110,11 +131,12 @@ def add_object(scene, model, llm_client):
     # # Parse user input into a list of object names
     # object_list = object_parser(llm_client, user_input).split(",")
     # print(object_list)
+    object_list = ["chair"]
 
     # For each object:
     for oo in object_list:
         # Input user prompt to object generation module
-        descriptions = ""
+        descriptions = "cozy and red"
         my_query = f"a 3D model of a {oo}, {descriptions}"
         candidates = model.object_retriever.retrieve([my_query], threshold=28)
         # print(candidates) 
@@ -143,15 +165,16 @@ def add_object(scene, model, llm_client):
 
             # # check if the object is too big
             room_type = 'living room' # Need to parse it from room type!!
-            # room_size = room2size[room_type], 
-            # room_vertices = room2vertices[room_type]
-            # candidates = model.object_selector.check_object_size(candidates, room_size)
+            room_size = room2size[room_type], 
+            room_vertices = room2vertices[room_type]
+            candidates = model.object_selector.check_object_size(candidates, room_size[0])
 
-            # # check if object can be placed on the floor
-            # candidates = model.object_selector.check_floor_placement(candidates[:20], room_vertices, scene)
+            # check if object can be placed on the floor
+            candidates = model.object_selector.check_floor_placement(candidates[:20], room_vertices, scene)
 
-            # # No candidates found
-            # if len(candidates) == 0: print("No candidates found for {} {}".format(oo, descriptions))
+            # No candidates found
+            if len(candidates) == 0: print("No candidates found for {} {}".format(oo, descriptions))
+            
             # TODO: Need to prompt user for more info!
 
             candidates = candidates[:10] # only select top 5 candidates
@@ -162,12 +185,60 @@ def add_object(scene, model, llm_client):
             # TODO: Parse quantity
             quantity = 1
             selected_asset_ids = [selected_asset_id] * quantity
-
+            
+            add_candidates = []
             for i in range(quantity):
                 selected_asset_id = selected_asset_ids[i]
                 object_name = f"{oo}-{i}"
-                # Add to selected objects
-                scene["selected_objects"][room_type][pos].append([object_name, selected_asset_id])
+                add_candidates.append((object_name, selected_asset_id))
+
+            # print(add_candidates)
+
+
+            # Get existing objects and their size, coordinates, and rotation
+            existing = parse_existing_floor(scene, args.model, room_type)
+            object_information = ""
+            baseline_temp = PromptTemplate(input_variables=["room_type", "room_size", "existing_object", "new_object"], template=prompts.floor_addition_prompt)
+            # Get origin of the room
+            room_origin = [min(v[0] / 100 for v in room_vertices), min(v[1] / 100 for v in room_vertices)]
+            # Get room layer
+            room_layer = parse_room_layer(scene, args.model, room_type)
+            # For each candidate, prompt llm to get its placement
+            for obj_name, a_id in add_candidates:
+                # Prepare 
+                dimension = model.floor_object_generator.database[a_id]['assetMetadata']['boundingBox']
+                size_x = int(dimension["x"] * 100)
+                size_z = int(dimension["z"] * 100)
+                object_information += f"{obj_name}: {size_x} cm x {size_z} cm\n"
+                baseline_prompt = baseline_temp.format(room_type=room_type, room_size=room_size[0], existing_object=existing, new_object=object_information)
+
+                # Prompt llm
+                completion_text = model.llm(baseline_prompt)
+
+                # Parse the response into json
+                completion_text = re.findall(r'```(.*?)```', completion_text, re.DOTALL)[0]
+                completion_text = re.sub(r'^json', '', completion_text, flags=re.MULTILINE)
+                data_tmp = json.loads(completion_text)
+
+                # Standardize the json 
+                placement = model.floor_object_generator.json_template.copy()
+                placement["id"] = f"{obj_name} ({room_type})"
+                placement["object_name"] = obj_name
+                placement["assetId"] = a_id
+                placement["roomId"] = room_type
+                placement["position"] = {"x": room_origin[0] + (data_tmp['position']["X"]/100),
+                                            "y": dimension["y"] / 2,
+                                            "z": room_origin[1] + (data_tmp["position"]["Y"]/100)}
+                placement["rotation"] = {"x": 0, "y": data_tmp["rotation"], "z": 0}
+                # layer will just be the room's layer
+                placement["layer"] = room_layer
+
+                print(placement)
+
+                # Add into scene
+                scene["objects"].append(placement)
+                # print(placement)
+
 
         elif (pos == "wall"):
             print("TODO")
@@ -224,8 +295,8 @@ if __name__ == "__main__":
 
     # 7000 Project code START
     os.environ['OPENAI_API_KEY'] = args.openai_api_key
-    # client = OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
-    client = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
+    client = OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
+    # client = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
 
     # Load json back in
     original_scene = "./data/scenes/a_living_room_with_blue_walls_-2024-04-09-13-51-46-376192/a_living_room_with_blue_walls_.json"
@@ -237,8 +308,6 @@ if __name__ == "__main__":
     top_image = get_top_down_frame(scene_new, args.model.objaverse_asset_dir, 1024, 1024)
     top_image.show()
     top_image.save(f"tmpppp.png")
-
-    # Need to create an object_selection_plan
     
 
     
