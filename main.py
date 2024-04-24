@@ -3,7 +3,7 @@ import json
 from tqdm import tqdm
 from argparse import ArgumentParser
 from modules.holodeck import Holodeck
-
+import modules.object_identifier as object_identifier
 
 def generate_single_scene(args):
     folder_name = args.query.replace(" ", "_").replace("'", "")
@@ -78,7 +78,10 @@ if __name__ == "__main__":
     parser.add_argument("--random_selection", help = "Whether to more random object selection, set to False will be more precise, True will be more diverse", default = "False")
     parser.add_argument("--used_assets", help = "a list of assets which we want to exclude from the scene", default = [])
     parser.add_argument("--single_room", help = "Whether to generate a single room scene.", default = "False")
-    
+    # added for continuous generation
+    parser.add_argument("--allow_edit", help = "Whether to allow edit the scene", default = "False")
+    parser.add_argument("--allow_delete", help="Whether to allow delete the scene", default= "False")
+
     args = parser.parse_args()
 
     args.model = Holodeck(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room))
@@ -89,12 +92,36 @@ if __name__ == "__main__":
             args.used_assets = [asset.strip() for asset in args.used_assets]
     else:
         args.used_assets = []
-    
-    if args.mode == "generate_single_scene":
-        generate_single_scene(args)
-    
-    elif args.mode == "generate_multi_scenes":
-        generate_multi_scenes(args)
-    
-    elif args.mode == "generate_variants":
-        generate_variants(args)
+
+    # if args.mode == "generate_single_scene":
+    #     generate_single_scene(args)
+    #
+    # elif args.mode == "generate_multi_scenes":
+    #     generate_multi_scenes(args)
+    #
+    # elif args.mode == "generate_variants":
+    #     generate_variants(args)
+
+    if args.allow_edit == "True":
+        user_input = input("Please enter what edit you want: add, modify, or delete:").strip()
+        if user_input == "add":
+            user_input = input("Please enter the asset you want to add:")
+            args.original_scene = args.save_dir + "/" + args.query.replace(" ", "_").replace("'", "") + "/" + args.query.replace(" ", "_").replace("'", "") + ".json"
+            args.query = args.query + "add" + user_input
+            generate_single_scene(args)
+
+
+    # Test deleting a couch from the scene
+    if args.allow_delete == "True":
+        scene_to_edit = json.load(open("/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room-2024-04-18-14-06-36-338216/a_living_room.json", "r"))
+        user_input = "delete the red couch in the living room"
+        object_identifier = object_identifier.object_identifier(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room), scene_to_edit)
+        object_identifier.identify_object(user_input)
+
+
+
+
+
+
+
+

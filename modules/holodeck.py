@@ -302,3 +302,4 @@ class Holodeck():
             top_image.save(f"{save_dir}/{folder_name}/{query_name}.png")
         
         return scene
+
