@@ -170,15 +170,14 @@ def add_object(scene, model, llm_client):
             # No candidates found
             if len(candidates) == 0: print("No candidates found for {} {}".format(oo, descriptions))
             
-            # TODO: Need to prompt user for more info!
+            # Prompt user for location constraints
+            user_loc = input("Do you want to specify any location requirement or constratints? If not, just type None. \n")
 
             candidates = candidates[:10] # only select top 10 candidates
 
             # TODO: Show user to select?
             selected_candidate = candidates[0]
             selected_asset_id = selected_candidate[0]
-            # TODO: Parse quantity
-            quantity = 1
             selected_asset_ids = [selected_asset_id] * quantity
             
             add_candidates = []
@@ -187,13 +186,7 @@ def add_object(scene, model, llm_client):
                 object_name = f"{oo}-{i}"
                 add_candidates.append((object_name, selected_asset_id))
 
-            # print(add_candidates)
-
-
-            # Get existing objects and their size, coordinates, and rotation
-            existing = parse_existing_floor(scene, args.model, room_type)
-            object_information = ""
-            baseline_temp = PromptTemplate(input_variables=["room_type", "room_size", "existing_object", "new_object"], template=prompts.floor_addition_prompt)
+            baseline_temp = PromptTemplate(input_variables=["room_type", "room_size", "existing_object", "new_object", "location_constraints"], template=prompts.floor_addition_prompt)
             # Get origin of the room
             room_origin = [min(v[0] / 100 for v in room_vertices), min(v[1] / 100 for v in room_vertices)]
             # Get room layer
@@ -201,11 +194,14 @@ def add_object(scene, model, llm_client):
             # For each candidate, prompt llm to get its placement
             for obj_name, a_id in add_candidates:
                 # Prepare 
+                # Get existing objects and their size, coordinates, and rotation
+                existing = parse_existing_floor(scene, args.model, room_type)
+                object_information = ""
                 dimension = model.floor_object_generator.database[a_id]['assetMetadata']['boundingBox']
                 size_x = int(dimension["x"] * 100)
                 size_z = int(dimension["z"] * 100)
                 object_information += f"{obj_name}: {size_x} cm x {size_z} cm\n"
-                baseline_prompt = baseline_temp.format(room_type=room_type, room_size=room_size[0], existing_object=existing, new_object=object_information)
+                baseline_prompt = baseline_temp.format(room_type=room_type, room_size=room_size[0], existing_object=existing, new_object=object_information, location_constraints=user_loc)
 
                 # Prompt llm
                 completion_text = model.llm(baseline_prompt)

@@ -22,6 +22,7 @@ A example of the existing object format is: sofa-0: 100 cm x 80 cm, X = 4.0, Y =
 Here are the objects (with their sizes and coordinates) that already exist in the room: {existing_object}.
 
 Here is the object (with its sizes) that I want to add: {new_object}.
+Special location constraints: {location_constraints}.
 
 Remember, you only generate JSON code, nothing else. It's very important. Respond in markdown (```).
 """
