@@ -137,7 +137,7 @@ def add_object(scene, model, llm_client):
 
         # Prompt user to specify room
         room_all_str = ", ".join(rooms_types)
-        pos_input = input(f"In this scene, I have the following rooms: {room_all_str}. Which room do you want to place the object in? Please just specify the full room name. \n")
+        pos_input = input(f"In this scene, I have the following rooms: [{room_all_str}]. Which room do you want to place the object in? Please just specify the full room name. \n")
         # Parse pos_input into room_type
         for rr in rooms_types:
             if (pos_input.find(rr) != -1):
@@ -297,9 +297,9 @@ if __name__ == "__main__":
 
     scene_new = add_object(scene, args.model, client)
 
-    # top_image = get_top_down_frame(scene_new, args.model.objaverse_asset_dir, 1024, 1024)
-    # top_image.show()
-    # top_image.save(f"tmpppp.png")
+    top_image = get_top_down_frame(scene_new, args.model.objaverse_asset_dir, 1024, 1024)
+    top_image.show()
+    top_image.save(f"tmpppp.png")
     
 
     
