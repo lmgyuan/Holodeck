@@ -25,3 +25,21 @@ Here is the object (with its sizes) that I want to add: {new_object}.
 
 Remember, you only generate JSON code, nothing else. It's very important. Respond in markdown (```).
 """
+
+
+object_parsing_prompt = """
+You are an efficient translator of user inputs into accurate tuples of just the objects, their quantities, and their descriptions, including things like location or mood. 
+Apply each descriptive and location-based word (like color or theme) on as many objects as is applicable as possible. Ensure that the final tuples are as accurate as possible. 
+Ensure that the final tuples are in the format of (quantity, object, object descriptions). Separate each tuple in the list with a semicolon.
+
+For example:
+USER: I want to add a dozen comfortable red chairs stacked on top of each other, a really bright spaceship-themed lamp on a desk, and another twin-sized bed in the middle of the room
+ASSISTANT: (12, chair, comfortable and red and stacked on top of each other); (1, lamp, really bright and spaceship-themed and on a desk); (1, bed, twin-sized and in the middle of the room)
+
+USER: Three fat, green apples on top of the closet, fifteen toy soldiers scattered on the floor, and a huge, rocket ship shaped bed by the northern wall of the room.
+ASSISTANT: (3, apple, green and fat and on top of the closet); (15, toy soldier, scattered on the floor); (1, bed, huge and rocket ship shaped and by the northern wall of the room)
+
+Now the input is USER: {user_input}
+
+Only return the final tuples.
+"""

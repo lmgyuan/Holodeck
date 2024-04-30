@@ -82,15 +82,10 @@ def delete_object(scene):
     
     # dump final json
 
-def object_parser(llm_client, user_input):
-    # curr_prompt = pp.parse_prompt1.replace("INPUT", user_input)
-    curr_prompt = pp.prompt1.format(input=user_input)
-    return llm_client(curr_prompt)
-
-def pos_parser(llm_client, user_input):
-    # curr_prompt = pp.parse_prompt1.replace("INPUT", user_input)
-    curr_prompt = pp.prompt2.format(input=user_input)
-    return llm_client(curr_prompt)
+def object_parser(llm_client, user_word):
+    baseline_temp = PromptTemplate(input_variables=["user_input"], template=prompts.object_parsing_prompt)
+    baseline_prompt = baseline_temp.format(user_input=user_word)
+    return llm_client(baseline_prompt)
 
 def parse_existing_floor(scene, model, room_id):
     object_list = scene["floor_objects"]
@@ -124,11 +119,15 @@ def add_object(scene, model, llm_client):
     room2floor_capacity = model.object_selector.update_floor_capacity(room2floor_capacity, scene)
     room2wall_capacity = {room_type: [room_perimeter * model.object_selector.wall_capacity_ratio, 0] for room_type, room_perimeter in room2perimeter.items()}
 
-    # print(rooms_types)
+    # Add an object
+    user_input = input("Do you want to add any objects? Please specify quantity of objects. Please be as specific as possible with your description. \n")
+    # Parse user input into (quantity, object_name, object_description)
+    object_str = object_parser(llm_client, user_input)
+    print(object_str)
 
-    # # Add an object
-    # user_input = input("Do you want to add any objects? \n")
-    # # Parse user input into a list of object names
+    return 0
+
+
     # object_list = object_parser(llm_client, user_input).split(",")
     # print(object_list)
     object_list = ["chair"]
@@ -139,16 +138,17 @@ def add_object(scene, model, llm_client):
         descriptions = "cozy and red"
         my_query = f"a 3D model of a {oo}, {descriptions}"
         candidates = model.object_retriever.retrieve([my_query], threshold=28)
-        # print(candidates) 
-        # pos_ready = True
-        # while (pos_ready):
-        #     pos_input = input("Should it be on the floor or on the wall? \n")
-        #     pos = pos_parser(llm_client, pos_input)
-        #     if (pos == "floor" or pos == "wall"):
-        #         pos_ready = False
-        #         break
-        #     else:
-        #         print("Please specify only wall or floor")
+
+        # Prompt user to specify room
+        room_all_str = ", ".join(rooms_types)
+        pos_input = input(f"In this scene, I have the following rooms: {room_all_str}. Which room do you want to place the object in? Please just specify the full room name. \n")
+        # Parse pos_input into room_type
+        for rr in rooms_types:
+            if (pos_input.find(rr) != -1):
+                # Found!
+                room_type = rr
+
+        print(f"Placing object in {room_type}.")
 
         # TODO: parse position
         pos = "floor"
@@ -163,8 +163,7 @@ def add_object(scene, model, llm_client):
             candidates = [candidate for candidate in candidates if "window" not in model.object_selector.database[candidate[0]]["annotations"]["category"].lower()]
             candidates = [candidate for candidate in candidates if "frame" not in model.object_selector.database[candidate[0]]["annotations"]["category"].lower()]
 
-            # # check if the object is too big
-            room_type = 'living room' # Need to parse it from room type!!
+            # check if the object is too big
             room_size = room2size[room_type], 
             room_vertices = room2vertices[room_type]
             candidates = model.object_selector.check_object_size(candidates, room_size[0])
@@ -177,7 +176,7 @@ def add_object(scene, model, llm_client):
             
             # TODO: Need to prompt user for more info!
 
-            candidates = candidates[:10] # only select top 5 candidates
+            candidates = candidates[:10] # only select top 10 candidates
 
             # TODO: Show user to select?
             selected_candidate = candidates[0]
@@ -305,9 +304,9 @@ if __name__ == "__main__":
 
     scene_new = add_object(scene, args.model, client)
 
-    top_image = get_top_down_frame(scene_new, args.model.objaverse_asset_dir, 1024, 1024)
-    top_image.show()
-    top_image.save(f"tmpppp.png")
+    # top_image = get_top_down_frame(scene_new, args.model.objaverse_asset_dir, 1024, 1024)
+    # top_image.show()
+    # top_image.save(f"tmpppp.png")
     
 
     
