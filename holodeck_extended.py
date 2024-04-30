@@ -123,19 +123,15 @@ def add_object(scene, model, llm_client):
     user_input = input("Do you want to add any objects? Please specify quantity of objects. Please be as specific as possible with your description. \n")
     # Parse user input into (quantity, object_name, object_description)
     object_str = object_parser(llm_client, user_input)
-    print(object_str)
-
-    return 0
-
-
-    # object_list = object_parser(llm_client, user_input).split(",")
-    # print(object_list)
-    object_list = ["chair"]
+    object_list = object_str.split(";")
 
     # For each object:
-    for oo in object_list:
+    for oo_str in object_list:
+        oo_str = oo_str.replace("(","",-1).replace(")","",-1)
+        quantity, oo, descriptions = oo_str.split(",")
+        quantity = int(quantity)
+
         # Input user prompt to object generation module
-        descriptions = "cozy and red"
         my_query = f"a 3D model of a {oo}, {descriptions}"
         candidates = model.object_retriever.retrieve([my_query], threshold=28)
 
@@ -244,9 +240,6 @@ def add_object(scene, model, llm_client):
 
 
     return scene
-
-
-
 
 # 7000 Project code END
     
