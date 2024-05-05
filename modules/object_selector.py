@@ -22,6 +22,7 @@ class ObjectSelector:
 
         # language model and prompt templates
         self.llm = llm
+        #self.llm.openai_api_base = "https://oai.hconeai.com/v1"
         self.object_selection_template_1 = prompts.object_selection_prompt_new_1
         self.object_selection_template_2 = PromptTemplate(input_variables=["object_selection_prompt_new_1", "object_selection_1", "room"], template=prompts.object_selection_prompt_new_2)
 
@@ -91,10 +92,12 @@ class ObjectSelector:
         room_size_str = f"{int(room2size[room_type][0])*100}cm in length, {int(room2size[room_type][1])*100}cm in width, {int(room2size[room_type][2])*100}cm in height"
         
         prompt_1 = self.object_selection_template_1.replace("INPUT", scene["query"]).replace("ROOM_TYPE", room_type).replace("ROOM_SIZE", room_size_str).replace("REQUIREMENTS", additional_requirements)
-        # print(f"\nUser: {prompt_1}\n")
+        print(f"\nUser: {prompt_1}\n")
               
-        output_1 = self.llm(prompt_1).lower()
+        output_1 = self.llm(prompt_1).lower()  #self.llm(prompt_1).lower() 
         plan_1 = self.extract_json(output_1)
+
+        
 
         if plan_1 is None:
             print(f"Error while extracting the JSON for {room_type}.")

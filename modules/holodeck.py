@@ -19,14 +19,21 @@ from modules.skybox import getSkybox
 from modules.layers import map_asset2layer
 from modules.objaverse_retriever import ObjaverseRetriever
 from modules.utils import get_top_down_frame, room_video
+import openai
 
 
 class Holodeck():
     def __init__(self, openai_api_key, objaverse_version, objaverse_asset_dir, single_room):
         os.environ["OPENAI_API_KEY"] = openai_api_key
+        os.environ['HELICONE_API_KEY'] = 'sk-helicone-cp-lewogiq-q2yu4wi-x4ydf2y-qxlt4gi'
 
         # initialize llm
-        self.llm = OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
+
+        
+        openai.api_base = "https://oai.hconeai.com/v1"
+    
+        client = OpenAI(openai_api_base="https://oai.hconeai.com/v1", model_name="gpt-4", max_tokens=2048)
+        self.llm = client #OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
         self.llm_fast = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
 
         # initialize CLIP
@@ -34,7 +41,7 @@ class Holodeck():
         self.clip_tokenizer = open_clip.get_tokenizer('ViT-L-14')
 
         # initialize sentence transformer
-        self.sbert_model = SentenceTransformer('all-mpnet-base-v2', device = "cpu")
+        self.sbert_model = SentenceTransformer(model_name_or_path ='all-mpnet-base-v2', device='cpu')
 
         # objaverse version and asset dir
         self.objaverse_version = objaverse_version
