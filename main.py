@@ -4,6 +4,7 @@ from tqdm import tqdm
 from argparse import ArgumentParser
 from modules.holodeck import Holodeck
 import modules.object_identifier as object_identifier
+from modules.utils import get_top_down_frame
 
 def generate_single_scene(args):
     folder_name = args.query.replace(" ", "_").replace("'", "")
@@ -93,14 +94,14 @@ if __name__ == "__main__":
     else:
         args.used_assets = []
 
-    # if args.mode == "generate_single_scene":
-    #     generate_single_scene(args)
-    #
-    # elif args.mode == "generate_multi_scenes":
-    #     generate_multi_scenes(args)
-    #
-    # elif args.mode == "generate_variants":
-    #     generate_variants(args)
+    if args.mode == "generate_single_scene":
+        generate_single_scene(args)
+
+    elif args.mode == "generate_multi_scenes":
+        generate_multi_scenes(args)
+
+    elif args.mode == "generate_variants":
+        generate_variants(args)
 
     if args.allow_edit == "True":
         user_input = input("Please enter what edit you want: add, modify, or delete:").strip()
@@ -113,10 +114,23 @@ if __name__ == "__main__":
 
     # Test deleting a couch from the scene
     if args.allow_delete == "True":
-        scene_to_edit = json.load(open("/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room-2024-04-18-14-06-36-338216/a_living_room.json", "r"))
-        user_input = "delete the red couch in the living room"
+        # scene_to_edit = json.load(open("/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room-2024-04-18-14-06-36-338216/a_living_room.json", "r"))
+        # user_input = "delete the couch in the living room"
+
+        # scene_to_edit = json.load(open(
+        #     "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room_with_blue_walls-2024-04-16-16-17-57-462309/a_living_room_with_blue_walls.json",
+        #     "r"))
+        # user_input = "delete the couch in the living room"
+
+        scene_to_edit = json.load(open(
+            "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_small_conference_room-2023-12-09-22-38-58-210944/a_small_conference_room.json",
+            "r"))
+        user_input = "delete a shelve in the living room"
+        print("user_input: ", user_input)
         object_identifier = object_identifier.object_identifier(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room), scene_to_edit)
-        object_identifier.identify_object(user_input)
+        updated_scene_deletion = object_identifier.identify_object(user_input)
+        # top_image = get_top_down_frame(updated_scene_deletion, args.asset_dir)
+
 
 
 

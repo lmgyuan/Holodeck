@@ -3,7 +3,7 @@ import os
 
 from langchain.llms import OpenAI
 from langchain import PromptTemplate
-import modules.utils
+from modules.utils import get_top_down_frame
 
 
 class object_identifier():
@@ -11,6 +11,7 @@ class object_identifier():
         self.llm = OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
         self.llm_fast = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
         self.scene = scene
+        self.objaverse_asset_dir = objaverse_asset_dir
 
         os.environ["OPENAI_API_KEY"] = openai_api_key
 
@@ -44,14 +45,11 @@ class object_identifier():
         print("--------------------")
 
         objects = self.scene["objects"]
-        small_objects = self.scene["small_objects"]
 
         print("--------------------")
         print("objects: ")
         print(objects)
         print("--------------------")
-        print("small_objects: ")
-        print(small_objects)
 
 
         json_object_identify_prompt = """
@@ -100,17 +98,49 @@ class object_identifier():
         }}
         
         Currently, the object we want to find is: {object}, and its location is {location}.
+        The list of objects in the scene is: {objects}
+        Beware that the object and location may not perfectly match the descriptions in the list of objects. 
+        If you can't find exact matches, find synonym and other variations.
+        Don't modify the object's information. Just return the assetID of the original json object in the list.
+        If you think there are multiple matching objects, you can return a list of them, separated by commas.
+        The output should look like: "assetId: asset code,assetId: asset code,assetId: asset code"
+        
         Your response should be direct and without additional text at the beginning or end.
         """
 
-        json_object_identify_prompt_template = PromptTemplate(input_variables=["object", "location"],
+        json_object_identify_prompt_template = PromptTemplate(input_variables=["object", "location", "objects"],
                                                               template=json_object_identify_prompt)
         json_object = json.dumps(object_identify_response[0])
-        json_location = object_identify_response[1]
-        template = json_object_identify_prompt_template.format(object=json_object, location=json_location)
-        json_object_identify_response = json.loads(self.llm(template))
+        json_location = json.dumps(object_identify_response[1])
+        json_objects = json.dumps(objects)
+        template = json_object_identify_prompt_template.format(object=json_object, location=json_location, objects=json_objects)
+        llm_output = self.llm(template)
+        # json_object_identify_response = json.loads(llm_output)
 
         print("--------------------")
-        print(json_object_identify_response)
+        print(llm_output)
         print("--------------------")
-        return object_identify_response
+        # print(json_object_identify_response)
+        # print("--------------------")
+
+        #Parse the llm output:
+        assetID_to_delete = llm_output.split(",")[0].strip()
+        assetID_to_delete = assetID_to_delete.split(":")[1].strip()
+
+        print("--------------------")
+        print("Asset ID to delete: ", assetID_to_delete)
+        print("--------------------")
+
+        filtered_objects = [obj for obj in objects if obj['assetId'] != assetID_to_delete.strip()]
+        match_object = [obj for obj in objects if obj['assetId'] == assetID_to_delete.strip()]
+
+        print("--------------------")
+        print("Match Object: ", match_object)
+        print("--------------------")
+
+        self.scene["objects"] = filtered_objects
+        top_image = get_top_down_frame(self.scene, self.objaverse_asset_dir, 1024, 1024)
+        top_image.show()
+        top_image.save("top_down_frame_deletion.png")
+
+        return self.scene
