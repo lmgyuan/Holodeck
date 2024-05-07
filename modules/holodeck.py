@@ -34,8 +34,7 @@ class Holodeck():
         self.clip_tokenizer = open_clip.get_tokenizer('ViT-L-14')
 
         # initialize sentence transformer
-        self.sbert_model = SentenceTransformer('all-mpnet-base-v2')
-
+        self.sbert_model = SentenceTransformer(model_name_or_path= 'all-mpnet-base-v2', device = 'cpu')
         # objaverse version and asset dir
         self.objaverse_version = objaverse_version
         self.objaverse_asset_dir = objaverse_asset_dir

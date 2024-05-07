@@ -129,7 +129,7 @@ def main(save_path):
 
 
 def visualize_asset(asset_id, version):
-    empty_house = json.load(open("empty_house.json", "r"))
+    empty_house = json.load(open("./modules/empty_house.json", "r"))
     empty_house["objects"] = [{
             "assetId": asset_id,
             "id": "test_asset",
@@ -148,6 +148,10 @@ def visualize_asset(asset_id, version):
         }]
     image = get_top_down_frame(empty_house, version)
     image.show()
+    id_str = str(asset_id)
+    image_path = f"./addition/{id_str}.png"
+    image.save(image_path)
+    return image_path
 
 
 def get_room_images(scene, objaverse_asset_dir, width=1024, height=1024):
