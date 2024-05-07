@@ -299,7 +299,7 @@ class Holodeck():
         if generate_image:
             top_image = get_top_down_frame(scene, self.objaverse_asset_dir, 1024, 1024)
             top_image.show()
-            top_image.save(f"{save_dir}/{folder_name}/{query_name}.png")
+            # top_image.save(f"{save_dir}/{folder_name}/{query_name}.png")
         
         return scene
 

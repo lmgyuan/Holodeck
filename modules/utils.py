@@ -129,7 +129,8 @@ def main(save_path):
 
 
 def visualize_asset(asset_id, version):
-    empty_house = json.load(open("empty_house.json", "r"))
+    # empty_house = json.load(open("empty_house.json", "r"))
+    empty_house = json.load(open("/Users/yuanyuan/workspace/Holodeck/modules/empty_house.json", "r"))
     empty_house["objects"] = [{
             "assetId": asset_id,
             "id": "test_asset",

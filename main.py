@@ -5,6 +5,7 @@ from argparse import ArgumentParser
 from modules.holodeck import Holodeck
 import modules.object_identifier as object_identifier
 from modules.utils import get_top_down_frame
+from modules.deletion import deletion
 
 def generate_single_scene(args):
     folder_name = args.query.replace(" ", "_").replace("'", "")
@@ -87,21 +88,21 @@ if __name__ == "__main__":
 
     args.model = Holodeck(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room))
 
-    if args.used_assets != [] and args.used_assets.endswith(".txt"):
-        with open(args.used_assets, "r") as f:
-            args.used_assets = f.readlines()
-            args.used_assets = [asset.strip() for asset in args.used_assets]
-    else:
-        args.used_assets = []
-
-    if args.mode == "generate_single_scene":
-        generate_single_scene(args)
-
-    elif args.mode == "generate_multi_scenes":
-        generate_multi_scenes(args)
-
-    elif args.mode == "generate_variants":
-        generate_variants(args)
+    # if args.used_assets != [] and args.used_assets.endswith(".txt"):
+    #     with open(args.used_assets, "r") as f:
+    #         args.used_assets = f.readlines()
+    #         args.used_assets = [asset.strip() for asset in args.used_assets]
+    # else:
+    #     args.used_assets = []
+    #
+    # if args.mode == "generate_single_scene":
+    #     generate_single_scene(args)
+    #
+    # elif args.mode == "generate_multi_scenes":
+    #     generate_multi_scenes(args)
+    #
+    # elif args.mode == "generate_variants":
+    #     generate_variants(args)
 
     if args.allow_edit == "True":
         user_input = input("Please enter what edit you want: add, modify, or delete:").strip()
@@ -117,18 +118,27 @@ if __name__ == "__main__":
         # scene_to_edit = json.load(open("/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room-2024-04-18-14-06-36-338216/a_living_room.json", "r"))
         # user_input = "delete the couch in the living room"
 
-        # scene_to_edit = json.load(open(
-        #     "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room_with_blue_walls-2024-04-16-16-17-57-462309/a_living_room_with_blue_walls.json",
-        #     "r"))
-        # user_input = "delete the couch in the living room"
-
         scene_to_edit = json.load(open(
-            "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_small_conference_room-2023-12-09-22-38-58-210944/a_small_conference_room.json",
+            "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_living_room_with_blue_walls-2024-04-16-16-17-57-462309/a_living_room_with_blue_walls.json",
             "r"))
-        user_input = "delete a shelve in the living room"
+        user_input = "delete the couch in the living room"
+
+        # scene_to_edit = json.load(open(
+        #     "/Users/yuanyuan/workspace/Holodeck/data/scenes/a_small_conference_room-2023-12-09-22-38-58-210944/a_small_conference_room.json",
+        #     "r"))
+        # user_input = "delete a shelve in the living room"
+        save_dir_deletion = "./data/deletion"
+        folder_name_deletion = user_input.replace(" ", "_").replace("'", "")
         print("user_input: ", user_input)
-        object_identifier = object_identifier.object_identifier(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room), scene_to_edit)
-        updated_scene_deletion = object_identifier.identify_object(user_input)
+        deletion = deletion(args.openai_api_key, args.asset_dir, save_dir_deletion, folder_name_deletion)
+        deletion.delete_first_step(user_input, scene_to_edit)
+        updated_scene_deletions = deletion.identify_object(user_input)
+        for image in updated_scene_deletions:
+            assetID = image[0]
+            image_path = image[1]
+            print("assetID: ", assetID, "; image_path: ", image_path)
+
+        deletion.delete_second_step(updated_scene_deletions[0][0])
         # top_image = get_top_down_frame(updated_scene_deletion, args.asset_dir)
 
 
