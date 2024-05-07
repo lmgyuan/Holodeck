@@ -4,7 +4,6 @@ from tqdm import tqdm
 from argparse import ArgumentParser
 from modules.holodeck import Holodeck
 
-
 def generate_single_scene(args):
     folder_name = args.query.replace(" ", "_").replace("'", "")
     try:
@@ -83,6 +82,7 @@ if __name__ == "__main__":
 
     args.model = Holodeck(args.openai_api_key, args.objaverse_version, args.asset_dir, ast.literal_eval(args.single_room))
 
+    print("got input")
     if args.used_assets != [] and args.used_assets.endswith(".txt"):
         with open(args.used_assets, "r") as f:
             args.used_assets = f.readlines()

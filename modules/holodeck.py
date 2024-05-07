@@ -25,16 +25,16 @@ import openai
 class Holodeck():
     def __init__(self, openai_api_key, objaverse_version, objaverse_asset_dir, single_room):
         os.environ["OPENAI_API_KEY"] = openai_api_key
-        os.environ['HELICONE_API_KEY'] = 'sk-helicone-cp-lewogiq-q2yu4wi-x4ydf2y-qxlt4gi'
+        # os.environ['HELICONE_API_KEY'] = 'sk-helicone-cp-lewogiq-q2yu4wi-x4ydf2y-qxlt4gi'
 
-        # initialize llm
+        # # initialize llm
 
         
-        openai.api_base = "https://oai.hconeai.com/v1"
+        # openai.api_base = "https://oai.hconeai.com/v1"
     
-        client = OpenAI(openai_api_base="https://oai.hconeai.com/v1", model_name="gpt-4", max_tokens=2048)
-        self.llm = client #OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
-        self.llm_fast = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
+        # client = OpenAI(openai_api_base="https://oai.hconeai.com/v1", model_name="gpt-4", max_tokens=2048)
+        #self.llm = OpenAI(model_name="gpt-4-1106-preview", max_tokens=2048)
+        self.llm = OpenAI(model_name="gpt-3.5-turbo", max_tokens=2048)
 
         # initialize CLIP
         self.clip_model, _, self.clip_preprocess = open_clip.create_model_and_transforms('ViT-L-14', pretrained='laion2b_s32b_b82k')
@@ -228,9 +228,11 @@ class Holodeck():
         query_name = query.replace(" ", "_").replace("'", "")[:30]
         create_time = str(datetime.datetime.now()).replace(" ", "-").replace(":", "-").replace(".", "-")
         
+        print(f"{query_name}-{create_time}")
         if add_time: folder_name = f"{query_name}-{create_time}" # query name + time
         else: folder_name = query_name # query name only
 
+        
         os.makedirs(f"{save_dir}/{folder_name}", exist_ok=True)
         with open(f"{save_dir}/{folder_name}/{query_name}.json", "w") as f:
             json.dump(scene, f, indent=4)
@@ -239,7 +241,10 @@ class Holodeck():
         if generate_image:
             top_image = get_top_down_frame(scene, self.objaverse_asset_dir, 1024, 1024)
             top_image.show()
+            print(f"{save_dir}/{folder_name}/{query_name}.png")
             top_image.save(f"{save_dir}/{folder_name}/{query_name}.png")
+        
+        print(f"{save_dir}/{folder_name}/{query_name}.json")
 
         # save video
         if generate_video:

@@ -4,8 +4,9 @@ from threading import Thread
 from tkinter import scrolledtext
 from PIL import Image, ImageTk
 
-key = "enter your own key"
+key = "input your key"
 process = None
+
 
 class MultiPageApp(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -66,10 +67,37 @@ class StartPage(tk.Frame):
                             command=lambda: controller.show_frame(ChatPage))
         button1.pack()
 
+class ButtonImagePair(tk.Frame):
+    def __init__(self, parent, button_text):
+        tk.Frame.__init__(self, parent)
+        
+        # Create and position the button
+        # self.button = button
+        self.button = tk.Button(self, text=button_text, state=tk.DISABLED)
+        self.button.pack(side=tk.TOP)
+        
+        # Initialize image label as None
+        self.image_label = None
+    
+    def add_image(self, image_path):
+        # Load the image
+        image = tk.PhotoImage(file=image_path)
+        
+        # Create and position the label to display the image
+        self.image_label = tk.Label(self, image=image)
+        self.image_label.image = image  # Keep a reference to avoid garbage collection
+        self.image_label.pack(side=tk.BOTTOM)
+    
+    def deactivate_pair(self):
+        self.image_label = None
+        self.button.config(state=tk.DISABLED)
 
 class ChatPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
+
+        self.final_line = None
+        self.process=None
 
         # Load an image
         image = tk.PhotoImage(file="logo.png")
@@ -95,20 +123,52 @@ class ChatPage(tk.Frame):
         submit_button = tk.Button(self, text="Submit", command=self.submit_query)
         submit_button.pack()
 
+        button_frame = tk.Frame(self)
+        button_frame.pack()
+
+        # Create and position buttons for different results inside the button frame
+        self.result_buttons = []
+        self.result_texts = ["A", "B", "C"]
+        for result_text in self.result_texts:
+            # button = tk.Button(self, text=result_text, state=tk.DISABLED)
+            # button.config(command=lambda button=button: self.submit_result(button.cget("text")))
+            pair = ButtonImagePair(button_frame, result_text)
+            pair.button.config(command=lambda pair=pair: self.submit_result(pair.button.cget("text")))
+            pair.pack(side=tk.LEFT, padx=5)  # Pack buttons side by side with some padding
+            self.result_buttons.append(pair)
+
         # Create and position the label to display output
         self.output_text = scrolledtext.ScrolledText(self, wrap=tk.WORD, height=10, width=40)
         self.output_text.pack(pady=10)
 
-    def submit_query(self):
-        global process
+    def update_buttons(self, output):
+        # Enable buttons based on output
+        image_paths = ["result_image_hello.png", "result_image_sebin.png", "result_image_test.py.png"]
+        
+        arr = output.split(",")
+        self.result_texts = arr
+        for i in range(len(self.result_buttons)):
+            self.result_buttons[i].button.config(text=arr[i])
+            if not self.result_buttons[i].image_label:
+                self.result_buttons[i].add_image(image_paths[i])
+        
+    def check_buttons(self):
+        for button in self.result_buttons:
+            button.button.config(state=tk.NORMAL)
 
+    def submit_result(self, result):
+        self.process.stdin.write(result + '\n')
+        self.process.stdin.flush()
+
+    def submit_query(self):
         query = self.entry.get()
         self.entry.delete(0, tk.END)
         if query.lower() == 'quit' and process:
-            process.terminate()  # Terminate the subprocess
-            process = None  # Reset process to None for the next query
+            self.process.terminate()  # Terminate the subprocess
+            self.process = None  # Reset process to None for the next query
             self.output_text.delete('1.0', tk.END)
-            #output_label.config(text="")
+
+            print(self.final_line)
             print("done")
             return
         
@@ -116,28 +176,35 @@ class ChatPage(tk.Frame):
 
         print(run_query)
         # Use subprocess to open a zsh terminal and execute the query
-        if not process:
-            #process = subprocess.Popen(['python', query], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-            process = subprocess.Popen(['python', "main.py", "--query", f"{query}", "--openai_api_key", key], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+        if not self.process:
+            self.process = subprocess.Popen(['python', query], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+            #process = subprocess.Popen(['python', "main.py", "--query", f"{query}", "--openai_api_key", key], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
             Thread(target=self.read_stdout).start()
         else: 
             print("here")
         #process = subprocess.Popen(['zsh', '-c', query], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-        process.stdin.write(query + '\n')
-        process.stdin.flush()
+        self.process.stdin.write(query + '\n')
+        self.process.stdin.flush()
 
     def read_stdout(self):
-        global process
+        last_line = None
+        options = []
 
         # Read stdout line by line in real-time
-        for line in process.stdout:
+        for line in self.process.stdout:
             line = line.strip()
             self.output_text.config(state=tk.NORMAL)  # Enable editing of text widget
             self.output_text.insert(tk.END, line + "\n")  # Append new line of output
             self.output_text.config(state=tk.DISABLED)  # Disable editing of text widget
             self.output_text.see(tk.END)  # Scroll to the end of text widget
-
+            last_line = line  # Update last_line with the current line
+            #print(last_line)
+            if last_line  == "a, b, c":
+                self.update_buttons(last_line)
+                self.check_buttons()
+    
+        self.final_line = last_line
+        
 # Start the main event loop
 root = MultiPageApp()
 root.mainloop()
-
