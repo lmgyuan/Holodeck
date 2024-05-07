@@ -1,0 +1,4292 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_5",
+            "id": "door|0|exterior|conference room",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "conference room",
+            "wall0": "wall|conference room|north|1|exterior",
+            "wall1": "wall|conference room|north|1",
+            "holePolygon": [
+                {
+                    "x": 6.6598815206160085,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 7.697420049058391,
+                    "y": 2.0959324836730957,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 7.1786507848372,
+                "y": 1.0479662418365479,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        1.3401184793839915,
+                        5.0
+                    ],
+                    [
+                        0.3025799509416087,
+                        5.0
+                    ],
+                    [
+                        0.3025799509416087,
+                        6.0
+                    ],
+                    [
+                        1.3401184793839915,
+                        6.0
+                    ]
+                ],
+                [
+                    [
+                        1.3401184793839915,
+                        6.0
+                    ],
+                    [
+                        0.3025799509416087,
+                        6.0
+                    ],
+                    [
+                        0.3025799509416087,
+                        7.0
+                    ],
+                    [
+                        1.3401184793839915,
+                        7.0
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    1.3401184793839915,
+                    6.0
+                ],
+                [
+                    0.3025799509416087,
+                    6.0
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "4d33781e36c347f9beec35ff61191be0",
+            "id": "conference table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.4287771848360802,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    701.1647556510384,
+                    466.8930433317984
+                ],
+                [
+                    701.1647556510384,
+                    173.10695666820158
+                ],
+                [
+                    578.8352443489616,
+                    173.10695666820158
+                ],
+                [
+                    578.8352443489616,
+                    466.8930433317984
+                ],
+                [
+                    701.1647556510384,
+                    466.8930433317984
+                ]
+            ],
+            "object_name": "conference table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    400.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    479.5819713242525
+                ],
+                [
+                    804.5,
+                    479.5819713242525
+                ],
+                [
+                    804.5,
+                    400.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    240.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    319.5819713242525
+                ],
+                [
+                    804.5,
+                    319.5819713242525
+                ],
+                [
+                    804.5,
+                    240.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-2 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    320.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    399.5819713242525
+                ],
+                [
+                    804.5,
+                    399.5819713242525
+                ],
+                [
+                    804.5,
+                    320.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-3 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    160.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    239.5819713242525
+                ],
+                [
+                    804.5,
+                    239.5819713242525
+                ],
+                [
+                    804.5,
+                    160.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-4 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 0.5414927827769271,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    639.5819713242525,
+                    80.86693569896103
+                ],
+                [
+                    639.5819713242525,
+                    159.13306430103898
+                ],
+                [
+                    560.4180286757475,
+                    159.13306430103898
+                ],
+                [
+                    560.4180286757475,
+                    80.86693569896103
+                ],
+                [
+                    639.5819713242525,
+                    80.86693569896103
+                ]
+            ],
+            "object_name": "conference chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-5 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 0.5414927827769271,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    639.5819713242525,
+                    559.133064301039
+                ],
+                [
+                    639.5819713242525,
+                    480.866935698961
+                ],
+                [
+                    560.4180286757475,
+                    480.866935698961
+                ],
+                [
+                    560.4180286757475,
+                    559.133064301039
+                ],
+                [
+                    639.5819713242525,
+                    559.133064301039
+                ]
+            ],
+            "object_name": "conference chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-6 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.5414927827769271,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    719.5819713242525,
+                    559.133064301039
+                ],
+                [
+                    719.5819713242525,
+                    480.866935698961
+                ],
+                [
+                    640.4180286757475,
+                    480.866935698961
+                ],
+                [
+                    640.4180286757475,
+                    559.133064301039
+                ],
+                [
+                    719.5819713242525,
+                    559.133064301039
+                ]
+            ],
+            "object_name": "conference chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-7 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.5414927827769271,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    719.5819713242525,
+                    80.86693569896103
+                ],
+                [
+                    719.5819713242525,
+                    159.13306430103898
+                ],
+                [
+                    640.4180286757475,
+                    159.13306430103898
+                ],
+                [
+                    640.4180286757475,
+                    80.86693569896103
+                ],
+                [
+                    719.5819713242525,
+                    80.86693569896103
+                ]
+            ],
+            "object_name": "conference chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-8 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.2,
+                "y": 0.5414927827769271,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    559.133064301039,
+                    200.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    279.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    279.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    200.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    200.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-8",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-9 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.2,
+                "y": 0.5414927827769271,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    559.133064301039,
+                    400.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    479.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    479.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    400.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    400.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-9",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "af67968b577d4a3799b320551d298c98",
+            "id": "bookshelf-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.8,
+                "y": 0.9188284217447474,
+                "z": 0.2050278228928584
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    524.380584407297,
+                    -4.5000000000000036
+                ],
+                [
+                    524.380584407297,
+                    45.505564578571686
+                ],
+                [
+                    435.61941559270304,
+                    45.505564578571686
+                ],
+                [
+                    435.61941559270304,
+                    -4.5000000000000036
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "af67968b577d4a3799b320551d298c98",
+            "id": "bookshelf-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.6,
+                "y": 0.9188284217447474,
+                "z": 0.2050278228928584
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    404.38058440729696,
+                    -4.5000000000000036
+                ],
+                [
+                    404.38058440729696,
+                    45.505564578571686
+                ],
+                [
+                    315.61941559270304,
+                    45.505564578571686
+                ],
+                [
+                    315.61941559270304,
+                    -4.5000000000000036
+                ]
+            ],
+            "object_name": "bookshelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "9ccda2fddba846e6ba97eb774b8a09c6",
+            "id": "projector-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.19895077633696637,
+                "z": 0.10609201995907597
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    664.9062926906187,
+                    -4.5
+                ],
+                [
+                    664.9062926906187,
+                    25.718403991815194
+                ],
+                [
+                    615.0937073093813,
+                    25.718403991815194
+                ],
+                [
+                    615.0937073093813,
+                    -4.5
+                ]
+            ],
+            "object_name": "projector-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3da840b12e7b4fc48a018265848e0e23",
+            "id": "coffee station-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.278640744742893,
+                "y": 0.7708752935840969,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    60.228148948578614,
+                    28.794438924108235
+                ],
+                [
+                    60.228148948578614,
+                    131.20556107589175
+                ],
+                [
+                    -4.5,
+                    131.20556107589175
+                ],
+                [
+                    -4.5,
+                    28.794438924108235
+                ]
+            ],
+            "object_name": "coffee station-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0816c99d8db6481888ad90c9ea0d1140",
+            "id": "side table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.24448309114038205,
+                "y": 0.4968000201333101,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    53.39661822807642,
+                    131.37882763621917
+                ],
+                [
+                    53.39661822807642,
+                    188.62117236378083
+                ],
+                [
+                    -4.5,
+                    188.62117236378083
+                ],
+                [
+                    -4.5,
+                    131.37882763621917
+                ]
+            ],
+            "object_name": "side table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "e9da35cab34749c09cbe1c5f4b298027",
+            "id": "cabinet-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.33197333845981336,
+                "y": 0.9066675614941028,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    70.89466769196267,
+                    391.77515333013014
+                ],
+                [
+                    70.89466769196267,
+                    488.22484666986986
+                ],
+                [
+                    -4.5,
+                    488.22484666986986
+                ],
+                [
+                    -4.5,
+                    391.77515333013014
+                ]
+            ],
+            "object_name": "cabinet-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f6a2125b2c1d47cc827075d61c072823",
+            "id": "projector screen-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.965364203283209,
+                "y": 1.9826567765368028,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    800.0,
+                    227.6164006447952
+                ],
+                [
+                    800.0,
+                    412.3835993552048
+                ],
+                [
+                    795.0728406566417,
+                    412.3835993552048
+                ],
+                [
+                    795.0728406566417,
+                    227.6164006447952
+                ],
+                [
+                    800.0,
+                    227.6164006447952
+                ]
+            ],
+            "object_name": "projector screen-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "469dd17fa47b4aac9fd6828f91893ee2",
+            "id": "whiteboard-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 1.355521240577199,
+                "z": 5.9720428547516375
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    706.1977931564929,
+                    596.4085709503273
+                ],
+                [
+                    706.1977931564929,
+                    600.0
+                ],
+                [
+                    573.8022068435071,
+                    600.0
+                ],
+                [
+                    573.8022068435071,
+                    596.4085709503273
+                ],
+                [
+                    706.1977931564929,
+                    596.4085709503273
+                ]
+            ],
+            "object_name": "whiteboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "artwork-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.938070122262196,
+                "y": 1.8456905914258783,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    800.0,
+                    27.031482989653874
+                ],
+                [
+                    800.0,
+                    132.96851701034612
+                ],
+                [
+                    789.614024452439,
+                    132.96851701034612
+                ],
+                [
+                    789.614024452439,
+                    27.031482989653874
+                ],
+                [
+                    800.0,
+                    27.031482989653874
+                ]
+            ],
+            "object_name": "artwork-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "artwork-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.024546569436788603,
+                "y": 2.0461393892765045,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    2.9093138873577207,
+                    282.1782720088959
+                ],
+                [
+                    2.9093138873577207,
+                    357.8217279911041
+                ],
+                [
+                    0.0,
+                    357.8217279911041
+                ],
+                [
+                    0.0,
+                    282.1782720088959
+                ],
+                [
+                    2.9093138873577207,
+                    282.1782720088959
+                ]
+            ],
+            "object_name": "artwork-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2de962994f1e4ea582f484095187aafe",
+            "id": "artwork-2 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.025957692924600435,
+                "y": 2.046799831665479,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    3.1915385849200875,
+                    34.68880866582577
+                ],
+                [
+                    3.1915385849200875,
+                    125.31119133417423
+                ],
+                [
+                    0.0,
+                    125.31119133417423
+                ],
+                [
+                    0.0,
+                    34.68880866582577
+                ],
+                [
+                    3.1915385849200875,
+                    34.68880866582577
+                ]
+            ],
+            "object_name": "artwork-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "dbef08259e8040bfb74d827a04f1abba",
+            "id": "conference phone-0|conference table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.402400016784668,
+                "y": 1.4282574894689581,
+                "z": 3.546725034713745
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "73154336fbee4190ad45b3352f86a8fe",
+            "id": "agenda binder-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.680683135986328,
+                "y": 0.912233147373423,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 26,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "73154336fbee4190ad45b3352f86a8fe",
+            "id": "agenda binder-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.819823741912842,
+                "y": 0.9044825169946998,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 151,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.819823741912842,
+                "y": 0.8826402482489745,
+                "z": 2.8533122539520264
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 74,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263258934020996,
+                "y": 0.8826405462721983,
+                "z": 3.8934316635131836
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 23,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-2|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541542053222656,
+                "y": 0.8826405462721983,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 245,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-3|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541542053222656,
+                "y": 0.8826405462721983,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 205,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-4|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.124117851257324,
+                "y": 0.8826405462721983,
+                "z": 3.8934316635131836
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 63,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263258934020996,
+                "y": 0.8703062473726959,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 193,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263259410858154,
+                "y": 0.8703078566981048,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 162,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-2|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.68068265914917,
+                "y": 0.8703078566981048,
+                "z": 3.2000184059143066
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 325,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-3|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.124118328094482,
+                "y": 0.8703078566981048,
+                "z": 2.159898519515991
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 216,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-4|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541541576385498,
+                "y": 0.8703078566981048,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 157,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "658cc8d88a314ac188e42df7a6f68731",
+            "id": "business books-3|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.89726448059082,
+                "y": 1.8664860283683438,
+                "z": 0.15905499458312988
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 288,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "15594949df794eefa0ee5b473bb114b6",
+            "id": "business books-2|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.8804792516225013,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 343,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "39273ba4b01648508b07e8f76fff0841",
+            "id": "business books-0|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.086385726928711,
+                "y": 1.878332780510187,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 214,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f89c8fd027ee4262a5a22f554dafc04a",
+            "id": "business books-4|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.9210741873125086,
+                "z": 0.1117699146270752
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 131,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a1f6e8527fba4224880d670dd5422247",
+            "id": "decorative vase-0|cabinet-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.49582087993621826,
+                "y": 1.998250082698547,
+                "z": 4.401904582977295
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Alarm_Clock_10",
+            "id": "tabletop clock-0|cabinet-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.33757737278938293,
+                "y": 1.9135088304281234,
+                "z": 4.711329936981201
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 41,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3f43441398074576908d66ab5ecf9e14",
+            "id": "water pitcher-0|cabinet-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25845903158187866,
+                "y": 1.8853592714599585,
+                "z": 4.298762798309326
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 97,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c770f52361094eae91fd76025757fa7b",
+            "id": "decorative plant-0|bookshelf-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.6026813983917236,
+                "y": 2.2025359652669807,
+                "z": 0.20634880661964417
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "658cc8d88a314ac188e42df7a6f68731",
+            "id": "business books-1|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.89726448059082,
+                "y": 1.8664860283683438,
+                "z": 0.15905499458312988
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 146,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "15594949df794eefa0ee5b473bb114b6",
+            "id": "business books-2|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.8804792516225013,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 175,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "39273ba4b01648508b07e8f76fff0841",
+            "id": "business books-3|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.086385726928711,
+                "y": 1.878332780510187,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 245,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f89c8fd027ee4262a5a22f554dafc04a",
+            "id": "business books-4|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5081207752227783,
+                "y": 1.9210641737321863,
+                "z": 0.30091896653175354
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 80,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "YellowDrywallTiled"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 6,
+                    "y": -166,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 1,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.694,
+                    "b": 0.78
+                }
+            },
+            {
+                "id": "light|conference room",
+                "type": "point",
+                "position": {
+                    "x": 4.0,
+                    "y": 2.5,
+                    "z": 3.0
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "conference room",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "Sky2"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "BrownMarbleFake 1"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "conference room",
+            "roomType": "conference room",
+            "floor_design": "walnut parquet, matte finish",
+            "wall_design": "warm beige acoustic wall panels, textured",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "YellowDrywallTiled"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|conference room|west|0|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|west|0",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|north|1|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 2.7,
+            "direction": "north",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|north|1",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 2.7,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|north|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|east|2|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|east|2",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|0",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    5.333333333333334,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|south|3|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|0|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    5.333333333333334,
+                    0.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|1",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    5.333333333333334,
+                    0.0
+                ],
+                [
+                    2.666666666666667,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|south|3|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|1|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    2.666666666666667,
+                    0.0
+                ],
+                [
+                    5.333333333333334,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|2",
+            "roomId": "conference room",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    2.666666666666667,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|conference room|south|3|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|conference room|south|3|2|exterior",
+            "roomId": "conference room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    2.666666666666667,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|conference room|south|3|0|0",
+            "room0": "conference room",
+            "room1": "conference room",
+            "wall0": "wall|conference room|south|3|0",
+            "wall1": "wall|conference room|south|3|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.18743931598354374,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 2.581012790867577,
+                    "y": 2.177397680282593,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.3842260534255604,
+                "y": 1.5886988401412965,
+                "z": 0.0
+            },
+            "roomId": "conference room",
+            "windowSegment": [
+                [
+                    7.812560684016456,
+                    0.0
+                ],
+                [
+                    5.418987209132423,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        7.812560684016456,
+                        -0.1
+                    ],
+                    [
+                        5.418987209132423,
+                        -0.1
+                    ],
+                    [
+                        5.418987209132423,
+                        0.0
+                    ],
+                    [
+                        7.812560684016456,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        7.812560684016456,
+                        0.0
+                    ],
+                    [
+                        5.418987209132423,
+                        0.0
+                    ],
+                    [
+                        5.418987209132423,
+                        0.1
+                    ],
+                    [
+                        7.812560684016456,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|conference room|south|3|1|1",
+            "room0": "conference room",
+            "room1": "conference room",
+            "wall0": "wall|conference room|south|3|1",
+            "wall1": "wall|conference room|south|3|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.24283621753076579,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 2.6364096924147993,
+                    "y": 2.177397680282593,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.4396229549727826,
+                "y": 1.5886988401412965,
+                "z": 0.0
+            },
+            "roomId": "conference room",
+            "windowSegment": [
+                [
+                    5.0904971158025685,
+                    0.0
+                ],
+                [
+                    2.6969236409185346,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        5.0904971158025685,
+                        -0.1
+                    ],
+                    [
+                        2.6969236409185346,
+                        -0.1
+                    ],
+                    [
+                        2.6969236409185346,
+                        0.0
+                    ],
+                    [
+                        5.0904971158025685,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        5.0904971158025685,
+                        0.0
+                    ],
+                    [
+                        2.6969236409185346,
+                        0.0
+                    ],
+                    [
+                        2.6969236409185346,
+                        0.1
+                    ],
+                    [
+                        5.0904971158025685,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|conference room|south|3|2|2",
+            "room0": "conference room",
+            "room1": "conference room",
+            "wall0": "wall|conference room|south|3|2",
+            "wall1": "wall|conference room|south|3|2|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.22816296396669733,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 2.6217364388507307,
+                    "y": 2.177397680282593,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.424949701408714,
+                "y": 1.5886988401412965,
+                "z": 0.0
+            },
+            "roomId": "conference room",
+            "windowSegment": [
+                [
+                    2.4385037026999696,
+                    0.0
+                ],
+                [
+                    0.04493022781593625,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        2.4385037026999696,
+                        -0.1
+                    ],
+                    [
+                        0.04493022781593625,
+                        -0.1
+                    ],
+                    [
+                        0.04493022781593625,
+                        0.0
+                    ],
+                    [
+                        2.4385037026999696,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        2.4385037026999696,
+                        0.0
+                    ],
+                    [
+                        0.04493022781593625,
+                        0.0
+                    ],
+                    [
+                        0.04493022781593625,
+                        0.1
+                    ],
+                    [
+                        2.4385037026999696,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "a small conference room",
+    "raw_floor_plan": "Conference room | walnut parquet, matte finish | warm beige acoustic wall panels, textured | [(0, 0), (0, 6), (8, 6), (8, 0)]",
+    "wall_height": 2.7,
+    "raw_doorway_plan": "exterior | conference room | doorway | single | wooden door with frosted glass panels",
+    "room_pairs": [
+        [
+            "exterior",
+            "conference room"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "conference room | south | fixed | (240, 120) | 3 | 100",
+    "object_selection_plan": {
+        "conference room": {
+            "conference table": {
+                "description": "extended long wooden conference table",
+                "location": "floor",
+                "size": [
+                    600,
+                    120,
+                    75
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "conference phone",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "notepad",
+                        "quantity": 10,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "pen",
+                        "quantity": 10,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "agenda binder",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "desk lamp",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "conference table"
+            },
+            "conference chair": {
+                "description": "upgraded ergonomic rolling chair",
+                "location": "floor",
+                "size": [
+                    65,
+                    65,
+                    95
+                ],
+                "quantity": 10,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "conference chair"
+            },
+            "whiteboard": {
+                "description": "extra large magnetic whiteboard with accessories",
+                "location": "wall",
+                "size": [
+                    200,
+                    120,
+                    2
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "marker",
+                        "quantity": 5,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "whiteboard eraser",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "magnetic duster",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "whiteboard"
+            },
+            "bookshelf": {
+                "description": "larger tall wooden bookshelf for more storage",
+                "location": "floor",
+                "size": [
+                    110,
+                    35,
+                    210
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "business books",
+                        "quantity": 30,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative plant",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "awards",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "picture frame",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "bookshelf"
+            },
+            "projector": {
+                "description": "advanced hd projector with zoom function",
+                "location": "floor",
+                "size": [
+                    40,
+                    30,
+                    12
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "projector"
+            },
+            "projector screen": {
+                "description": "larger wall-mounted retractable projector screen",
+                "location": "wall",
+                "size": [
+                    250,
+                    180,
+                    5
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "projector screen"
+            },
+            "artwork": {
+                "description": "set of framed abstract artwork",
+                "location": "wall",
+                "size": [
+                    80,
+                    110,
+                    3
+                ],
+                "quantity": 3,
+                "variance_type": "varied",
+                "objects_on_top": [],
+                "object_name": "artwork"
+            },
+            "cabinet": {
+                "description": "larger storage cabinet with sliding doors",
+                "location": "floor",
+                "size": [
+                    180,
+                    50,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "water pitcher",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "glass set",
+                        "quantity": 10,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "decorative vase",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "tabletop clock",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "cabinet"
+            },
+            "coffee station": {
+                "description": "small counter with coffee machine and supplies",
+                "location": "floor",
+                "size": [
+                    100,
+                    60,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "coffee machine",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "paper cup stack",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "sugar packets",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "stir stick container",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "coffee station"
+            },
+            "side table": {
+                "description": "stylish side table for additional surface space",
+                "location": "floor",
+                "size": [
+                    60,
+                    60,
+                    50
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "magazine stack",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "table lamp",
+                        "quantity": 1,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative sculpture",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "side table"
+            }
+        }
+    },
+    "selected_objects": {
+        "conference room": {
+            "floor": [
+                [
+                    "conference table-0",
+                    "4d33781e36c347f9beec35ff61191be0"
+                ],
+                [
+                    "conference chair-0",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-1",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-2",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-3",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-4",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-5",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-6",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-7",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-8",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "conference chair-9",
+                    "4384aef2107949569305d68f613a9213"
+                ],
+                [
+                    "bookshelf-0",
+                    "af67968b577d4a3799b320551d298c98"
+                ],
+                [
+                    "bookshelf-1",
+                    "af67968b577d4a3799b320551d298c98"
+                ],
+                [
+                    "projector-0",
+                    "9ccda2fddba846e6ba97eb774b8a09c6"
+                ],
+                [
+                    "coffee station-0",
+                    "3da840b12e7b4fc48a018265848e0e23"
+                ],
+                [
+                    "side table-0",
+                    "0816c99d8db6481888ad90c9ea0d1140"
+                ],
+                [
+                    "cabinet-0",
+                    "e9da35cab34749c09cbe1c5f4b298027"
+                ]
+            ],
+            "wall": [
+                [
+                    "whiteboard-0",
+                    "469dd17fa47b4aac9fd6828f91893ee2"
+                ],
+                [
+                    "artwork-0",
+                    "486bb167384240139c1b67fdb9f2c8e9"
+                ],
+                [
+                    "artwork-1",
+                    "3196828539324d05a21ea29747076e83"
+                ],
+                [
+                    "artwork-2",
+                    "2de962994f1e4ea582f484095187aafe"
+                ],
+                [
+                    "projector screen-0",
+                    "f6a2125b2c1d47cc827075d61c072823"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "4d33781e36c347f9beec35ff61191be0",
+            "id": "conference table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.4287771848360802,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    701.1647556510384,
+                    466.8930433317984
+                ],
+                [
+                    701.1647556510384,
+                    173.10695666820158
+                ],
+                [
+                    578.8352443489616,
+                    173.10695666820158
+                ],
+                [
+                    578.8352443489616,
+                    466.8930433317984
+                ],
+                [
+                    701.1647556510384,
+                    466.8930433317984
+                ]
+            ],
+            "object_name": "conference table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    400.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    479.5819713242525
+                ],
+                [
+                    804.5,
+                    479.5819713242525
+                ],
+                [
+                    804.5,
+                    400.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    240.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    319.5819713242525
+                ],
+                [
+                    804.5,
+                    319.5819713242525
+                ],
+                [
+                    804.5,
+                    240.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-2 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    320.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    399.5819713242525
+                ],
+                [
+                    804.5,
+                    399.5819713242525
+                ],
+                [
+                    804.5,
+                    320.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-3 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.65366935698961,
+                "y": 0.5414927827769271,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    726.233871397922,
+                    160.4180286757475
+                ],
+                [
+                    726.233871397922,
+                    239.5819713242525
+                ],
+                [
+                    804.5,
+                    239.5819713242525
+                ],
+                [
+                    804.5,
+                    160.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-4 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 0.5414927827769271,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    639.5819713242525,
+                    80.86693569896103
+                ],
+                [
+                    639.5819713242525,
+                    159.13306430103898
+                ],
+                [
+                    560.4180286757475,
+                    159.13306430103898
+                ],
+                [
+                    560.4180286757475,
+                    80.86693569896103
+                ],
+                [
+                    639.5819713242525,
+                    80.86693569896103
+                ]
+            ],
+            "object_name": "conference chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-5 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 0.5414927827769271,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    639.5819713242525,
+                    559.133064301039
+                ],
+                [
+                    639.5819713242525,
+                    480.866935698961
+                ],
+                [
+                    560.4180286757475,
+                    480.866935698961
+                ],
+                [
+                    560.4180286757475,
+                    559.133064301039
+                ],
+                [
+                    639.5819713242525,
+                    559.133064301039
+                ]
+            ],
+            "object_name": "conference chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-6 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.5414927827769271,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    719.5819713242525,
+                    559.133064301039
+                ],
+                [
+                    719.5819713242525,
+                    480.866935698961
+                ],
+                [
+                    640.4180286757475,
+                    480.866935698961
+                ],
+                [
+                    640.4180286757475,
+                    559.133064301039
+                ],
+                [
+                    719.5819713242525,
+                    559.133064301039
+                ]
+            ],
+            "object_name": "conference chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-7 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.5414927827769271,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    719.5819713242525,
+                    80.86693569896103
+                ],
+                [
+                    719.5819713242525,
+                    159.13306430103898
+                ],
+                [
+                    640.4180286757475,
+                    159.13306430103898
+                ],
+                [
+                    640.4180286757475,
+                    80.86693569896103
+                ],
+                [
+                    719.5819713242525,
+                    80.86693569896103
+                ]
+            ],
+            "object_name": "conference chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-8 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.2,
+                "y": 0.5414927827769271,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    559.133064301039,
+                    200.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    279.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    279.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    200.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    200.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-8",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4384aef2107949569305d68f613a9213",
+            "id": "conference chair-9 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.2,
+                "y": 0.5414927827769271,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    559.133064301039,
+                    400.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    479.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    479.5819713242525
+                ],
+                [
+                    480.866935698961,
+                    400.4180286757475
+                ],
+                [
+                    559.133064301039,
+                    400.4180286757475
+                ]
+            ],
+            "object_name": "conference chair-9",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "af67968b577d4a3799b320551d298c98",
+            "id": "bookshelf-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.8,
+                "y": 0.9188284217447474,
+                "z": 0.2050278228928584
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    524.380584407297,
+                    -4.5000000000000036
+                ],
+                [
+                    524.380584407297,
+                    45.505564578571686
+                ],
+                [
+                    435.61941559270304,
+                    45.505564578571686
+                ],
+                [
+                    435.61941559270304,
+                    -4.5000000000000036
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "af67968b577d4a3799b320551d298c98",
+            "id": "bookshelf-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.6,
+                "y": 0.9188284217447474,
+                "z": 0.2050278228928584
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    404.38058440729696,
+                    -4.5000000000000036
+                ],
+                [
+                    404.38058440729696,
+                    45.505564578571686
+                ],
+                [
+                    315.61941559270304,
+                    45.505564578571686
+                ],
+                [
+                    315.61941559270304,
+                    -4.5000000000000036
+                ]
+            ],
+            "object_name": "bookshelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "9ccda2fddba846e6ba97eb774b8a09c6",
+            "id": "projector-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.19895077633696637,
+                "z": 0.10609201995907597
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    664.9062926906187,
+                    -4.5
+                ],
+                [
+                    664.9062926906187,
+                    25.718403991815194
+                ],
+                [
+                    615.0937073093813,
+                    25.718403991815194
+                ],
+                [
+                    615.0937073093813,
+                    -4.5
+                ]
+            ],
+            "object_name": "projector-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3da840b12e7b4fc48a018265848e0e23",
+            "id": "coffee station-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.278640744742893,
+                "y": 0.7708752935840969,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    60.228148948578614,
+                    28.794438924108235
+                ],
+                [
+                    60.228148948578614,
+                    131.20556107589175
+                ],
+                [
+                    -4.5,
+                    131.20556107589175
+                ],
+                [
+                    -4.5,
+                    28.794438924108235
+                ]
+            ],
+            "object_name": "coffee station-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0816c99d8db6481888ad90c9ea0d1140",
+            "id": "side table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.24448309114038205,
+                "y": 0.4968000201333101,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    53.39661822807642,
+                    131.37882763621917
+                ],
+                [
+                    53.39661822807642,
+                    188.62117236378083
+                ],
+                [
+                    -4.5,
+                    188.62117236378083
+                ],
+                [
+                    -4.5,
+                    131.37882763621917
+                ]
+            ],
+            "object_name": "side table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "e9da35cab34749c09cbe1c5f4b298027",
+            "id": "cabinet-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.33197333845981336,
+                "y": 0.9066675614941028,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    70.89466769196267,
+                    391.77515333013014
+                ],
+                [
+                    70.89466769196267,
+                    488.22484666986986
+                ],
+                [
+                    -4.5,
+                    488.22484666986986
+                ],
+                [
+                    -4.5,
+                    391.77515333013014
+                ]
+            ],
+            "object_name": "cabinet-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "f6a2125b2c1d47cc827075d61c072823",
+            "id": "projector screen-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.965364203283209,
+                "y": 1.9826567765368028,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    800.0,
+                    227.6164006447952
+                ],
+                [
+                    800.0,
+                    412.3835993552048
+                ],
+                [
+                    795.0728406566417,
+                    412.3835993552048
+                ],
+                [
+                    795.0728406566417,
+                    227.6164006447952
+                ],
+                [
+                    800.0,
+                    227.6164006447952
+                ]
+            ],
+            "object_name": "projector screen-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "469dd17fa47b4aac9fd6828f91893ee2",
+            "id": "whiteboard-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 1.355521240577199,
+                "z": 5.9720428547516375
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    706.1977931564929,
+                    596.4085709503273
+                ],
+                [
+                    706.1977931564929,
+                    600.0
+                ],
+                [
+                    573.8022068435071,
+                    600.0
+                ],
+                [
+                    573.8022068435071,
+                    596.4085709503273
+                ],
+                [
+                    706.1977931564929,
+                    596.4085709503273
+                ]
+            ],
+            "object_name": "whiteboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "artwork-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.938070122262196,
+                "y": 1.8456905914258783,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    800.0,
+                    27.031482989653874
+                ],
+                [
+                    800.0,
+                    132.96851701034612
+                ],
+                [
+                    789.614024452439,
+                    132.96851701034612
+                ],
+                [
+                    789.614024452439,
+                    27.031482989653874
+                ],
+                [
+                    800.0,
+                    27.031482989653874
+                ]
+            ],
+            "object_name": "artwork-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "artwork-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.024546569436788603,
+                "y": 2.0461393892765045,
+                "z": 3.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    2.9093138873577207,
+                    282.1782720088959
+                ],
+                [
+                    2.9093138873577207,
+                    357.8217279911041
+                ],
+                [
+                    0.0,
+                    357.8217279911041
+                ],
+                [
+                    0.0,
+                    282.1782720088959
+                ],
+                [
+                    2.9093138873577207,
+                    282.1782720088959
+                ]
+            ],
+            "object_name": "artwork-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2de962994f1e4ea582f484095187aafe",
+            "id": "artwork-2 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.025957692924600435,
+                "y": 2.046799831665479,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "vertices": [
+                [
+                    3.1915385849200875,
+                    34.68880866582577
+                ],
+                [
+                    3.1915385849200875,
+                    125.31119133417423
+                ],
+                [
+                    0.0,
+                    125.31119133417423
+                ],
+                [
+                    0.0,
+                    34.68880866582577
+                ],
+                [
+                    3.1915385849200875,
+                    34.68880866582577
+                ]
+            ],
+            "object_name": "artwork-2",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "dbef08259e8040bfb74d827a04f1abba",
+            "id": "conference phone-0|conference table-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.402400016784668,
+                "y": 1.4282574894689581,
+                "z": 3.546725034713745
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "73154336fbee4190ad45b3352f86a8fe",
+            "id": "agenda binder-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.680683135986328,
+                "y": 0.912233147373423,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 26,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "73154336fbee4190ad45b3352f86a8fe",
+            "id": "agenda binder-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.819823741912842,
+                "y": 0.9044825169946998,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 151,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.819823741912842,
+                "y": 0.8826402482489745,
+                "z": 2.8533122539520264
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 74,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263258934020996,
+                "y": 0.8826405462721983,
+                "z": 3.8934316635131836
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 23,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-2|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541542053222656,
+                "y": 0.8826405462721983,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 245,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-3|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541542053222656,
+                "y": 0.8826405462721983,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 205,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notepad-4|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.124117851257324,
+                "y": 0.8826405462721983,
+                "z": 3.8934316635131836
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 63,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-0|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263258934020996,
+                "y": 0.8703062473726959,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 193,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-1|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.263259410858154,
+                "y": 0.8703078566981048,
+                "z": 2.5066051483154297
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 162,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-2|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.68068265914917,
+                "y": 0.8703078566981048,
+                "z": 3.2000184059143066
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 325,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-3|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.124118328094482,
+                "y": 0.8703078566981048,
+                "z": 2.159898519515991
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 216,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "18e3dd35bbad47748a0bd546d520e83d",
+            "id": "pen-4|conference table-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 6.541541576385498,
+                "y": 0.8703078566981048,
+                "z": 4.240138053894043
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 157,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "658cc8d88a314ac188e42df7a6f68731",
+            "id": "business books-3|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.89726448059082,
+                "y": 1.8664860283683438,
+                "z": 0.15905499458312988
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 288,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "15594949df794eefa0ee5b473bb114b6",
+            "id": "business books-2|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.8804792516225013,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 343,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "39273ba4b01648508b07e8f76fff0841",
+            "id": "business books-0|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.086385726928711,
+                "y": 1.878332780510187,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 214,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f89c8fd027ee4262a5a22f554dafc04a",
+            "id": "business books-4|bookshelf-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.9210741873125086,
+                "z": 0.1117699146270752
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 131,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a1f6e8527fba4224880d670dd5422247",
+            "id": "decorative vase-0|cabinet-0 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.49582087993621826,
+                "y": 1.998250082698547,
+                "z": 4.401904582977295
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Alarm_Clock_10",
+            "id": "tabletop clock-0|cabinet-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.33757737278938293,
+                "y": 1.9135088304281234,
+                "z": 4.711329936981201
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 41,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3f43441398074576908d66ab5ecf9e14",
+            "id": "water pitcher-0|cabinet-0 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25845903158187866,
+                "y": 1.8853592714599585,
+                "z": 4.298762798309326
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 97,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c770f52361094eae91fd76025757fa7b",
+            "id": "decorative plant-0|bookshelf-1 (conference room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.6026813983917236,
+                "y": 2.2025359652669807,
+                "z": 0.20634880661964417
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "658cc8d88a314ac188e42df7a6f68731",
+            "id": "business books-1|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.89726448059082,
+                "y": 1.8664860283683438,
+                "z": 0.15905499458312988
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 146,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "15594949df794eefa0ee5b473bb114b6",
+            "id": "business books-2|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.613582611083984,
+                "y": 1.8804792516225013,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 175,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "39273ba4b01648508b07e8f76fff0841",
+            "id": "business books-3|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.086385726928711,
+                "y": 1.878332780510187,
+                "z": 0.20634007453918457
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 245,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f89c8fd027ee4262a5a22f554dafc04a",
+            "id": "business books-4|bookshelf-1 (conference room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5081207752227783,
+                "y": 1.9210641737321863,
+                "z": 0.30091896653175354
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 80,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "conference room",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "conference table-0 (conference room)": [
+            [
+                "conference phone-0",
+                "dbef08259e8040bfb74d827a04f1abba",
+                0.7272309216114137
+            ],
+            [
+                "desk lamp-0",
+                "08dda93b6b1e4f5c8ab0e407a85a58e7",
+                0.33351794523225653
+            ],
+            [
+                "desk lamp-1",
+                "08dda93b6b1e4f5c8ab0e407a85a58e7",
+                0.33351794523225653
+            ],
+            [
+                "agenda binder-0",
+                "73154336fbee4190ad45b3352f86a8fe",
+                0.1721274723747262
+            ],
+            [
+                "agenda binder-1",
+                "73154336fbee4190ad45b3352f86a8fe",
+                0.1721274723747262
+            ],
+            [
+                "notepad-0",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notepad-1",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notepad-2",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notepad-3",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notepad-4",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "pen-0",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-1",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-2",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-3",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-4",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ]
+        ],
+        "bookshelf-0 (conference room)": [
+            [
+                "business books-1",
+                "202f3448f68c44ceaa5f7f8e28807341",
+                0.2640427894795977
+            ],
+            [
+                "business books-3",
+                "658cc8d88a314ac188e42df7a6f68731",
+                0.2145249775582082
+            ],
+            [
+                "business books-2",
+                "15594949df794eefa0ee5b473bb114b6",
+                0.20745608667458887
+            ],
+            [
+                "decorative plant-0",
+                "5932becc229c41089ff47b072be0a037",
+                0.19687174226494628
+            ],
+            [
+                "decorative plant-1",
+                "5932becc229c41089ff47b072be0a037",
+                0.19687174226494628
+            ],
+            [
+                "business books-0",
+                "39273ba4b01648508b07e8f76fff0841",
+                0.1932324469089508
+            ],
+            [
+                "business books-4",
+                "f89c8fd027ee4262a5a22f554dafc04a",
+                0.1391841194832833
+            ],
+            [
+                "awards-0",
+                "18046dc86c0840f78a17da2e9383a735",
+                0.13248453891646136
+            ]
+        ],
+        "coffee station-0 (conference room)": [
+            [
+                "coffee machine-0",
+                "c54bbb4e11d447adbc631b496d649145",
+                0.3017034981921786
+            ],
+            [
+                "stir stick container-0",
+                "06e2a0c3b2e949809a12f7bf58204dcd",
+                0.10587569421163352
+            ],
+            [
+                "sugar packets-0",
+                "cad1f142f68c43a4b8c4713dce62eccf",
+                0.09898149142341847
+            ],
+            [
+                "paper cup stack-0",
+                "2aa5c923ca8f42c2b055048f02980319",
+                0.0971584141286083
+            ]
+        ],
+        "side table-0 (conference room)": [
+            [
+                "magazine stack-0",
+                "013321252cdc4f4a95eba896fb4fedce",
+                0.19826735773380166
+            ]
+        ],
+        "cabinet-0 (conference room)": [
+            [
+                "decorative vase-0",
+                "a1f6e8527fba4224880d670dd5422247",
+                0.26231184643734645
+            ],
+            [
+                "tabletop clock-0",
+                "Alarm_Clock_10",
+                0.20731404423713684
+            ],
+            [
+                "water pitcher-0",
+                "3f43441398074576908d66ab5ecf9e14",
+                0.12187949935527453
+            ],
+            [
+                "glass set-0",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ],
+            [
+                "glass set-1",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ],
+            [
+                "glass set-2",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ],
+            [
+                "glass set-3",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ],
+            [
+                "glass set-4",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ]
+        ],
+        "bookshelf-1 (conference room)": [
+            [
+                "decorative plant-0",
+                "c770f52361094eae91fd76025757fa7b",
+                0.2780580018696033
+            ],
+            [
+                "business books-0",
+                "202f3448f68c44ceaa5f7f8e28807341",
+                0.2640427894795977
+            ],
+            [
+                "business books-1",
+                "658cc8d88a314ac188e42df7a6f68731",
+                0.2145249775582082
+            ],
+            [
+                "business books-2",
+                "15594949df794eefa0ee5b473bb114b6",
+                0.20745608667458887
+            ],
+            [
+                "business books-3",
+                "39273ba4b01648508b07e8f76fff0841",
+                0.1932324469089508
+            ],
+            [
+                "business books-4",
+                "f89c8fd027ee4262a5a22f554dafc04a",
+                0.1391841194832833
+            ]
+        ]
+    }
+}

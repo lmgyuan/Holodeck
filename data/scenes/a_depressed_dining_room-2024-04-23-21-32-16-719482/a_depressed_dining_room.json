@@ -1,0 +1,3347 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_5",
+            "id": "door|0|exterior|depressed dining room",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "depressed dining room",
+            "wall0": "wall|depressed dining room|north|1|exterior",
+            "wall1": "wall|depressed dining room|north|1",
+            "holePolygon": [
+                {
+                    "x": 1.5576007362307722,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 2.595139264673155,
+                    "y": 2.0959324836730957,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 2.0763700004519636,
+                "y": 1.0479662418365479,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        4.442399263769228,
+                        3.0
+                    ],
+                    [
+                        3.404860735326845,
+                        3.0
+                    ],
+                    [
+                        3.404860735326845,
+                        4.0
+                    ],
+                    [
+                        4.442399263769228,
+                        4.0
+                    ]
+                ],
+                [
+                    [
+                        4.442399263769228,
+                        4.0
+                    ],
+                    [
+                        3.404860735326845,
+                        4.0
+                    ],
+                    [
+                        3.404860735326845,
+                        5.0
+                    ],
+                    [
+                        4.442399263769228,
+                        5.0
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    4.442399263769228,
+                    4.0
+                ],
+                [
+                    3.404860735326845,
+                    4.0
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "a75d36792ff3430b985ab63a72ff0370",
+            "id": "dining table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.2958112458593551,
+                "z": 1.5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    228.14843702592276,
+                    230.0891216005921
+                ],
+                [
+                    228.14843702592276,
+                    69.91087839940789
+                ],
+                [
+                    11.851562974077225,
+                    69.91087839940789
+                ],
+                [
+                    11.851562974077225,
+                    230.0891216005921
+                ],
+                [
+                    228.14843702592276,
+                    230.0891216005921
+                ]
+            ],
+            "object_name": "dining table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.9,
+                "y": 0.5413839446481397,
+                "z": 2.7
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    120.54090891704021,
+                    305.1746906121392
+                ],
+                [
+                    120.54090891704021,
+                    234.82530938786078
+                ],
+                [
+                    59.459091082959795,
+                    234.82530938786078
+                ],
+                [
+                    59.459091082959795,
+                    305.1746906121392
+                ],
+                [
+                    120.54090891704021,
+                    305.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8,
+                "y": 0.5413839446481397,
+                "z": 2.7
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    210.5409089170402,
+                    305.1746906121392
+                ],
+                [
+                    210.5409089170402,
+                    234.82530938786078
+                ],
+                [
+                    149.4590910829598,
+                    234.82530938786078
+                ],
+                [
+                    149.4590910829598,
+                    305.1746906121392
+                ],
+                [
+                    210.5409089170402,
+                    305.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-2 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    234.82530938786078,
+                    89.45909108295979
+                ],
+                [
+                    234.82530938786078,
+                    150.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    150.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    89.45909108295979
+                ],
+                [
+                    234.82530938786078,
+                    89.45909108295979
+                ]
+            ],
+            "object_name": "dining chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-3 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 2.1
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    234.82530938786078,
+                    179.4590910829598
+                ],
+                [
+                    234.82530938786078,
+                    240.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    240.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    179.4590910829598
+                ],
+                [
+                    234.82530938786078,
+                    179.4590910829598
+                ]
+            ],
+            "object_name": "dining chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-4 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    300.5409089170402,
+                    335.1746906121392
+                ],
+                [
+                    300.5409089170402,
+                    264.8253093878608
+                ],
+                [
+                    239.4590910829598,
+                    264.8253093878608
+                ],
+                [
+                    239.4590910829598,
+                    335.1746906121392
+                ],
+                [
+                    300.5409089170402,
+                    335.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-5 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6932530938786075,
+                "y": 0.5413839446481397,
+                "z": 1.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    534.1506187757216,
+                    149.4590910829598
+                ],
+                [
+                    534.1506187757216,
+                    210.5409089170402
+                ],
+                [
+                    604.5,
+                    210.5409089170402
+                ],
+                [
+                    604.5,
+                    149.4590910829598
+                ]
+            ],
+            "object_name": "dining chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-6 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.5413839446481397,
+                "z": 3.693253093878608
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    90.54090891704021,
+                    404.5
+                ],
+                [
+                    90.54090891704021,
+                    334.15061877572157
+                ],
+                [
+                    29.459091082959795,
+                    334.15061877572157
+                ],
+                [
+                    29.459091082959795,
+                    404.5
+                ]
+            ],
+            "object_name": "dining chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-7 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6932530938786075,
+                "y": 0.5413839446481397,
+                "z": 0.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    534.1506187757216,
+                    59.459091082959795
+                ],
+                [
+                    534.1506187757216,
+                    120.54090891704021
+                ],
+                [
+                    604.5,
+                    120.54090891704021
+                ],
+                [
+                    604.5,
+                    59.459091082959795
+                ]
+            ],
+            "object_name": "dining chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "974bbc2020254eae9ee41049fc28a366",
+            "id": "sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.755461046432581,
+                "y": 0.4018802516557926,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    546.5922092865162,
+                    211.20369344943364
+                ],
+                [
+                    546.5922092865162,
+                    388.7963065505663
+                ],
+                [
+                    604.5,
+                    388.7963065505663
+                ],
+                [
+                    604.5,
+                    211.20369344943364
+                ]
+            ],
+            "object_name": "sideboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3651c329b15847268e6d155ad4ed9352",
+            "id": "bookcase-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.174467468515698,
+                "y": 0.9184033733939702,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    39.3934937031396,
+                    266.0265524104139
+                ],
+                [
+                    39.3934937031396,
+                    333.9734475895861
+                ],
+                [
+                    -4.5,
+                    333.9734475895861
+                ],
+                [
+                    -4.5,
+                    266.0265524104139
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3651c329b15847268e6d155ad4ed9352",
+            "id": "bookcase-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.9184033733939702,
+                "z": 0.174467468515698
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    93.9734475895861,
+                    -4.5
+                ],
+                [
+                    93.9734475895861,
+                    39.3934937031396
+                ],
+                [
+                    26.026552410413892,
+                    39.3934937031396
+                ],
+                [
+                    26.026552410413892,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookcase-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1d6aa651c257442c96df25a239d42577",
+            "id": "bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8,
+                "y": 0.4715577186404087,
+                "z": 3.751852935409279
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    224.05088559196747,
+                    404.5
+                ],
+                [
+                    224.05088559196747,
+                    345.8705870818558
+                ],
+                [
+                    135.94911440803253,
+                    345.8705870818558
+                ],
+                [
+                    135.94911440803253,
+                    404.5
+                ]
+            ],
+            "object_name": "bar cart-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "e21dca4b2c794674a473687e415ae9d3",
+            "id": "buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.2,
+                "y": 0.3395417745817457,
+                "z": 0.28229191341671994
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    506.4894305104802,
+                    -4.5
+                ],
+                [
+                    506.4894305104802,
+                    60.958382683343984
+                ],
+                [
+                    333.5105694895198,
+                    60.958382683343984
+                ],
+                [
+                    333.5105694895198,
+                    -4.5
+                ]
+            ],
+            "object_name": "buffet table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "19188bfe68fb4a8ba0df4da8b143f2a1",
+            "id": "wall cabinet-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.98838970084129,
+                "y": 1.845780564370022,
+                "z": 3.1
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    600.0,
+                    307.28537831473494
+                ],
+                [
+                    600.0,
+                    312.71462168526506
+                ],
+                [
+                    599.6779401682579,
+                    312.71462168526506
+                ],
+                [
+                    599.6779401682579,
+                    307.28537831473494
+                ],
+                [
+                    600.0,
+                    307.28537831473494
+                ]
+            ],
+            "object_name": "wall cabinet-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "19188bfe68fb4a8ba0df4da8b143f2a1",
+            "id": "wall cabinet-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.3,
+                "y": 1.845780564370022,
+                "z": 0.011610299158710407
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    332.71462168526506,
+                    0.0
+                ],
+                [
+                    332.71462168526506,
+                    0.3220598317420815
+                ],
+                [
+                    327.28537831473494,
+                    0.3220598317420815
+                ],
+                [
+                    327.28537831473494,
+                    0.0
+                ],
+                [
+                    332.71462168526506,
+                    0.0
+                ]
+            ],
+            "object_name": "wall cabinet-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "6a55d21974c74c92b86512d748456e08",
+            "id": "decorative pitcher-0|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.2000095844268799,
+                "y": 0.7199544330047735,
+                "z": 1.553574800491333
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 69,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "df71272df9a745f8b6ef0e032caf5148",
+            "id": "candle holder-2|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.0825989246368408,
+                "y": 0.6609570209539821,
+                "z": 1.9865477085113525
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 182,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Candle_6",
+            "id": "candle holder-1|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.6884548664093018,
+                "y": 0.6726199070215225,
+                "z": 2.023134469985962
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 16,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Candle_3",
+            "id": "candle holder-0|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.2083866596221924,
+                "y": 0.6516109088659287,
+                "z": 0.9742453098297119
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 49,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "56106e11417d4ccc83778b67dbae1f4a",
+            "id": "table lamp-0|sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.692444324493408,
+                "y": 1.0023526152751676,
+                "z": 2.796220302581787
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "56106e11417d4ccc83778b67dbae1f4a",
+            "id": "table lamp-1|sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.692444324493408,
+                "y": 1.002353330530905,
+                "z": 3.203774929046631
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1c03f7b3816242358316e8b135110d58",
+            "id": "picture frame-0|sideboard-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.8084187507629395,
+                "y": 0.9017402783580941,
+                "z": 2.796219825744629
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 312,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2ed0b726cf104ae594b20956b42c1782",
+            "id": "ornamental vase-0|bookcase-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.21599358320236206,
+                "y": 2.094383522514711,
+                "z": 3.140329599380493
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "photo album-0|bookcase-1 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.7377923727035522,
+                "y": 1.8752418043404107,
+                "z": 0.21599571406841278
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 35,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "photo album-1|bookcase-1 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.4596703052520752,
+                "y": 1.8752418043404107,
+                "z": 0.21599571406841278
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 166,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "669882ec1eac41dfb98bd0d86a4b26e2",
+            "id": "spirits bottle-1|bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8837900161743164,
+                "y": 1.0821887903343335,
+                "z": 3.8906283378601074
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71e07ce5e7d4459a8b8102b8b04fb2c2",
+            "id": "spirits bottle-2|bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.559861183166504,
+                "y": 1.1063557176210217,
+                "z": 3.7318644523620605
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "01cace88a48c42438dbd8d1a6f23a55a",
+            "id": "serving tray-0|buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.981290817260742,
+                "y": 0.7013319463642167,
+                "z": 0.17170056700706482
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "99be4d96aefd4a7c94bb3c92de11598e",
+            "id": "ceramic bowl-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.365682601928711,
+                "y": 0.7365212258120294,
+                "z": 0.11777311563491821
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 331,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Bowl_26",
+            "id": "ceramic bowl-1|buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.557878494262695,
+                "y": 0.7338897193074226,
+                "z": 0.22562801837921143
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 81,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f6754f708abc42c7b976b99133fba037",
+            "id": "candle-2|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5968987941741943,
+                "y": 0.778676098048687,
+                "z": 0.33348289132118225
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 270,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "6ccb9799c3484aabb6d72b2c7ab96a8f",
+            "id": "candle-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.75007438659668,
+                "y": 0.7420794041411755,
+                "z": 0.0638456791639328
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 260,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "55aed6c3768c41618e1fd182b15445e4",
+            "id": "cheese board-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5968987941741943,
+                "y": 0.6867880840155607,
+                "z": 0.11777311563491821
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 118,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "Walldrywall3Tiled"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 6,
+                    "y": -166,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 1,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.694,
+                    "b": 0.78
+                }
+            },
+            {
+                "id": "light|depressed dining room",
+                "type": "point",
+                "position": {
+                    "x": 3.0,
+                    "y": 2.1999999999999997,
+                    "z": 2.0
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "depressed dining room",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "SkyDalyCity"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "PinkConcrete_Smooth"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "depressed dining room",
+            "roomType": "depressed dining room",
+            "floor_design": "polished concrete, matte",
+            "wall_design": "moody blue drywall, textured",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "Walldrywall3Tiled"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|depressed dining room|west|0|exterior",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 4.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    4.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|west|0",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 4.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 4.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    4.0
+                ]
+            ],
+            "connect_exterior": "wall|depressed dining room|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|north|1|exterior",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 4.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    6.0,
+                    4.0
+                ],
+                [
+                    0.0,
+                    4.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|north|1",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 4.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    4.0
+                ]
+            ],
+            "connect_exterior": "wall|depressed dining room|north|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|east|2|exterior",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 4.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 4.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    6.0,
+                    0.0
+                ],
+                [
+                    6.0,
+                    4.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|east|2",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 4.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 4.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    6.0,
+                    4.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|depressed dining room|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|south|3|0",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    6.0,
+                    0.0
+                ],
+                [
+                    3.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|depressed dining room|south|3|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|south|3|0|exterior",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    3.0,
+                    0.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|south|3|1",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    3.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|depressed dining room|south|3|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|depressed dining room|south|3|1|exterior",
+            "roomId": "depressed dining room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    3.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|depressed dining room|south|3|0|0",
+            "room0": "depressed dining room",
+            "room1": "depressed dining room",
+            "wall0": "wall|depressed dining room|south|3|0",
+            "wall1": "wall|depressed dining room|south|3|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.12079188657945666,
+                    "y": 1.2,
+                    "z": 0
+                },
+                {
+                    "x": 2.51436536146349,
+                    "y": 2.3773976802825927,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.3175786240214733,
+                "y": 1.7886988401412962,
+                "z": 0.0
+            },
+            "roomId": "depressed dining room",
+            "windowSegment": [
+                [
+                    5.879208113420543,
+                    0.0
+                ],
+                [
+                    3.48563463853651,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        5.879208113420543,
+                        -0.1
+                    ],
+                    [
+                        3.48563463853651,
+                        -0.1
+                    ],
+                    [
+                        3.48563463853651,
+                        0.0
+                    ],
+                    [
+                        5.879208113420543,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        5.879208113420543,
+                        0.0
+                    ],
+                    [
+                        3.48563463853651,
+                        0.0
+                    ],
+                    [
+                        3.48563463853651,
+                        0.1
+                    ],
+                    [
+                        5.879208113420543,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|depressed dining room|south|3|1|1",
+            "room0": "depressed dining room",
+            "room1": "depressed dining room",
+            "wall0": "wall|depressed dining room|south|3|1",
+            "wall1": "wall|depressed dining room|south|3|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.3594564783820185,
+                    "y": 1.2,
+                    "z": 0
+                },
+                {
+                    "x": 2.753029953266052,
+                    "y": 2.3773976802825927,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.5562432158240354,
+                "y": 1.7886988401412962,
+                "z": 0.0
+            },
+            "roomId": "depressed dining room",
+            "windowSegment": [
+                [
+                    2.6405435216179813,
+                    0.0
+                ],
+                [
+                    0.24697004673394796,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        2.6405435216179813,
+                        -0.1
+                    ],
+                    [
+                        0.24697004673394796,
+                        -0.1
+                    ],
+                    [
+                        0.24697004673394796,
+                        0.0
+                    ],
+                    [
+                        2.6405435216179813,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        2.6405435216179813,
+                        0.0
+                    ],
+                    [
+                        0.24697004673394796,
+                        0.0
+                    ],
+                    [
+                        0.24697004673394796,
+                        0.1
+                    ],
+                    [
+                        2.6405435216179813,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "a depressed dining room",
+    "raw_floor_plan": "depressed dining room | polished concrete, matte | moody blue drywall, textured | [(0, 0), (0, 4), (6, 4), (6, 0)]",
+    "wall_height": 2.4,
+    "raw_doorway_plan": "exterior | depressed dining room | doorway | single | glass door with wooden frame",
+    "room_pairs": [
+        [
+            "exterior",
+            "depressed dining room"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "depressed dining room | south | fixed | (240, 120) | 2 | 120",
+    "object_selection_plan": {
+        "depressed dining room": {
+            "dining table": {
+                "description": "rustic wooden dining table",
+                "location": "floor",
+                "size": [
+                    300,
+                    120,
+                    75
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "vase with flowers",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "candle holder",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "fruit bowl",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "decorative pitcher",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "serving platter",
+                        "quantity": 1,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "dining table"
+            },
+            "dining chair": {
+                "description": "comfortable upholstered dining chairs",
+                "location": "floor",
+                "size": [
+                    50,
+                    60,
+                    100
+                ],
+                "quantity": 8,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "dining chair"
+            },
+            "sideboard": {
+                "description": "wooden sideboard for storage",
+                "location": "floor",
+                "size": [
+                    220,
+                    55,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "decorative bowl",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "table lamp",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "picture frame",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "small sculptural object",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "wine decanter",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "sideboard"
+            },
+            "wall cabinet": {
+                "description": "sleek wall-mounted cabinet",
+                "location": "wall",
+                "size": [
+                    150,
+                    35,
+                    40
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "plant pot",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "small decorative plate",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "book",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "wall cabinet"
+            },
+            "bookcase": {
+                "description": "tall wooden bookcase",
+                "location": "floor",
+                "size": [
+                    90,
+                    35,
+                    180
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "ornamental vase",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "photo album",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "small clock",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "glass figurine",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "bookcase"
+            },
+            "buffet table": {
+                "description": "elegant buffet table for dining accessories",
+                "location": "floor",
+                "size": [
+                    150,
+                    45,
+                    85
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "wine rack",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "candle",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "cheese board",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "ceramic bowl",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "serving tray",
+                        "quantity": 1,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "buffet table"
+            },
+            "bar cart": {
+                "description": "mobile bar cart",
+                "location": "floor",
+                "size": [
+                    80,
+                    40,
+                    85
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "spirits bottle",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "cocktail shaker",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "wine glass",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "mixology book",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "bar cart"
+            }
+        }
+    },
+    "selected_objects": {
+        "depressed dining room": {
+            "floor": [
+                [
+                    "dining table-0",
+                    "a75d36792ff3430b985ab63a72ff0370"
+                ],
+                [
+                    "dining chair-0",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-1",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-2",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-3",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-4",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-5",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-6",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "dining chair-7",
+                    "0521d7f998e0439198a7282bb6463d1d"
+                ],
+                [
+                    "sideboard-0",
+                    "974bbc2020254eae9ee41049fc28a366"
+                ],
+                [
+                    "bookcase-0",
+                    "3651c329b15847268e6d155ad4ed9352"
+                ],
+                [
+                    "bookcase-1",
+                    "3651c329b15847268e6d155ad4ed9352"
+                ],
+                [
+                    "bar cart-0",
+                    "1d6aa651c257442c96df25a239d42577"
+                ],
+                [
+                    "buffet table-0",
+                    "e21dca4b2c794674a473687e415ae9d3"
+                ]
+            ],
+            "wall": [
+                [
+                    "wall cabinet-0",
+                    "19188bfe68fb4a8ba0df4da8b143f2a1"
+                ],
+                [
+                    "wall cabinet-1",
+                    "19188bfe68fb4a8ba0df4da8b143f2a1"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "a75d36792ff3430b985ab63a72ff0370",
+            "id": "dining table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.2958112458593551,
+                "z": 1.5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    228.14843702592276,
+                    230.0891216005921
+                ],
+                [
+                    228.14843702592276,
+                    69.91087839940789
+                ],
+                [
+                    11.851562974077225,
+                    69.91087839940789
+                ],
+                [
+                    11.851562974077225,
+                    230.0891216005921
+                ],
+                [
+                    228.14843702592276,
+                    230.0891216005921
+                ]
+            ],
+            "object_name": "dining table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.9,
+                "y": 0.5413839446481397,
+                "z": 2.7
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    120.54090891704021,
+                    305.1746906121392
+                ],
+                [
+                    120.54090891704021,
+                    234.82530938786078
+                ],
+                [
+                    59.459091082959795,
+                    234.82530938786078
+                ],
+                [
+                    59.459091082959795,
+                    305.1746906121392
+                ],
+                [
+                    120.54090891704021,
+                    305.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8,
+                "y": 0.5413839446481397,
+                "z": 2.7
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    210.5409089170402,
+                    305.1746906121392
+                ],
+                [
+                    210.5409089170402,
+                    234.82530938786078
+                ],
+                [
+                    149.4590910829598,
+                    234.82530938786078
+                ],
+                [
+                    149.4590910829598,
+                    305.1746906121392
+                ],
+                [
+                    210.5409089170402,
+                    305.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-2 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 1.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    234.82530938786078,
+                    89.45909108295979
+                ],
+                [
+                    234.82530938786078,
+                    150.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    150.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    89.45909108295979
+                ],
+                [
+                    234.82530938786078,
+                    89.45909108295979
+                ]
+            ],
+            "object_name": "dining chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-3 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 2.1
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    234.82530938786078,
+                    179.4590910829598
+                ],
+                [
+                    234.82530938786078,
+                    240.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    240.5409089170402
+                ],
+                [
+                    305.1746906121392,
+                    179.4590910829598
+                ],
+                [
+                    234.82530938786078,
+                    179.4590910829598
+                ]
+            ],
+            "object_name": "dining chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-4 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.7,
+                "y": 0.5413839446481397,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    300.5409089170402,
+                    335.1746906121392
+                ],
+                [
+                    300.5409089170402,
+                    264.8253093878608
+                ],
+                [
+                    239.4590910829598,
+                    264.8253093878608
+                ],
+                [
+                    239.4590910829598,
+                    335.1746906121392
+                ],
+                [
+                    300.5409089170402,
+                    335.1746906121392
+                ]
+            ],
+            "object_name": "dining chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-5 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6932530938786075,
+                "y": 0.5413839446481397,
+                "z": 1.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    534.1506187757216,
+                    149.4590910829598
+                ],
+                [
+                    534.1506187757216,
+                    210.5409089170402
+                ],
+                [
+                    604.5,
+                    210.5409089170402
+                ],
+                [
+                    604.5,
+                    149.4590910829598
+                ]
+            ],
+            "object_name": "dining chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-6 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.5413839446481397,
+                "z": 3.693253093878608
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    90.54090891704021,
+                    404.5
+                ],
+                [
+                    90.54090891704021,
+                    334.15061877572157
+                ],
+                [
+                    29.459091082959795,
+                    334.15061877572157
+                ],
+                [
+                    29.459091082959795,
+                    404.5
+                ]
+            ],
+            "object_name": "dining chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0521d7f998e0439198a7282bb6463d1d",
+            "id": "dining chair-7 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6932530938786075,
+                "y": 0.5413839446481397,
+                "z": 0.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    534.1506187757216,
+                    59.459091082959795
+                ],
+                [
+                    534.1506187757216,
+                    120.54090891704021
+                ],
+                [
+                    604.5,
+                    120.54090891704021
+                ],
+                [
+                    604.5,
+                    59.459091082959795
+                ]
+            ],
+            "object_name": "dining chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "974bbc2020254eae9ee41049fc28a366",
+            "id": "sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.755461046432581,
+                "y": 0.4018802516557926,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    546.5922092865162,
+                    211.20369344943364
+                ],
+                [
+                    546.5922092865162,
+                    388.7963065505663
+                ],
+                [
+                    604.5,
+                    388.7963065505663
+                ],
+                [
+                    604.5,
+                    211.20369344943364
+                ]
+            ],
+            "object_name": "sideboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3651c329b15847268e6d155ad4ed9352",
+            "id": "bookcase-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.174467468515698,
+                "y": 0.9184033733939702,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    39.3934937031396,
+                    266.0265524104139
+                ],
+                [
+                    39.3934937031396,
+                    333.9734475895861
+                ],
+                [
+                    -4.5,
+                    333.9734475895861
+                ],
+                [
+                    -4.5,
+                    266.0265524104139
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3651c329b15847268e6d155ad4ed9352",
+            "id": "bookcase-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.9184033733939702,
+                "z": 0.174467468515698
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    93.9734475895861,
+                    -4.5
+                ],
+                [
+                    93.9734475895861,
+                    39.3934937031396
+                ],
+                [
+                    26.026552410413892,
+                    39.3934937031396
+                ],
+                [
+                    26.026552410413892,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookcase-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1d6aa651c257442c96df25a239d42577",
+            "id": "bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8,
+                "y": 0.4715577186404087,
+                "z": 3.751852935409279
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    224.05088559196747,
+                    404.5
+                ],
+                [
+                    224.05088559196747,
+                    345.8705870818558
+                ],
+                [
+                    135.94911440803253,
+                    345.8705870818558
+                ],
+                [
+                    135.94911440803253,
+                    404.5
+                ]
+            ],
+            "object_name": "bar cart-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "e21dca4b2c794674a473687e415ae9d3",
+            "id": "buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.2,
+                "y": 0.3395417745817457,
+                "z": 0.28229191341671994
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    506.4894305104802,
+                    -4.5
+                ],
+                [
+                    506.4894305104802,
+                    60.958382683343984
+                ],
+                [
+                    333.5105694895198,
+                    60.958382683343984
+                ],
+                [
+                    333.5105694895198,
+                    -4.5
+                ]
+            ],
+            "object_name": "buffet table-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "19188bfe68fb4a8ba0df4da8b143f2a1",
+            "id": "wall cabinet-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.98838970084129,
+                "y": 1.845780564370022,
+                "z": 3.1
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    600.0,
+                    307.28537831473494
+                ],
+                [
+                    600.0,
+                    312.71462168526506
+                ],
+                [
+                    599.6779401682579,
+                    312.71462168526506
+                ],
+                [
+                    599.6779401682579,
+                    307.28537831473494
+                ],
+                [
+                    600.0,
+                    307.28537831473494
+                ]
+            ],
+            "object_name": "wall cabinet-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "19188bfe68fb4a8ba0df4da8b143f2a1",
+            "id": "wall cabinet-1 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.3,
+                "y": 1.845780564370022,
+                "z": 0.011610299158710407
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "vertices": [
+                [
+                    332.71462168526506,
+                    0.0
+                ],
+                [
+                    332.71462168526506,
+                    0.3220598317420815
+                ],
+                [
+                    327.28537831473494,
+                    0.3220598317420815
+                ],
+                [
+                    327.28537831473494,
+                    0.0
+                ],
+                [
+                    332.71462168526506,
+                    0.0
+                ]
+            ],
+            "object_name": "wall cabinet-1",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "6a55d21974c74c92b86512d748456e08",
+            "id": "decorative pitcher-0|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.2000095844268799,
+                "y": 0.7199544330047735,
+                "z": 1.553574800491333
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 69,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "df71272df9a745f8b6ef0e032caf5148",
+            "id": "candle holder-2|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.0825989246368408,
+                "y": 0.6609570209539821,
+                "z": 1.9865477085113525
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 182,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Candle_6",
+            "id": "candle holder-1|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.6884548664093018,
+                "y": 0.6726199070215225,
+                "z": 2.023134469985962
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 16,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Candle_3",
+            "id": "candle holder-0|dining table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.2083866596221924,
+                "y": 0.6516109088659287,
+                "z": 0.9742453098297119
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 49,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "56106e11417d4ccc83778b67dbae1f4a",
+            "id": "table lamp-0|sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.692444324493408,
+                "y": 1.0023526152751676,
+                "z": 2.796220302581787
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "56106e11417d4ccc83778b67dbae1f4a",
+            "id": "table lamp-1|sideboard-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.692444324493408,
+                "y": 1.002353330530905,
+                "z": 3.203774929046631
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1c03f7b3816242358316e8b135110d58",
+            "id": "picture frame-0|sideboard-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.8084187507629395,
+                "y": 0.9017402783580941,
+                "z": 2.796219825744629
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 312,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2ed0b726cf104ae594b20956b42c1782",
+            "id": "ornamental vase-0|bookcase-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.21599358320236206,
+                "y": 2.094383522514711,
+                "z": 3.140329599380493
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "photo album-0|bookcase-1 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.7377923727035522,
+                "y": 1.8752418043404107,
+                "z": 0.21599571406841278
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 35,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "photo album-1|bookcase-1 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.4596703052520752,
+                "y": 1.8752418043404107,
+                "z": 0.21599571406841278
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 166,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "669882ec1eac41dfb98bd0d86a4b26e2",
+            "id": "spirits bottle-1|bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8837900161743164,
+                "y": 1.0821887903343335,
+                "z": 3.8906283378601074
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71e07ce5e7d4459a8b8102b8b04fb2c2",
+            "id": "spirits bottle-2|bar cart-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.559861183166504,
+                "y": 1.1063557176210217,
+                "z": 3.7318644523620605
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "01cace88a48c42438dbd8d1a6f23a55a",
+            "id": "serving tray-0|buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.981290817260742,
+                "y": 0.7013319463642167,
+                "z": 0.17170056700706482
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "99be4d96aefd4a7c94bb3c92de11598e",
+            "id": "ceramic bowl-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.365682601928711,
+                "y": 0.7365212258120294,
+                "z": 0.11777311563491821
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 331,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Bowl_26",
+            "id": "ceramic bowl-1|buffet table-0 (depressed dining room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.557878494262695,
+                "y": 0.7338897193074226,
+                "z": 0.22562801837921143
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 81,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f6754f708abc42c7b976b99133fba037",
+            "id": "candle-2|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5968987941741943,
+                "y": 0.778676098048687,
+                "z": 0.33348289132118225
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 270,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "6ccb9799c3484aabb6d72b2c7ab96a8f",
+            "id": "candle-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 4.75007438659668,
+                "y": 0.7420794041411755,
+                "z": 0.0638456791639328
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 260,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "55aed6c3768c41618e1fd182b15445e4",
+            "id": "cheese board-0|buffet table-0 (depressed dining room)",
+            "kinematic": false,
+            "position": {
+                "x": 3.5968987941741943,
+                "y": 0.6867880840155607,
+                "z": 0.11777311563491821
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 118,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "depressed dining room",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "dining table-0 (depressed dining room)": [
+            [
+                "fruit bowl-0",
+                "14cc6e648b2c4c03b8a46b952463d56c",
+                0.3334235799485359
+            ],
+            [
+                "vase with flowers-1",
+                "df2852724f4940c294ee78f7c94a830b",
+                0.26160688725683634
+            ],
+            [
+                "serving platter-0",
+                "57cf7ca7fcb2493999d9153d7e338afc",
+                0.22010739355958917
+            ],
+            [
+                "decorative pitcher-0",
+                "6a55d21974c74c92b86512d748456e08",
+                0.21456024354503994
+            ],
+            [
+                "vase with flowers-0",
+                "c2cc4a9734c54df99399663778eba129",
+                0.19630518003746317
+            ],
+            [
+                "candle holder-2",
+                "df71272df9a745f8b6ef0e032caf5148",
+                0.10358028711970918
+            ],
+            [
+                "candle holder-1",
+                "Candle_6",
+                0.04231658950448036
+            ],
+            [
+                "candle holder-0",
+                "Candle_3",
+                0.041944149881601334
+            ]
+        ],
+        "sideboard-0 (depressed dining room)": [
+            [
+                "picture frame-2",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "picture frame-1",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "table lamp-0",
+                "56106e11417d4ccc83778b67dbae1f4a",
+                0.32756942731721617
+            ],
+            [
+                "table lamp-1",
+                "56106e11417d4ccc83778b67dbae1f4a",
+                0.32756942731721617
+            ],
+            [
+                "small sculptural object-0",
+                "25d62e15940741eeb63b23a0bec335b5",
+                0.18950388748999092
+            ],
+            [
+                "picture frame-0",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "decorative bowl-0",
+                "0ab632042d914e179e6758c4e5c9752b",
+                0.15269281424170056
+            ],
+            [
+                "wine decanter-0",
+                "0ef34146302c43c889780f311e477e62",
+                0.10509159868266849
+            ]
+        ],
+        "bookcase-0 (depressed dining room)": [
+            [
+                "ornamental vase-0",
+                "2ed0b726cf104ae594b20956b42c1782",
+                0.23752697392513875
+            ]
+        ],
+        "bookcase-1 (depressed dining room)": [
+            [
+                "ornamental vase-1",
+                "a1f6e8527fba4224880d670dd5422247",
+                0.26231184643734645
+            ],
+            [
+                "photo album-0",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "photo album-1",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "ornamental vase-0",
+                "76674aa377f2499a9a32f9b3c6098572",
+                0.19666877100847338
+            ],
+            [
+                "small clock-0",
+                "71ab3427ad1142718af2ee8feb85c5fd",
+                0.1486112122182493
+            ],
+            [
+                "glass figurine-0",
+                "0c32efadd9f64655b971312d9b9909a4",
+                0.13739363047117215
+            ]
+        ],
+        "bar cart-0 (depressed dining room)": [
+            [
+                "mixology book-0",
+                "27476c883c6d4730b5aeba682d3f0412",
+                0.2135286310666551
+            ],
+            [
+                "cocktail shaker-0",
+                "50b02ab52c5f4e60b086ca0f6a06a715",
+                0.13243870672937552
+            ],
+            [
+                "wine glass-3",
+                "2a80bf7b6d494e42ab626d66cf49a944",
+                0.10352256723380067
+            ],
+            [
+                "wine glass-1",
+                "018dab01b31949318128504332f649d9",
+                0.09067866144254272
+            ],
+            [
+                "spirits bottle-0",
+                "230264f6d9e045ca9addfa56b694e62d",
+                0.09010010028958737
+            ],
+            [
+                "spirits bottle-1",
+                "669882ec1eac41dfb98bd0d86a4b26e2",
+                0.08230381673184022
+            ],
+            [
+                "wine glass-2",
+                "14a4745557e24661bbc1515ed3882dae",
+                0.08127080040438445
+            ],
+            [
+                "spirits bottle-2",
+                "71e07ce5e7d4459a8b8102b8b04fb2c2",
+                0.08055778293088936
+            ],
+            [
+                "wine glass-0",
+                "08c963100b6b466f9613c61925284f4c",
+                0.07901618232497498
+            ]
+        ],
+        "buffet table-0 (depressed dining room)": [
+            [
+                "wine rack-0",
+                "6363fc4d6d3a49198c5d25d14798c4cb",
+                1.324697054175613
+            ],
+            [
+                "serving tray-0",
+                "01cace88a48c42438dbd8d1a6f23a55a",
+                0.46704368575064137
+            ],
+            [
+                "ceramic bowl-0",
+                "99be4d96aefd4a7c94bb3c92de11598e",
+                0.1999995615471598
+            ],
+            [
+                "ceramic bowl-1",
+                "Bowl_26",
+                0.17486578226089478
+            ],
+            [
+                "candle-3",
+                "14262a51c9ed418ca2be01f709deda7e",
+                0.1029952488271962
+            ],
+            [
+                "candle-1",
+                "0052d8dd7ad24473a1c887c05cf63f32",
+                0.0919071745544813
+            ],
+            [
+                "candle-2",
+                "f6754f708abc42c7b976b99133fba037",
+                0.07667833566665651
+            ],
+            [
+                "candle-0",
+                "6ccb9799c3484aabb6d72b2c7ab96a8f",
+                0.05974666432339717
+            ],
+            [
+                "cheese board-0",
+                "55aed6c3768c41618e1fd182b15445e4",
+                0.0514323345075051
+            ]
+        ]
+    }
+}

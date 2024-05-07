@@ -1,0 +1,3572 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_7",
+            "id": "door|0|exterior|bedroom",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "bedroom",
+            "wall0": "wall|bedroom|west|0|exterior",
+            "wall1": "wall|bedroom|west|0",
+            "holePolygon": [
+                {
+                    "x": 3.3870920756620464,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 4.422904215173155,
+                    "y": 2.0956010818481445,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 3.9049981454176006,
+                "y": 1.0478005409240723,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        1.0,
+                        2.6129079243379536
+                    ],
+                    [
+                        1.0,
+                        1.5770957848268452
+                    ],
+                    [
+                        0.0,
+                        1.5770957848268452
+                    ],
+                    [
+                        0.0,
+                        2.6129079243379536
+                    ]
+                ],
+                [
+                    [
+                        0.0,
+                        2.6129079243379536
+                    ],
+                    [
+                        0.0,
+                        1.5770957848268452
+                    ],
+                    [
+                        -1.0,
+                        1.5770957848268452
+                    ],
+                    [
+                        -1.0,
+                        2.6129079243379536
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    0.0,
+                    2.6129079243379536
+                ],
+                [
+                    0.0,
+                    1.5770957848268452
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "703b832a5bdb4973b67ca3da9b81165b",
+            "id": "bed-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 3.879418106708385,
+                "y": 0.587156242616026,
+                "z": 3.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    271.383621341677,
+                    284.4570068374082
+                ],
+                [
+                    271.383621341677,
+                    495.5429931625918
+                ],
+                [
+                    504.5,
+                    495.5429931625918
+                ],
+                [
+                    504.5,
+                    284.4570068374082
+                ]
+            ],
+            "object_name": "bed-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0776be28b2e84cb3ba6d9c9f9d7ef68d",
+            "id": "nightstand-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.785952672056856,
+                "y": 0.3573613067147988,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    452.69053441137135,
+                    210.07875796345846
+                ],
+                [
+                    452.69053441137135,
+                    269.92124203654157
+                ],
+                [
+                    504.5,
+                    269.92124203654157
+                ],
+                [
+                    504.5,
+                    210.07875796345846
+                ]
+            ],
+            "object_name": "nightstand-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0776be28b2e84cb3ba6d9c9f9d7ef68d",
+            "id": "nightstand-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.785952672056856,
+                "y": 0.3573613067147988,
+                "z": 5.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    452.69053441137135,
+                    510.07875796345843
+                ],
+                [
+                    452.69053441137135,
+                    569.9212420365416
+                ],
+                [
+                    504.5,
+                    569.9212420365416
+                ],
+                [
+                    504.5,
+                    510.07875796345843
+                ]
+            ],
+            "object_name": "nightstand-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "ca9326ea680849acad21fd4e7e9555e9",
+            "id": "wardrobe-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.8769869340037267,
+                "z": 0.3220319119942334
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    111.67801844875575,
+                    -4.5
+                ],
+                [
+                    111.67801844875575,
+                    68.90638239884669
+                ],
+                [
+                    8.32198155124425,
+                    68.90638239884669
+                ],
+                [
+                    8.32198155124425,
+                    -4.5
+                ]
+            ],
+            "object_name": "wardrobe-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5652dda9a8094d52a464b13abf66fed3",
+            "id": "armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.1,
+                "y": 0.4951885022518654,
+                "z": 5.584417846311652
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    269.7969248488782,
+                    604.5
+                ],
+                [
+                    269.7969248488782,
+                    512.3835692623304
+                ],
+                [
+                    150.20307515112182,
+                    512.3835692623304
+                ],
+                [
+                    150.20307515112182,
+                    604.5
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Ottoman_210_1",
+            "id": "ottoman-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.9,
+                "y": 0.22017180919647217,
+                "z": 5.570637012720108
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    136.72180593013763,
+                    604.5
+                ],
+                [
+                    136.72180593013763,
+                    509.6274025440216
+                ],
+                [
+                    43.278194069862366,
+                    509.6274025440216
+                ],
+                [
+                    43.278194069862366,
+                    604.5
+                ]
+            ],
+            "object_name": "ottoman-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b7dd3a6bfd51454fb6e0d36cc2a91a59",
+            "id": "ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 3.3,
+                "y": 0.29800527436392643,
+                "z": 5.672034650530134
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    372.0051298822675,
+                    604.5
+                ],
+                [
+                    372.0051298822675,
+                    529.9069301060267
+                ],
+                [
+                    287.9948701177325,
+                    529.9069301060267
+                ],
+                [
+                    287.9948701177325,
+                    604.5
+                ]
+            ],
+            "object_name": "ottoman-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "67e718a0fc904487a9f735892d9834d3",
+            "id": "bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2067159401091862,
+                "y": 0.8802148124566177,
+                "z": 4.5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    45.84318802183725,
+                    404.65681892488703
+                ],
+                [
+                    45.84318802183725,
+                    495.34318107511297
+                ],
+                [
+                    -4.5,
+                    495.34318107511297
+                ],
+                [
+                    -4.5,
+                    404.65681892488703
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c98e7328213144ce84dbb0b2aaea5d1f",
+            "id": "dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.1,
+                "y": 0.49942341850758437,
+                "z": 0.24433032746457983
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    281.5958224040911,
+                    -4.5
+                ],
+                [
+                    281.5958224040911,
+                    53.366065492915965
+                ],
+                [
+                    138.4041775959089,
+                    53.366065492915965
+                ],
+                [
+                    138.4041775959089,
+                    -4.5
+                ]
+            ],
+            "object_name": "dresser-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "00524c1f821a488ba925cf3c42f1af2b",
+            "id": "writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.27683003255334154,
+                "y": 0.6102357041788791,
+                "z": 3.3
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    59.86600651066831,
+                    264.76844018702593
+                ],
+                [
+                    59.86600651066831,
+                    395.23155981297407
+                ],
+                [
+                    -4.5,
+                    395.23155981297407
+                ],
+                [
+                    -4.5,
+                    264.76844018702593
+                ]
+            ],
+            "object_name": "writing desk-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b091d64be82c4ae589f4b3dbd15c2714",
+            "id": "wall mirror-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.033531814586492854,
+                "y": 1.7569837372911075,
+                "z": 0.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    4.706362917298571,
+                    23.54469759489605
+                ],
+                [
+                    4.706362917298571,
+                    96.45530240510395
+                ],
+                [
+                    0.0,
+                    96.45530240510395
+                ],
+                [
+                    0.0,
+                    23.54469759489605
+                ],
+                [
+                    4.706362917298571,
+                    23.54469759489605
+                ]
+            ],
+            "object_name": "wall mirror-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "38393ff312904bc9b31585b86c6632e3",
+            "id": "throw blanket-1|ottoman-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8999999761581421,
+                "y": 1.028178606048959,
+                "z": 5.5669145584106445
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_23",
+            "id": "pillow-2|nightstand-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.80188512802124,
+                "y": 0.8226741904616356,
+                "z": 2.340367078781128
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|wardrobe-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "38393ff312904bc9b31585b86c6632e3",
+            "id": "throw blanket-0|armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8999999761581421,
+                "y": 1.028178606048959,
+                "z": 5.5669145584106445
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-1|bed-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-3|bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "throw blanket-1|bookcase-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25789153575897217,
+                "y": 1.7782929044440388,
+                "z": 4.793629169464111
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 41,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-0|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f834c1621eeb43b6997e396025b8b1f5",
+            "id": "jewelry box-1|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 1.7778648138046265,
+                "y": 1.0590929973876824,
+                "z": 0.13178391754627228
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "throw blanket-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25789153575897217,
+                "y": 1.7782929044440388,
+                "z": 4.793629169464111
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 22,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "72a54e1e37c54ff0a9c843db6835d694",
+            "id": "decorative vase-1|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.2610573768615723,
+                "y": 1.3153841224637897,
+                "z": 0.1880011260509491
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cf70e0d9df7944b3941a895aa8df7c9e",
+            "id": "photo frame-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.0999932289123535,
+                "y": 0.9552586465780106,
+                "z": 0.30043554306030273
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 272,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1c03f7b3816242358316e8b135110d58",
+            "id": "photo frame-2|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.09999418258667,
+                "y": 1.0329577580639047,
+                "z": 0.41287004947662354
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 293,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "420f1fef265e49ab9b5e22f97d98cd01",
+            "id": "perfume bottle-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.583185911178589,
+                "y": 1.0608401310771964,
+                "z": 0.13178390264511108
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 271,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-0|writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-1|writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "notebook-0|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.38173437118530273,
+                "y": 1.0160353066711907,
+                "z": 3.1388392448425293
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 340,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notebook-1|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.42103809118270874,
+                "y": 1.002676313827435,
+                "z": 3.705840587615967
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 248,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "54e44c23db6c4b7caeeb20951b8e18ed",
+            "id": "pen holder-0|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.38173437118530273,
+                "y": 1.0584190662774153,
+                "z": 3.422339916229248
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 81,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-1|ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "512f63eacd9d4068816d0c6280ae48d9",
+            "id": "magazine-2|ottoman-1 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 3.3957300186157227,
+                "y": 0.698525988277207,
+                "z": 5.764109134674072
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 229,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "YellowDrywallTiled"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 6,
+                    "y": -166,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 1,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.694,
+                    "b": 0.78
+                }
+            },
+            {
+                "id": "light|bedroom",
+                "type": "point",
+                "position": {
+                    "x": 2.5,
+                    "y": 2.5,
+                    "z": 3.0
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "bedroom",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "SkyEmeryville"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "WoodFloorsCross"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "bedroom",
+            "roomType": "bedroom",
+            "floor_design": "engineered bamboo flooring, warm tone, satin finish",
+            "wall_design": "beige silk wallpaper, textured",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "YellowDrywallTiled"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|bedroom|west|0|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|west|0",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|north|1|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 5.0,
+            "height": 2.7,
+            "direction": "north",
+            "segment": [
+                [
+                    5.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|north|1",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 5.0,
+            "height": 2.7,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|north|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|east|2|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "east",
+            "segment": [
+                [
+                    5.0,
+                    0.0
+                ],
+                [
+                    5.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|east|2",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 6.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.7,
+            "direction": "east",
+            "segment": [
+                [
+                    5.0,
+                    6.0
+                ],
+                [
+                    5.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|0",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    5.0,
+                    0.0
+                ],
+                [
+                    3.333333333333333,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|south|3|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|0|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.333333333333333,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    3.333333333333333,
+                    0.0
+                ],
+                [
+                    5.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|1",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.333333333333333,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    3.333333333333333,
+                    0.0
+                ],
+                [
+                    1.6666666666666665,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|south|3|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|1|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 1.6666666666666665,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.333333333333333,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    1.6666666666666665,
+                    0.0
+                ],
+                [
+                    3.333333333333333,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|2",
+            "roomId": "bedroom",
+            "material": {
+                "name": "YellowDrywallTiled"
+            },
+            "polygon": [
+                {
+                    "x": 1.6666666666666665,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    1.6666666666666665,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|bedroom|south|3|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|bedroom|south|3|2|exterior",
+            "roomId": "bedroom",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 2.7,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.6666666666666665,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6666666666666667,
+            "height": 2.7,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    1.6666666666666665,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Hung_44x60",
+            "id": "window|wall|bedroom|south|3|0|0",
+            "room0": "bedroom",
+            "room1": "bedroom",
+            "wall0": "wall|bedroom|south|3|0",
+            "wall1": "wall|bedroom|south|3|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.355488481496925,
+                    "y": 0.9,
+                    "z": 0
+                },
+                {
+                    "x": 1.483560481496925,
+                    "y": 2.432251787185669,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.919524481496925,
+                "y": 1.6661258935928345,
+                "z": 0.0
+            },
+            "roomId": "bedroom",
+            "windowSegment": [
+                [
+                    4.644511518503075,
+                    0.0
+                ],
+                [
+                    3.5164395185030752,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        4.644511518503075,
+                        -0.1
+                    ],
+                    [
+                        3.5164395185030752,
+                        -0.1
+                    ],
+                    [
+                        3.5164395185030752,
+                        0.0
+                    ],
+                    [
+                        4.644511518503075,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        4.644511518503075,
+                        0.0
+                    ],
+                    [
+                        3.5164395185030752,
+                        0.0
+                    ],
+                    [
+                        3.5164395185030752,
+                        0.1
+                    ],
+                    [
+                        4.644511518503075,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Hung_44x60",
+            "id": "window|wall|bedroom|south|3|1|1",
+            "room0": "bedroom",
+            "room1": "bedroom",
+            "wall0": "wall|bedroom|south|3|1",
+            "wall1": "wall|bedroom|south|3|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.2151237950245037,
+                    "y": 0.9,
+                    "z": 0
+                },
+                {
+                    "x": 1.3431957950245037,
+                    "y": 2.432251787185669,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.7791597950245037,
+                "y": 1.6661258935928345,
+                "z": 0.0
+            },
+            "roomId": "bedroom",
+            "windowSegment": [
+                [
+                    3.1182095383088293,
+                    0.0
+                ],
+                [
+                    1.9901375383088293,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        3.1182095383088293,
+                        -0.1
+                    ],
+                    [
+                        1.9901375383088293,
+                        -0.1
+                    ],
+                    [
+                        1.9901375383088293,
+                        0.0
+                    ],
+                    [
+                        3.1182095383088293,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        3.1182095383088293,
+                        0.0
+                    ],
+                    [
+                        1.9901375383088293,
+                        0.0
+                    ],
+                    [
+                        1.9901375383088293,
+                        0.1
+                    ],
+                    [
+                        3.1182095383088293,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Hung_44x60",
+            "id": "window|wall|bedroom|south|3|2|2",
+            "room0": "bedroom",
+            "room1": "bedroom",
+            "wall0": "wall|bedroom|south|3|2",
+            "wall1": "wall|bedroom|south|3|2|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.4811906108737559,
+                    "y": 0.9,
+                    "z": 0
+                },
+                {
+                    "x": 1.6092626108737558,
+                    "y": 2.432251787185669,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.0452266108737558,
+                "y": 1.6661258935928345,
+                "z": 0.0
+            },
+            "roomId": "bedroom",
+            "windowSegment": [
+                [
+                    1.1854760557929107,
+                    0.0
+                ],
+                [
+                    0.057404055792910746,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        1.1854760557929107,
+                        -0.1
+                    ],
+                    [
+                        0.057404055792910746,
+                        -0.1
+                    ],
+                    [
+                        0.057404055792910746,
+                        0.0
+                    ],
+                    [
+                        1.1854760557929107,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        1.1854760557929107,
+                        0.0
+                    ],
+                    [
+                        0.057404055792910746,
+                        0.0
+                    ],
+                    [
+                        0.057404055792910746,
+                        0.1
+                    ],
+                    [
+                        1.1854760557929107,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "warm and cozy bedroom",
+    "raw_floor_plan": "bedroom | engineered bamboo flooring, warm tone, satin finish | beige silk wallpaper, textured | [(0, 0), (0, 6), (5, 6), (5, 0)]",
+    "wall_height": 2.7,
+    "raw_doorway_plan": "exterior | bedroom | doorway | single | classic solid wood door with warm finish",
+    "room_pairs": [
+        [
+            "exterior",
+            "bedroom"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "bedroom | south | hung | (120, 160) | 3 | 90",
+    "object_selection_plan": {
+        "bedroom": {
+            "bed": {
+                "description": "classic wooden frame bed with a tufted headboard in warm tones",
+                "location": "floor",
+                "size": [
+                    210,
+                    160,
+                    100
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "pillow",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "throw blanket",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "bed"
+            },
+            "nightstand": {
+                "description": "elegant wooden nightstand with drawers",
+                "location": "floor",
+                "size": [
+                    50,
+                    40,
+                    60
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "table lamp",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "alarm clock",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "book",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "reading glasses",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "nightstand"
+            },
+            "dresser": {
+                "description": "spacious wooden dresser with a warm finish",
+                "location": "floor",
+                "size": [
+                    120,
+                    50,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "jewelry box",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "photo frame",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative vase",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "perfume bottle",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "dresser"
+            },
+            "wardrobe": {
+                "description": "large, freestanding wooden wardrobe with panel doors",
+                "location": "floor",
+                "size": [
+                    160,
+                    60,
+                    200
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "wardrobe"
+            },
+            "bookcase": {
+                "description": "tall wooden bookcase for a home library feel",
+                "location": "floor",
+                "size": [
+                    90,
+                    30,
+                    180
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "book",
+                        "quantity": 30,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative box",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "small plant",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "picture frame",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "bookcase"
+            },
+            "armchair": {
+                "description": "plush armchair with footrest for reading and relaxing",
+                "location": "floor",
+                "size": [
+                    100,
+                    100,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "knitted throw",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "reading glasses",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "novel",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "armchair"
+            },
+            "wall mirror": {
+                "description": "large wall-mounted mirror with an ornate frame",
+                "location": "wall",
+                "size": [
+                    80,
+                    5,
+                    150
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "wall mirror"
+            },
+            "writing desk": {
+                "description": "vintage style writing desk with drawers",
+                "location": "floor",
+                "size": [
+                    120,
+                    60,
+                    75
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "desk lamp",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "stationery organizer",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "pen holder",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "notebook",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "writing desk"
+            },
+            "ottoman": {
+                "description": "comfortable tufted ottoman for extra seating or leg rest",
+                "location": "floor",
+                "size": [
+                    80,
+                    60,
+                    40
+                ],
+                "quantity": 2,
+                "variance_type": "varied",
+                "objects_on_top": [
+                    {
+                        "object_name": "tray",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "magazine",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "ottoman"
+            }
+        }
+    },
+    "selected_objects": {
+        "bedroom": {
+            "floor": [
+                [
+                    "bed-0",
+                    "703b832a5bdb4973b67ca3da9b81165b"
+                ],
+                [
+                    "nightstand-0",
+                    "0776be28b2e84cb3ba6d9c9f9d7ef68d"
+                ],
+                [
+                    "nightstand-1",
+                    "0776be28b2e84cb3ba6d9c9f9d7ef68d"
+                ],
+                [
+                    "wardrobe-0",
+                    "ca9326ea680849acad21fd4e7e9555e9"
+                ],
+                [
+                    "armchair-0",
+                    "5652dda9a8094d52a464b13abf66fed3"
+                ],
+                [
+                    "ottoman-0",
+                    "Ottoman_210_1"
+                ],
+                [
+                    "ottoman-1",
+                    "b7dd3a6bfd51454fb6e0d36cc2a91a59"
+                ],
+                [
+                    "bookcase-0",
+                    "67e718a0fc904487a9f735892d9834d3"
+                ],
+                [
+                    "dresser-0",
+                    "c98e7328213144ce84dbb0b2aaea5d1f"
+                ],
+                [
+                    "writing desk-0",
+                    "00524c1f821a488ba925cf3c42f1af2b"
+                ]
+            ],
+            "wall": [
+                [
+                    "wall mirror-0",
+                    "b091d64be82c4ae589f4b3dbd15c2714"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "703b832a5bdb4973b67ca3da9b81165b",
+            "id": "bed-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 3.879418106708385,
+                "y": 0.587156242616026,
+                "z": 3.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    271.383621341677,
+                    284.4570068374082
+                ],
+                [
+                    271.383621341677,
+                    495.5429931625918
+                ],
+                [
+                    504.5,
+                    495.5429931625918
+                ],
+                [
+                    504.5,
+                    284.4570068374082
+                ]
+            ],
+            "object_name": "bed-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0776be28b2e84cb3ba6d9c9f9d7ef68d",
+            "id": "nightstand-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.785952672056856,
+                "y": 0.3573613067147988,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    452.69053441137135,
+                    210.07875796345846
+                ],
+                [
+                    452.69053441137135,
+                    269.92124203654157
+                ],
+                [
+                    504.5,
+                    269.92124203654157
+                ],
+                [
+                    504.5,
+                    210.07875796345846
+                ]
+            ],
+            "object_name": "nightstand-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0776be28b2e84cb3ba6d9c9f9d7ef68d",
+            "id": "nightstand-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.785952672056856,
+                "y": 0.3573613067147988,
+                "z": 5.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    452.69053441137135,
+                    510.07875796345843
+                ],
+                [
+                    452.69053441137135,
+                    569.9212420365416
+                ],
+                [
+                    504.5,
+                    569.9212420365416
+                ],
+                [
+                    504.5,
+                    510.07875796345843
+                ]
+            ],
+            "object_name": "nightstand-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "ca9326ea680849acad21fd4e7e9555e9",
+            "id": "wardrobe-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.6,
+                "y": 0.8769869340037267,
+                "z": 0.3220319119942334
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    111.67801844875575,
+                    -4.5
+                ],
+                [
+                    111.67801844875575,
+                    68.90638239884669
+                ],
+                [
+                    8.32198155124425,
+                    68.90638239884669
+                ],
+                [
+                    8.32198155124425,
+                    -4.5
+                ]
+            ],
+            "object_name": "wardrobe-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5652dda9a8094d52a464b13abf66fed3",
+            "id": "armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.1,
+                "y": 0.4951885022518654,
+                "z": 5.584417846311652
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    269.7969248488782,
+                    604.5
+                ],
+                [
+                    269.7969248488782,
+                    512.3835692623304
+                ],
+                [
+                    150.20307515112182,
+                    512.3835692623304
+                ],
+                [
+                    150.20307515112182,
+                    604.5
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Ottoman_210_1",
+            "id": "ottoman-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.9,
+                "y": 0.22017180919647217,
+                "z": 5.570637012720108
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    136.72180593013763,
+                    604.5
+                ],
+                [
+                    136.72180593013763,
+                    509.6274025440216
+                ],
+                [
+                    43.278194069862366,
+                    509.6274025440216
+                ],
+                [
+                    43.278194069862366,
+                    604.5
+                ]
+            ],
+            "object_name": "ottoman-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b7dd3a6bfd51454fb6e0d36cc2a91a59",
+            "id": "ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 3.3,
+                "y": 0.29800527436392643,
+                "z": 5.672034650530134
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    372.0051298822675,
+                    604.5
+                ],
+                [
+                    372.0051298822675,
+                    529.9069301060267
+                ],
+                [
+                    287.9948701177325,
+                    529.9069301060267
+                ],
+                [
+                    287.9948701177325,
+                    604.5
+                ]
+            ],
+            "object_name": "ottoman-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "67e718a0fc904487a9f735892d9834d3",
+            "id": "bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2067159401091862,
+                "y": 0.8802148124566177,
+                "z": 4.5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    45.84318802183725,
+                    404.65681892488703
+                ],
+                [
+                    45.84318802183725,
+                    495.34318107511297
+                ],
+                [
+                    -4.5,
+                    495.34318107511297
+                ],
+                [
+                    -4.5,
+                    404.65681892488703
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c98e7328213144ce84dbb0b2aaea5d1f",
+            "id": "dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.1,
+                "y": 0.49942341850758437,
+                "z": 0.24433032746457983
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    281.5958224040911,
+                    -4.5
+                ],
+                [
+                    281.5958224040911,
+                    53.366065492915965
+                ],
+                [
+                    138.4041775959089,
+                    53.366065492915965
+                ],
+                [
+                    138.4041775959089,
+                    -4.5
+                ]
+            ],
+            "object_name": "dresser-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "00524c1f821a488ba925cf3c42f1af2b",
+            "id": "writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.27683003255334154,
+                "y": 0.6102357041788791,
+                "z": 3.3
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    59.86600651066831,
+                    264.76844018702593
+                ],
+                [
+                    59.86600651066831,
+                    395.23155981297407
+                ],
+                [
+                    -4.5,
+                    395.23155981297407
+                ],
+                [
+                    -4.5,
+                    264.76844018702593
+                ]
+            ],
+            "object_name": "writing desk-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "b091d64be82c4ae589f4b3dbd15c2714",
+            "id": "wall mirror-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.033531814586492854,
+                "y": 1.7569837372911075,
+                "z": 0.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "vertices": [
+                [
+                    4.706362917298571,
+                    23.54469759489605
+                ],
+                [
+                    4.706362917298571,
+                    96.45530240510395
+                ],
+                [
+                    0.0,
+                    96.45530240510395
+                ],
+                [
+                    0.0,
+                    23.54469759489605
+                ],
+                [
+                    4.706362917298571,
+                    23.54469759489605
+                ]
+            ],
+            "object_name": "wall mirror-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "38393ff312904bc9b31585b86c6632e3",
+            "id": "throw blanket-1|ottoman-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8999999761581421,
+                "y": 1.028178606048959,
+                "z": 5.5669145584106445
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_23",
+            "id": "pillow-2|nightstand-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 4.80188512802124,
+                "y": 0.8226741904616356,
+                "z": 2.340367078781128
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|wardrobe-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "38393ff312904bc9b31585b86c6632e3",
+            "id": "throw blanket-0|armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8999999761581421,
+                "y": 1.028178606048959,
+                "z": 5.5669145584106445
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|armchair-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-1|bed-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-3|bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|bookcase-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "throw blanket-1|bookcase-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25789153575897217,
+                "y": 1.7782929044440388,
+                "z": 4.793629169464111
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 41,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-0|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f834c1621eeb43b6997e396025b8b1f5",
+            "id": "jewelry box-1|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 1.7778648138046265,
+                "y": 1.0590929973876824,
+                "z": 0.13178391754627228
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "throw blanket-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.25789153575897217,
+                "y": 1.7782929044440388,
+                "z": 4.793629169464111
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 22,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "72a54e1e37c54ff0a9c843db6835d694",
+            "id": "decorative vase-1|dresser-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 2.2610573768615723,
+                "y": 1.3153841224637897,
+                "z": 0.1880011260509491
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cf70e0d9df7944b3941a895aa8df7c9e",
+            "id": "photo frame-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.0999932289123535,
+                "y": 0.9552586465780106,
+                "z": 0.30043554306030273
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 272,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1c03f7b3816242358316e8b135110d58",
+            "id": "photo frame-2|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.09999418258667,
+                "y": 1.0329577580639047,
+                "z": 0.41287004947662354
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 293,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "420f1fef265e49ab9b5e22f97d98cd01",
+            "id": "perfume bottle-0|dresser-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 2.583185911178589,
+                "y": 1.0608401310771964,
+                "z": 0.13178390264511108
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 271,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-0|writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-1|writing desk-0 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "158b8078af03494b9e4f51664b7848fc",
+            "id": "notebook-0|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.38173437118530273,
+                "y": 1.0160353066711907,
+                "z": 3.1388392448425293
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 340,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cee4802cafe3483c9d72f27d6f3e06d1",
+            "id": "notebook-1|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.42103809118270874,
+                "y": 1.002676313827435,
+                "z": 3.705840587615967
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 248,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "54e44c23db6c4b7caeeb20951b8e18ed",
+            "id": "pen holder-0|writing desk-0 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 0.38173437118530273,
+                "y": 1.0584190662774153,
+                "z": 3.422339916229248
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 81,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_1",
+            "id": "pillow-1|ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.2092183381319046,
+                "y": 1.8997677991390227,
+                "z": 4.406094074249268
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "pillow_11",
+            "id": "pillow-4|ottoman-1 (bedroom)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8057759404182434,
+                "y": 1.856484217405319,
+                "z": 0.24592745304107666
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "512f63eacd9d4068816d0c6280ae48d9",
+            "id": "magazine-2|ottoman-1 (bedroom)",
+            "kinematic": false,
+            "position": {
+                "x": 3.3957300186157227,
+                "y": 0.698525988277207,
+                "z": 5.764109134674072
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 229,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "bedroom",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "ottoman-0 (bedroom)": [
+            [
+                "throw blanket-1",
+                "38393ff312904bc9b31585b86c6632e3",
+                0.7193975995277446
+            ],
+            [
+                "throw blanket-0",
+                "f62c74e0fcda42afbe087d5cb1998562",
+                0.6664329767227174
+            ],
+            [
+                "pillow-3",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-1",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "pillow-2",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-0",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-4",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "tray-0",
+                "0e0ecce56fdd4c32937dcb160c17ecfc",
+                0.2859460016765253
+            ]
+        ],
+        "nightstand-0 (bedroom)": [
+            [
+                "pillow-1",
+                "pillow_17",
+                0.4087682366371155
+            ],
+            [
+                "pillow-3",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-0",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-2",
+                "pillow_23",
+                0.341325968503952
+            ]
+        ],
+        "nightstand-1 (bedroom)": [
+            [
+                "pillow-2",
+                "pillow_17",
+                0.4087682366371155
+            ],
+            [
+                "pillow-3",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-1",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-0",
+                "pillow_24",
+                0.37427210807800293
+            ]
+        ],
+        "wardrobe-0 (bedroom)": [
+            [
+                "pillow-3",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "pillow-4",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-1",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-2",
+                "pillow_24",
+                0.37427210807800293
+            ]
+        ],
+        "armchair-0 (bedroom)": [
+            [
+                "throw blanket-0",
+                "38393ff312904bc9b31585b86c6632e3",
+                0.7193975995277446
+            ],
+            [
+                "knitted throw-0",
+                "ed9075c7842c4fdaa9035fbf2eef551b",
+                0.7142505079978458
+            ],
+            [
+                "pillow-1",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "pillow-4",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-2",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-3",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "novel-1",
+                "4c32fc04e7a3413b96e56d48618ca484",
+                0.32885956759047175
+            ],
+            [
+                "throw blanket-1",
+                "Cloth_9",
+                0.21438878774642944
+            ],
+            [
+                "novel-0",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "reading glasses-0",
+                "18c010cf7c36497b98a24a9b11bab6a9",
+                0.15199189673305163
+            ]
+        ],
+        "bed-0 (bedroom)": [
+            [
+                "throw blanket-0",
+                "ed9075c7842c4fdaa9035fbf2eef551b",
+                0.7142505079978458
+            ],
+            [
+                "throw blanket-1",
+                "f62c74e0fcda42afbe087d5cb1998562",
+                0.6664329767227174
+            ],
+            [
+                "pillow-2",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "pillow-1",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-3",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-4",
+                "pillow_24",
+                0.37427210807800293
+            ]
+        ],
+        "bookcase-0 (bedroom)": [
+            [
+                "pillow-3",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "pillow-4",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-2",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-1",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "book-2",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "book-1",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "throw blanket-1",
+                "Cloth_11",
+                0.21438878774642944
+            ],
+            [
+                "throw blanket-0",
+                "20c2ed72c37b41448d194159a6225ea4",
+                0.18413124639309253
+            ],
+            [
+                "book-3",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-0",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ]
+        ],
+        "dresser-0 (bedroom)": [
+            [
+                "pillow-0",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-2",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "photo frame-1",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "pillow-4",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-3",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-1",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "jewelry box-0",
+                "f834c1621eeb43b6997e396025b8b1f5",
+                0.34293774243339015
+            ],
+            [
+                "jewelry box-1",
+                "f834c1621eeb43b6997e396025b8b1f5",
+                0.34293774243339015
+            ],
+            [
+                "throw blanket-0",
+                "Cloth_11",
+                0.21438878774642944
+            ],
+            [
+                "throw blanket-1",
+                "Cloth_9",
+                0.21438878774642944
+            ],
+            [
+                "decorative vase-0",
+                "5952108871aa4e5eb63258dca1c93fb2",
+                0.19452998871020596
+            ],
+            [
+                "decorative vase-1",
+                "72a54e1e37c54ff0a9c843db6835d694",
+                0.1878003843806007
+            ],
+            [
+                "photo frame-0",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "photo frame-2",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "perfume bottle-0",
+                "420f1fef265e49ab9b5e22f97d98cd01",
+                0.08825298209200827
+            ]
+        ],
+        "writing desk-0 (bedroom)": [
+            [
+                "pillow-0",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-3",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "throw blanket-0",
+                "759c329d61394dfea4a09c6c6e9902ec",
+                0.3922715421188324
+            ],
+            [
+                "pillow-1",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-2",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-4",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "desk lamp-0",
+                "08dda93b6b1e4f5c8ab0e407a85a58e7",
+                0.33351794523225653
+            ],
+            [
+                "stationery organizer-0",
+                "152e0c6ae77e446f8f31f10d1d487aff",
+                0.2562514185133953
+            ],
+            [
+                "notebook-0",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "throw blanket-1",
+                "20c2ed72c37b41448d194159a6225ea4",
+                0.18413124639309253
+            ],
+            [
+                "notebook-1",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "pen holder-0",
+                "54e44c23db6c4b7caeeb20951b8e18ed",
+                0.07274287235322024
+            ]
+        ],
+        "ottoman-1 (bedroom)": [
+            [
+                "tray-0",
+                "0207eb132ec4478eb4716b0e37a8bfc3",
+                0.6157992511987685
+            ],
+            [
+                "pillow-1",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "throw blanket-0",
+                "759c329d61394dfea4a09c6c6e9902ec",
+                0.3922715421188324
+            ],
+            [
+                "pillow-4",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "pillow-3",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "pillow-2",
+                "pillow_24",
+                0.37427210807800293
+            ],
+            [
+                "throw blanket-1",
+                "17901f0e9323435cb3d8092b3a808618",
+                0.2275085713961154
+            ],
+            [
+                "magazine-0",
+                "a8ebc348e10745d49ed878908435caea",
+                0.16182261622377805
+            ],
+            [
+                "magazine-2",
+                "512f63eacd9d4068816d0c6280ae48d9",
+                0.14269387008797407
+            ],
+            [
+                "magazine-1",
+                "21d8c15bddc8434e89d7d8d7e67092c9",
+                0.11770956381292881
+            ]
+        ]
+    }
+}

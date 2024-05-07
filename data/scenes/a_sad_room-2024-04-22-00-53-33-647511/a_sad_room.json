@@ -1,0 +1,2866 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_2",
+            "id": "door|0|exterior|sad room",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "sad room",
+            "wall0": "wall|sad room|west|0|exterior",
+            "wall1": "wall|sad room|west|0",
+            "holePolygon": [
+                {
+                    "x": 1.6483842811870373,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 2.648172565488795,
+                    "y": 2.072821855545044,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 2.148278423337916,
+                "y": 1.036410927772522,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        1.0,
+                        5.351615718812963
+                    ],
+                    [
+                        1.0,
+                        4.351827434511205
+                    ],
+                    [
+                        0.0,
+                        4.351827434511205
+                    ],
+                    [
+                        0.0,
+                        5.351615718812963
+                    ]
+                ],
+                [
+                    [
+                        0.0,
+                        5.351615718812963
+                    ],
+                    [
+                        0.0,
+                        4.351827434511205
+                    ],
+                    [
+                        -1.0,
+                        4.351827434511205
+                    ],
+                    [
+                        -1.0,
+                        5.351615718812963
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    0.0,
+                    5.351615718812963
+                ],
+                [
+                    0.0,
+                    4.351827434511205
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "RoboTHOR_bed_meldal",
+            "id": "bed-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.25,
+                "y": 0.4923056364059448,
+                "z": 1.010610704421997
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    580.5928874015808,
+                    -4.5
+                ],
+                [
+                    580.5928874015808,
+                    206.6221408843994
+                ],
+                [
+                    469.4071125984192,
+                    206.6221408843994
+                ],
+                [
+                    469.4071125984192,
+                    -4.5
+                ]
+            ],
+            "object_name": "bed-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5d0f48de9618466fbe99f7cc7de0e0a2",
+            "id": "bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.7,
+                "y": 0.8986443627318694,
+                "z": 6.745795598159402
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    130.88081384239166,
+                    704.5
+                ],
+                [
+                    130.88081384239166,
+                    644.6591196318805
+                ],
+                [
+                    9.11918615760834,
+                    644.6591196318805
+                ],
+                [
+                    9.11918615760834,
+                    704.5
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c92290d214a84ea58951bdb6b79261c2",
+            "id": "wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.4381662800318801,
+                "y": 0.3618857339659745,
+                "z": 1.05
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    92.13325600637603,
+                    22.68806549501143
+                ],
+                [
+                    92.13325600637603,
+                    187.31193450498859
+                ],
+                [
+                    -4.5,
+                    187.31193450498859
+                ],
+                [
+                    -4.5,
+                    22.68806549501143
+                ]
+            ],
+            "object_name": "wooden writing desk-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a14730f0230444ada57292b2145e550d",
+            "id": "armchair-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.75,
+                "y": 0.4580317275409176,
+                "z": 0.37326415008688313
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    238.3199898390302,
+                    -4.499999999999993
+                ],
+                [
+                    238.3199898390302,
+                    79.15283001737663
+                ],
+                [
+                    111.68001016096981,
+                    79.15283001737663
+                ],
+                [
+                    111.68001016096981,
+                    -4.499999999999993
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a14730f0230444ada57292b2145e550d",
+            "id": "armchair-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.4,
+                "y": 0.4580317275409176,
+                "z": 1.75
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    98.17358499131169,
+                    111.68001016096981
+                ],
+                [
+                    98.17358499131169,
+                    238.3199898390302
+                ],
+                [
+                    181.82641500868831,
+                    238.3199898390302
+                ],
+                [
+                    181.82641500868831,
+                    111.68001016096981
+                ],
+                [
+                    98.17358499131169,
+                    111.68001016096981
+                ]
+            ],
+            "object_name": "armchair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "ff153d275ca343d7835e65e2fd9ddb66",
+            "id": "rustic chest-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.679979001898771,
+                "y": 0.389137080900118,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    531.4958003797542,
+                    215.70378611674278
+                ],
+                [
+                    531.4958003797542,
+                    344.2962138832572
+                ],
+                [
+                    604.5,
+                    344.2962138832572
+                ],
+                [
+                    604.5,
+                    215.70378611674278
+                ]
+            ],
+            "object_name": "rustic chest-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0d077097d51e4e42bcf1c2939f7d9485",
+            "id": "chaise lounge-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.75,
+                "y": 0.4210362783303984,
+                "z": 6.120007979308388
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    216.42339702354911,
+                    704.5
+                ],
+                [
+                    216.42339702354911,
+                    519.5015958616777
+                ],
+                [
+                    133.57660297645089,
+                    519.5015958616777
+                ],
+                [
+                    133.57660297645089,
+                    704.5
+                ]
+            ],
+            "object_name": "chaise lounge-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1ff621a6c077450ab2a6cf6680196315",
+            "id": "standing lamp-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.6871426374392403,
+                "z": 0.25808279166544296
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    296.32971989481075,
+                    -4.5
+                ],
+                [
+                    296.32971989481075,
+                    56.11655833308859
+                ],
+                [
+                    263.67028010518925,
+                    56.11655833308859
+                ],
+                [
+                    263.67028010518925,
+                    -4.5
+                ]
+            ],
+            "object_name": "standing lamp-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1ff621a6c077450ab2a6cf6680196315",
+            "id": "standing lamp-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.45,
+                "y": 0.6871426374392403,
+                "z": 6.7419172083345575
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    261.32971989481075,
+                    704.5
+                ],
+                [
+                    261.32971989481075,
+                    643.8834416669115
+                ],
+                [
+                    228.67028010518928,
+                    643.8834416669115
+                ],
+                [
+                    228.67028010518928,
+                    704.5
+                ]
+            ],
+            "object_name": "standing lamp-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.14683925962371028,
+                "y": 0.8638570154453802,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    27.367851924742055,
+                    207.02918421388313
+                ],
+                [
+                    27.367851924742055,
+                    352.9708157861169
+                ],
+                [
+                    0.0,
+                    352.9708157861169
+                ],
+                [
+                    0.0,
+                    207.02918421388313
+                ],
+                [
+                    27.367851924742055,
+                    207.02918421388313
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.9,
+                "y": 0.8638570154453802,
+                "z": 0.14683925962371028
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    462.9708157861169,
+                    0.0
+                ],
+                [
+                    462.9708157861169,
+                    27.367851924742055
+                ],
+                [
+                    317.0291842138831,
+                    27.367851924742055
+                ],
+                [
+                    317.0291842138831,
+                    0.0
+                ],
+                [
+                    462.9708157861169,
+                    0.0
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-2 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.853160740376291,
+                "y": 0.8638570154453802,
+                "z": 4.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    600.0,
+                    417.0291842138831
+                ],
+                [
+                    600.0,
+                    562.9708157861169
+                ],
+                [
+                    572.632148075258,
+                    562.9708157861169
+                ],
+                [
+                    572.632148075258,
+                    417.0291842138831
+                ],
+                [
+                    600.0,
+                    417.0291842138831
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "682de1041e194046b125a69c41fa1ff7",
+            "id": "framed mirror-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.04475875790435926,
+                "y": 1.659658902042083,
+                "z": 1.05
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    6.951751580871851,
+                    56.969677898264344
+                ],
+                [
+                    6.951751580871851,
+                    153.03032210173566
+                ],
+                [
+                    0.0,
+                    153.03032210173566
+                ],
+                [
+                    0.0,
+                    56.969677898264344
+                ],
+                [
+                    6.951751580871851,
+                    56.969677898264344
+                ]
+            ],
+            "object_name": "framed mirror-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_9",
+            "id": "threadbare blanket-0|bed-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.468822479248047,
+                "y": 0.41646168737113476,
+                "z": 0.7724499702453613
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 205,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_18",
+            "id": "classic literature books-0|bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.564224362373352,
+                "y": 1.831233035609126,
+                "z": 6.756402492523193
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_17",
+            "id": "classic literature books-2|bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.1055529117584229,
+                "y": 1.824616299778223,
+                "z": 6.756402492523193
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "67feeed5b4a04ee8b45bee4c4c46c22e",
+            "id": "classic literature books-4|bookshelf-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.1055529117584229,
+                "y": 1.818715753210328,
+                "z": 6.582372188568115
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 250,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-0|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 267,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-1|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 119,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-2|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 208,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "velvet blanket-0|chaise lounge-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.8222688436508179,
+                "y": 0.4076123338416219,
+                "z": 5.670093536376953
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 197,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f22ca7be804b4f679ac6ca2dd3ca013e",
+            "id": "vintage clock-0|wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.5639188289642334,
+                "y": 1.0045375419485767,
+                "z": 1.4272019863128662
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4c32fc04e7a3413b96e56d48618ca484",
+            "id": "old letters-0|wooden writing desk-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.7858588695526123,
+                "y": 0.9674801139821948,
+                "z": 1.5717962980270386
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Fertility_Statue_3",
+            "id": "melancholic figurine-0|wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.48994162678718567,
+                "y": 0.9038394371271133,
+                "z": 0.8614000082015991
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f1c10ac43b8d4c26ae3ee8f4822ae319",
+            "id": "old letters-2|wooden writing desk-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.41596391797065735,
+                "y": 0.7760145315005758,
+                "z": 1.2386010885238647
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 98,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "Walldrywall3Tiled"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 66,
+                    "y": 75,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 1,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                }
+            },
+            {
+                "id": "light|sad room",
+                "type": "point",
+                "position": {
+                    "x": 3.0,
+                    "y": 2.1999999999999997,
+                    "z": 3.5
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "sad room",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "SkyOakland"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "DarkTiles 1"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "sad room",
+            "roomType": "sad room",
+            "floor_design": "dark slate tile, matte",
+            "wall_design": "deep blue drywall, textured",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "Walldrywall3Tiled"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|sad room|west|0|exterior",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 7.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    7.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|west|0",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 7.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    7.0
+                ]
+            ],
+            "connect_exterior": "wall|sad room|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|east|2|exterior",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 7.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    6.0,
+                    0.0
+                ],
+                [
+                    6.0,
+                    7.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|east|2",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 7.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    6.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|sad room|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|south|3|exterior",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    6.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|south|3",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    6.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|sad room|south|3|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|north|1|0",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    7.0
+                ],
+                [
+                    3.0,
+                    7.0
+                ]
+            ],
+            "connect_exterior": "wall|sad room|north|1|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|north|1|0|exterior",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    3.0,
+                    7.0
+                ],
+                [
+                    0.0,
+                    7.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|north|1|1",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall3Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    3.0,
+                    7.0
+                ],
+                [
+                    6.0,
+                    7.0
+                ]
+            ],
+            "connect_exterior": "wall|sad room|north|1|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|sad room|north|1|1|exterior",
+            "roomId": "sad room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.0,
+                    "y": 0,
+                    "z": 7.0
+                },
+                {
+                    "x": 6.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 2.4,
+                    "z": 7.0
+                },
+                {
+                    "x": 3.0,
+                    "y": 0,
+                    "z": 7.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 3.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    6.0,
+                    7.0
+                ],
+                [
+                    3.0,
+                    7.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Fixed_96x72",
+            "id": "window|wall|sad room|north|1|0|0",
+            "room0": "sad room",
+            "room1": "sad room",
+            "wall0": "wall|sad room|north|1|0",
+            "wall1": "wall|sad room|north|1|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.18870621942989305,
+                    "y": 0.6,
+                    "z": 0
+                },
+                {
+                    "x": 2.5809388282250594,
+                    "y": 2.3788002014160154,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.3848225238274763,
+                "y": 1.4894001007080078,
+                "z": 0.0
+            },
+            "roomId": "sad room",
+            "windowSegment": [
+                [
+                    0.18870621942989305,
+                    7.0
+                ],
+                [
+                    2.5809388282250594,
+                    7.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        0.18870621942989305,
+                        7.1
+                    ],
+                    [
+                        2.5809388282250594,
+                        7.1
+                    ],
+                    [
+                        2.5809388282250594,
+                        7.0
+                    ],
+                    [
+                        0.18870621942989305,
+                        7.0
+                    ]
+                ],
+                [
+                    [
+                        0.18870621942989305,
+                        7.0
+                    ],
+                    [
+                        2.5809388282250594,
+                        7.0
+                    ],
+                    [
+                        2.5809388282250594,
+                        6.9
+                    ],
+                    [
+                        0.18870621942989305,
+                        6.9
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x72",
+            "id": "window|wall|sad room|north|1|1|1",
+            "room0": "sad room",
+            "room1": "sad room",
+            "wall0": "wall|sad room|north|1|1",
+            "wall1": "wall|sad room|north|1|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.02036692092835605,
+                    "y": 0.6,
+                    "z": 0
+                },
+                {
+                    "x": 2.412599529723522,
+                    "y": 2.3788002014160154,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.216483225325939,
+                "y": 1.4894001007080078,
+                "z": 0.0
+            },
+            "roomId": "sad room",
+            "windowSegment": [
+                [
+                    3.020366920928356,
+                    7.0
+                ],
+                [
+                    5.412599529723522,
+                    7.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        3.020366920928356,
+                        7.1
+                    ],
+                    [
+                        5.412599529723522,
+                        7.1
+                    ],
+                    [
+                        5.412599529723522,
+                        7.0
+                    ],
+                    [
+                        3.020366920928356,
+                        7.0
+                    ]
+                ],
+                [
+                    [
+                        3.020366920928356,
+                        7.0
+                    ],
+                    [
+                        5.412599529723522,
+                        7.0
+                    ],
+                    [
+                        5.412599529723522,
+                        6.9
+                    ],
+                    [
+                        3.020366920928356,
+                        6.9
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "a sad room",
+    "raw_floor_plan": "sad room | dark slate tile, matte | deep blue drywall, textured | [(0, 0), (0, 7), (6, 7), (6, 0)]",
+    "wall_height": 2.4,
+    "raw_doorway_plan": "exterior | sad room | doorway | single | heavy black door with minimalist design",
+    "room_pairs": [
+        [
+            "exterior",
+            "sad room"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "sad room | north | fixed | (240, 180) | 2 | 60",
+    "object_selection_plan": {
+        "sad room": {
+            "bed": {
+                "description": "an old-fashioned wrought iron bed frame",
+                "location": "floor",
+                "size": [
+                    190,
+                    90,
+                    110
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "aged duvet",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "worn-out pillow",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "threadbare blanket",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "bed"
+            },
+            "wooden writing desk": {
+                "description": "a vintage wooden writing desk with multiple drawers",
+                "location": "floor",
+                "size": [
+                    140,
+                    70,
+                    80
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "desk lamp",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "old letters",
+                        "quantity": 7,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "fountain pen",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "vintage clock",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "melancholic figurine",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "wooden writing desk"
+            },
+            "bookshelf": {
+                "description": "a tall, dark wooden bookshelf",
+                "location": "floor",
+                "size": [
+                    120,
+                    35,
+                    200
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "classic literature books",
+                        "quantity": 30,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "dusty photograph frame",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "wilted flower in a vase",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "antique globe",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "bookshelf"
+            },
+            "armchair": {
+                "description": "a weathered leather armchair",
+                "location": "floor",
+                "size": [
+                    100,
+                    85,
+                    105
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "old knitted throw",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "stained cushion",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "leather-bound journal",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "armchair"
+            },
+            "framed mirror": {
+                "description": "an ornate framed mirror with signs of aging",
+                "location": "wall",
+                "size": [
+                    85,
+                    5,
+                    120
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "framed mirror"
+            },
+            "standing lamp": {
+                "description": "a black floor standing lamp with a dim light",
+                "location": "floor",
+                "size": [
+                    40,
+                    40,
+                    170
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "standing lamp"
+            },
+            "chaise lounge": {
+                "description": "a vintage chaise lounge for contemplation",
+                "location": "floor",
+                "size": [
+                    160,
+                    75,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "velvet blanket",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "frayed decorative pillow",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "chaise lounge"
+            },
+            "floor-to-ceiling curtains": {
+                "description": "heavy drapery to cast deep shadows in the room",
+                "location": "wall",
+                "size": [
+                    200,
+                    0,
+                    250
+                ],
+                "quantity": 3,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "floor-to-ceiling curtains"
+            },
+            "rustic chest": {
+                "description": "a large, heavy wooden chest for storing personal items",
+                "location": "floor",
+                "size": [
+                    100,
+                    50,
+                    50
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "aged metal box",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "wax candles",
+                        "quantity": 3,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "locket with an old picture",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "rustic chest"
+            }
+        }
+    },
+    "selected_objects": {
+        "sad room": {
+            "floor": [
+                [
+                    "bed-0",
+                    "RoboTHOR_bed_meldal"
+                ],
+                [
+                    "bookshelf-0",
+                    "5d0f48de9618466fbe99f7cc7de0e0a2"
+                ],
+                [
+                    "armchair-0",
+                    "a14730f0230444ada57292b2145e550d"
+                ],
+                [
+                    "armchair-1",
+                    "a14730f0230444ada57292b2145e550d"
+                ],
+                [
+                    "standing lamp-0",
+                    "1ff621a6c077450ab2a6cf6680196315"
+                ],
+                [
+                    "standing lamp-1",
+                    "1ff621a6c077450ab2a6cf6680196315"
+                ],
+                [
+                    "rustic chest-0",
+                    "ff153d275ca343d7835e65e2fd9ddb66"
+                ],
+                [
+                    "wooden writing desk-0",
+                    "c92290d214a84ea58951bdb6b79261c2"
+                ],
+                [
+                    "chaise lounge-0",
+                    "0d077097d51e4e42bcf1c2939f7d9485"
+                ]
+            ],
+            "wall": [
+                [
+                    "framed mirror-0",
+                    "682de1041e194046b125a69c41fa1ff7"
+                ],
+                [
+                    "floor-to-ceiling curtains-0",
+                    "87f2d57d6d7e4f22b2ac2da367dd6007"
+                ],
+                [
+                    "floor-to-ceiling curtains-1",
+                    "87f2d57d6d7e4f22b2ac2da367dd6007"
+                ],
+                [
+                    "floor-to-ceiling curtains-2",
+                    "87f2d57d6d7e4f22b2ac2da367dd6007"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "RoboTHOR_bed_meldal",
+            "id": "bed-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.25,
+                "y": 0.4923056364059448,
+                "z": 1.010610704421997
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    580.5928874015808,
+                    -4.5
+                ],
+                [
+                    580.5928874015808,
+                    206.6221408843994
+                ],
+                [
+                    469.4071125984192,
+                    206.6221408843994
+                ],
+                [
+                    469.4071125984192,
+                    -4.5
+                ]
+            ],
+            "object_name": "bed-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5d0f48de9618466fbe99f7cc7de0e0a2",
+            "id": "bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.7,
+                "y": 0.8986443627318694,
+                "z": 6.745795598159402
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    130.88081384239166,
+                    704.5
+                ],
+                [
+                    130.88081384239166,
+                    644.6591196318805
+                ],
+                [
+                    9.11918615760834,
+                    644.6591196318805
+                ],
+                [
+                    9.11918615760834,
+                    704.5
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "c92290d214a84ea58951bdb6b79261c2",
+            "id": "wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.4381662800318801,
+                "y": 0.3618857339659745,
+                "z": 1.05
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    92.13325600637603,
+                    22.68806549501143
+                ],
+                [
+                    92.13325600637603,
+                    187.31193450498859
+                ],
+                [
+                    -4.5,
+                    187.31193450498859
+                ],
+                [
+                    -4.5,
+                    22.68806549501143
+                ]
+            ],
+            "object_name": "wooden writing desk-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a14730f0230444ada57292b2145e550d",
+            "id": "armchair-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.75,
+                "y": 0.4580317275409176,
+                "z": 0.37326415008688313
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    238.3199898390302,
+                    -4.499999999999993
+                ],
+                [
+                    238.3199898390302,
+                    79.15283001737663
+                ],
+                [
+                    111.68001016096981,
+                    79.15283001737663
+                ],
+                [
+                    111.68001016096981,
+                    -4.499999999999993
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a14730f0230444ada57292b2145e550d",
+            "id": "armchair-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.4,
+                "y": 0.4580317275409176,
+                "z": 1.75
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    98.17358499131169,
+                    111.68001016096981
+                ],
+                [
+                    98.17358499131169,
+                    238.3199898390302
+                ],
+                [
+                    181.82641500868831,
+                    238.3199898390302
+                ],
+                [
+                    181.82641500868831,
+                    111.68001016096981
+                ],
+                [
+                    98.17358499131169,
+                    111.68001016096981
+                ]
+            ],
+            "object_name": "armchair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "ff153d275ca343d7835e65e2fd9ddb66",
+            "id": "rustic chest-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.679979001898771,
+                "y": 0.389137080900118,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    531.4958003797542,
+                    215.70378611674278
+                ],
+                [
+                    531.4958003797542,
+                    344.2962138832572
+                ],
+                [
+                    604.5,
+                    344.2962138832572
+                ],
+                [
+                    604.5,
+                    215.70378611674278
+                ]
+            ],
+            "object_name": "rustic chest-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "0d077097d51e4e42bcf1c2939f7d9485",
+            "id": "chaise lounge-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.75,
+                "y": 0.4210362783303984,
+                "z": 6.120007979308388
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    216.42339702354911,
+                    704.5
+                ],
+                [
+                    216.42339702354911,
+                    519.5015958616777
+                ],
+                [
+                    133.57660297645089,
+                    519.5015958616777
+                ],
+                [
+                    133.57660297645089,
+                    704.5
+                ]
+            ],
+            "object_name": "chaise lounge-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1ff621a6c077450ab2a6cf6680196315",
+            "id": "standing lamp-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.6871426374392403,
+                "z": 0.25808279166544296
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    296.32971989481075,
+                    -4.5
+                ],
+                [
+                    296.32971989481075,
+                    56.11655833308859
+                ],
+                [
+                    263.67028010518925,
+                    56.11655833308859
+                ],
+                [
+                    263.67028010518925,
+                    -4.5
+                ]
+            ],
+            "object_name": "standing lamp-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1ff621a6c077450ab2a6cf6680196315",
+            "id": "standing lamp-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 2.45,
+                "y": 0.6871426374392403,
+                "z": 6.7419172083345575
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    261.32971989481075,
+                    704.5
+                ],
+                [
+                    261.32971989481075,
+                    643.8834416669115
+                ],
+                [
+                    228.67028010518928,
+                    643.8834416669115
+                ],
+                [
+                    228.67028010518928,
+                    704.5
+                ]
+            ],
+            "object_name": "standing lamp-1",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.14683925962371028,
+                "y": 0.8638570154453802,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    27.367851924742055,
+                    207.02918421388313
+                ],
+                [
+                    27.367851924742055,
+                    352.9708157861169
+                ],
+                [
+                    0.0,
+                    352.9708157861169
+                ],
+                [
+                    0.0,
+                    207.02918421388313
+                ],
+                [
+                    27.367851924742055,
+                    207.02918421388313
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-1 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.9,
+                "y": 0.8638570154453802,
+                "z": 0.14683925962371028
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    462.9708157861169,
+                    0.0
+                ],
+                [
+                    462.9708157861169,
+                    27.367851924742055
+                ],
+                [
+                    317.0291842138831,
+                    27.367851924742055
+                ],
+                [
+                    317.0291842138831,
+                    0.0
+                ],
+                [
+                    462.9708157861169,
+                    0.0
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "87f2d57d6d7e4f22b2ac2da367dd6007",
+            "id": "floor-to-ceiling curtains-2 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.853160740376291,
+                "y": 0.8638570154453802,
+                "z": 4.9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    600.0,
+                    417.0291842138831
+                ],
+                [
+                    600.0,
+                    562.9708157861169
+                ],
+                [
+                    572.632148075258,
+                    562.9708157861169
+                ],
+                [
+                    572.632148075258,
+                    417.0291842138831
+                ],
+                [
+                    600.0,
+                    417.0291842138831
+                ]
+            ],
+            "object_name": "floor-to-ceiling curtains-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "682de1041e194046b125a69c41fa1ff7",
+            "id": "framed mirror-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.04475875790435926,
+                "y": 1.659658902042083,
+                "z": 1.05
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "vertices": [
+                [
+                    6.951751580871851,
+                    56.969677898264344
+                ],
+                [
+                    6.951751580871851,
+                    153.03032210173566
+                ],
+                [
+                    0.0,
+                    153.03032210173566
+                ],
+                [
+                    0.0,
+                    56.969677898264344
+                ],
+                [
+                    6.951751580871851,
+                    56.969677898264344
+                ]
+            ],
+            "object_name": "framed mirror-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "Cloth_9",
+            "id": "threadbare blanket-0|bed-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.468822479248047,
+                "y": 0.41646168737113476,
+                "z": 0.7724499702453613
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 205,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_18",
+            "id": "classic literature books-0|bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.564224362373352,
+                "y": 1.831233035609126,
+                "z": 6.756402492523193
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_17",
+            "id": "classic literature books-2|bookshelf-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.1055529117584229,
+                "y": 1.824616299778223,
+                "z": 6.756402492523193
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "67feeed5b4a04ee8b45bee4c4c46c22e",
+            "id": "classic literature books-4|bookshelf-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.1055529117584229,
+                "y": 1.818715753210328,
+                "z": 6.582372188568115
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 250,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-0|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 267,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-1|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 119,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1dd1c02247754af297948be324b14479",
+            "id": "wax candles-2|rustic chest-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.712960243225098,
+                "y": 0.7989742881359421,
+                "z": 2.7999942302703857
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 208,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Cloth_11",
+            "id": "velvet blanket-0|chaise lounge-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 1.8222688436508179,
+                "y": 0.4076123338416219,
+                "z": 5.670093536376953
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 197,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f22ca7be804b4f679ac6ca2dd3ca013e",
+            "id": "vintage clock-0|wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.5639188289642334,
+                "y": 1.0045375419485767,
+                "z": 1.4272019863128662
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4c32fc04e7a3413b96e56d48618ca484",
+            "id": "old letters-0|wooden writing desk-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.7858588695526123,
+                "y": 0.9674801139821948,
+                "z": 1.5717962980270386
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Fertility_Statue_3",
+            "id": "melancholic figurine-0|wooden writing desk-0 (sad room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.48994162678718567,
+                "y": 0.9038394371271133,
+                "z": 0.8614000082015991
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f1c10ac43b8d4c26ae3ee8f4822ae319",
+            "id": "old letters-2|wooden writing desk-0 (sad room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.41596391797065735,
+                "y": 0.7760145315005758,
+                "z": 1.2386010885238647
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 98,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "sad room",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "bed-0 (sad room)": [
+            [
+                "aged duvet-0",
+                "ed9075c7842c4fdaa9035fbf2eef551b",
+                0.7142505079978458
+            ],
+            [
+                "worn-out pillow-0",
+                "169d7e568e594e0780f5742c48a9e3b0",
+                0.6448812157940613
+            ],
+            [
+                "worn-out pillow-1",
+                "169d7e568e594e0780f5742c48a9e3b0",
+                0.6448812157940613
+            ],
+            [
+                "threadbare blanket-0",
+                "Cloth_9",
+                0.21438878774642944
+            ]
+        ],
+        "bookshelf-0 (sad room)": [
+            [
+                "dusty photograph frame-0",
+                "e63efbbfd02b4fc5b7c03553bc2ea551",
+                0.9714206554748703
+            ],
+            [
+                "dusty photograph frame-1",
+                "be62f138e7464335a25f4991305e1ad9",
+                0.6023073791737718
+            ],
+            [
+                "dusty photograph frame-2",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "classic literature books-3",
+                "ac14113942574b9bbe68bbfbc3145faa",
+                0.3314746916294098
+            ],
+            [
+                "classic literature books-0",
+                "Book_18",
+                0.32886120676994324
+            ],
+            [
+                "classic literature books-2",
+                "Book_17",
+                0.31241607666015625
+            ],
+            [
+                "classic literature books-1",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "wilted flower in a vase-0",
+                "2a4268e7df85473d931456dfb59a31cd",
+                0.20108986426935124
+            ],
+            [
+                "wilted flower in a vase-1",
+                "2a4268e7df85473d931456dfb59a31cd",
+                0.20108986426935124
+            ],
+            [
+                "classic literature books-4",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ]
+        ],
+        "armchair-0 (sad room)": [
+            [
+                "old knitted throw-0",
+                "cdb0d4f4fef640eaa0b5f57bd830ceee",
+                0.5689840897073408
+            ],
+            [
+                "stained cushion-0",
+                "pillow_20",
+                0.41009998321533203
+            ],
+            [
+                "stained cushion-1",
+                "pillow_20",
+                0.41009998321533203
+            ],
+            [
+                "leather-bound journal-0",
+                "3a64e53720a443fbba1a06db30733301",
+                0.250767490764459
+            ]
+        ],
+        "armchair-1 (sad room)": [
+            [
+                "old knitted throw-0",
+                "113c0c3948e64ac181285059369816c9",
+                0.9943251549308227
+            ],
+            [
+                "stained cushion-0",
+                "pillow_18",
+                0.4422423243522644
+            ],
+            [
+                "stained cushion-1",
+                "pillow_18",
+                0.4422423243522644
+            ],
+            [
+                "leather-bound journal-0",
+                "3a64e53720a443fbba1a06db30733301",
+                0.250767490764459
+            ]
+        ],
+        "rustic chest-0 (sad room)": [
+            [
+                "aged metal box-0",
+                "08fe832848c74d3a9dab4a87b66297b1",
+                0.633692594199035
+            ],
+            [
+                "locket with an old picture-0",
+                "74690b60144a4b82a57f11cb69c9a71a",
+                0.5524951974653403
+            ],
+            [
+                "wax candles-0",
+                "1dd1c02247754af297948be324b14479",
+                0.03410112826983225
+            ],
+            [
+                "wax candles-1",
+                "1dd1c02247754af297948be324b14479",
+                0.03410112826983225
+            ],
+            [
+                "wax candles-2",
+                "1dd1c02247754af297948be324b14479",
+                0.03410112826983225
+            ]
+        ],
+        "chaise lounge-0 (sad room)": [
+            [
+                "frayed decorative pillow-1",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "frayed decorative pillow-0",
+                "3e5f382200c9449cb41120a2fc977372",
+                0.3813649341090001
+            ],
+            [
+                "velvet blanket-0",
+                "Cloth_11",
+                0.21438878774642944
+            ]
+        ],
+        "wooden writing desk-0 (sad room)": [
+            [
+                "vintage clock-0",
+                "f22ca7be804b4f679ac6ca2dd3ca013e",
+                0.5466684284284324
+            ],
+            [
+                "old letters-3",
+                "82c6768ddd1e4617831063223a7f1246",
+                0.41591568858138
+            ],
+            [
+                "old letters-4",
+                "11a137f2844043bfabbfb8428ef3b365",
+                0.37864244956890164
+            ],
+            [
+                "desk lamp-0",
+                "08dda93b6b1e4f5c8ab0e407a85a58e7",
+                0.33351794523225653
+            ],
+            [
+                "old letters-0",
+                "4c32fc04e7a3413b96e56d48618ca484",
+                0.32885956759047175
+            ],
+            [
+                "melancholic figurine-0",
+                "Fertility_Statue_3",
+                0.15332011878490448
+            ],
+            [
+                "old letters-2",
+                "f1c10ac43b8d4c26ae3ee8f4822ae319",
+                0.1477566489517809
+            ],
+            [
+                "old letters-1",
+                "242310ed9d8d4fe8978a0935c9279255",
+                0.13020408692296828
+            ],
+            [
+                "fountain pen-0",
+                "0cff9d2044b34ddbae54a61d51789224",
+                0.01837403409553174
+            ],
+            [
+                "fountain pen-1",
+                "0cff9d2044b34ddbae54a61d51789224",
+                0.01837403409553174
+            ]
+        ]
+    }
+}

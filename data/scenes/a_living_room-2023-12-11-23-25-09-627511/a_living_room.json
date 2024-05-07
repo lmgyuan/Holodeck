@@ -1,0 +1,3562 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_1",
+            "id": "door|0|exterior|living room",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "living room",
+            "wall0": "wall|living room|north|1|exterior",
+            "wall1": "wall|living room|north|1",
+            "holePolygon": [
+                {
+                    "x": 2.424509718566369,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 3.50601001039071,
+                    "y": 2.1302273273468018,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 2.9652598644785395,
+                "y": 1.0651136636734009,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        5.5754902814336305,
+                        5.0
+                    ],
+                    [
+                        4.49398998960929,
+                        5.0
+                    ],
+                    [
+                        4.49398998960929,
+                        6.0
+                    ],
+                    [
+                        5.5754902814336305,
+                        6.0
+                    ]
+                ],
+                [
+                    [
+                        5.5754902814336305,
+                        6.0
+                    ],
+                    [
+                        4.49398998960929,
+                        6.0
+                    ],
+                    [
+                        4.49398998960929,
+                        7.0
+                    ],
+                    [
+                        5.5754902814336305,
+                        7.0
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    5.5754902814336305,
+                    6.0
+                ],
+                [
+                    4.49398998960929,
+                    6.0
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "5c3767587d954c4081b8644af416d792",
+            "id": "sectional sofa-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6,
+                "y": 0.4231260568119087,
+                "z": 0.7455295937419971
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    722.1710937878873,
+                    -4.5
+                ],
+                [
+                    722.1710937878873,
+                    153.6059187483994
+                ],
+                [
+                    397.82890621211266,
+                    153.6059187483994
+                ],
+                [
+                    397.82890621211266,
+                    -4.5
+                ]
+            ],
+            "object_name": "sectional sofa-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "101445b04f2f4e299be3a90e0532ebca",
+            "id": "entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.4300828827485277,
+                "z": 5.7988222445354465
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    770.2620552876783,
+                    604.5
+                ],
+                [
+                    770.2620552876783,
+                    555.2644489070892
+                ],
+                [
+                    589.7379447123217,
+                    555.2644489070892
+                ],
+                [
+                    589.7379447123217,
+                    604.5
+                ]
+            ],
+            "object_name": "entertainment unit-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "8bc65c3eee874b07b46a072f1042785e",
+            "id": "bookcase-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.17568077573879698,
+                "y": 0.8976449710142447,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    39.636155147759396,
+                    29.485200260282745
+                ],
+                [
+                    39.636155147759396,
+                    130.51479973971726
+                ],
+                [
+                    -4.5,
+                    130.51479973971726
+                ],
+                [
+                    -4.5,
+                    29.485200260282745
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "8bc65c3eee874b07b46a072f1042785e",
+            "id": "bookcase-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.8976449710142447,
+                "z": 0.17568077573879698
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    170.51479973971726,
+                    -4.5
+                ],
+                [
+                    170.51479973971726,
+                    39.636155147759396
+                ],
+                [
+                    69.48520026028274,
+                    39.636155147759396
+                ],
+                [
+                    69.48520026028274,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookcase-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "fbe0fc06b6d947348d89acb00c99ab68",
+            "id": "coffee table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6,
+                "y": 0.23828139064794782,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    611.212108682902,
+                    291.212108682902
+                ],
+                [
+                    611.212108682902,
+                    188.78789131709797
+                ],
+                [
+                    508.78789131709794,
+                    188.78789131709797
+                ],
+                [
+                    508.78789131709794,
+                    291.212108682902
+                ],
+                [
+                    611.212108682902,
+                    291.212108682902
+                ]
+            ],
+            "object_name": "coffee table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "bcb9f16473634bb78dece9628b3030d1",
+            "id": "armchair-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.4,
+                "y": 0.4570536947632917,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    506.2949342704185,
+                    199.56982178331583
+                ],
+                [
+                    506.2949342704185,
+                    280.43017821668417
+                ],
+                [
+                    373.7050657295815,
+                    280.43017821668417
+                ],
+                [
+                    373.7050657295815,
+                    199.56982178331583
+                ],
+                [
+                    506.2949342704185,
+                    199.56982178331583
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5652dda9a8094d52a464b13abf66fed3",
+            "id": "armchair-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.4951885022518654,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    633.9417846311652,
+                    220.20307515112182
+                ],
+                [
+                    633.9417846311652,
+                    339.7969248488782
+                ],
+                [
+                    726.0582153688348,
+                    339.7969248488782
+                ],
+                [
+                    726.0582153688348,
+                    220.20307515112182
+                ],
+                [
+                    633.9417846311652,
+                    220.20307515112182
+                ]
+            ],
+            "object_name": "armchair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8a06cf0d4e94ee88a8db89554d247f0",
+            "id": "side table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.2,
+                "y": 0.25882819934872775,
+                "z": 0.2608579810875655
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    381.1037488519156,
+                    -4.5
+                ],
+                [
+                    381.1037488519156,
+                    56.6715962175131
+                ],
+                [
+                    258.8962511480844,
+                    56.6715962175131
+                ],
+                [
+                    258.8962511480844,
+                    -4.5
+                ]
+            ],
+            "object_name": "side table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8a06cf0d4e94ee88a8db89554d247f0",
+            "id": "side table-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.7391420189124345,
+                "y": 0.25882819934872775,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    743.3284037824869,
+                    298.8962511480844
+                ],
+                [
+                    743.3284037824869,
+                    421.1037488519156
+                ],
+                [
+                    804.5,
+                    421.1037488519156
+                ],
+                [
+                    804.5,
+                    298.8962511480844
+                ]
+            ],
+            "object_name": "side table-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Side_Table_203_2",
+            "id": "console table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.1692415225505829,
+                "y": 0.4340457320213318,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    38.34830451011658,
+                    193.40146243572235
+                ],
+                [
+                    38.34830451011658,
+                    286.59853756427765
+                ],
+                [
+                    -4.5,
+                    286.59853756427765
+                ],
+                [
+                    -4.5,
+                    193.40146243572235
+                ]
+            ],
+            "object_name": "console table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d29b237e5b9c41c6be293378dacabef5",
+            "id": "floor lamp-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.2,
+                "y": 0.8198727880229628,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    344.1825927687888,
+                    224.18259119293086
+                ],
+                [
+                    344.1825927687888,
+                    175.81740880706914
+                ],
+                [
+                    295.8174072312112,
+                    175.81740880706914
+                ],
+                [
+                    295.8174072312112,
+                    224.18259119293086
+                ],
+                [
+                    344.1825927687888,
+                    224.18259119293086
+                ]
+            ],
+            "object_name": "floor lamp-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d29b237e5b9c41c6be293378dacabef5",
+            "id": "floor lamp-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.8031740880706915,
+                "y": 0.8198727880229628,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    756.1348176141382,
+                    175.81740723121118
+                ],
+                [
+                    756.1348176141382,
+                    224.18259276878882
+                ],
+                [
+                    804.5,
+                    224.18259276878882
+                ],
+                [
+                    804.5,
+                    175.81740723121118
+                ]
+            ],
+            "object_name": "floor lamp-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "wall art-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.975453430563212,
+                "y": 1.7461393892765045,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    800.0,
+                    42.178272008895874
+                ],
+                [
+                    800.0,
+                    117.82172799110413
+                ],
+                [
+                    797.0906861126423,
+                    117.82172799110413
+                ],
+                [
+                    797.0906861126423,
+                    42.178272008895874
+                ],
+                [
+                    800.0,
+                    42.178272008895874
+                ]
+            ],
+            "object_name": "wall art-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7f5d9e1912d34f8eb02e64ac4b8322da",
+            "id": "wall art-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.04647100180387497,
+                "y": 1.6894319772720336,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    7.294200360774994,
+                    196.2348484992981
+                ],
+                [
+                    7.294200360774994,
+                    283.7651515007019
+                ],
+                [
+                    0.0,
+                    283.7651515007019
+                ],
+                [
+                    0.0,
+                    196.2348484992981
+                ],
+                [
+                    7.294200360774994,
+                    196.2348484992981
+                ]
+            ],
+            "object_name": "wall art-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "wall art-2 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.06192987773780482,
+                "y": 1.5456905914258783,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    10.385975547560964,
+                    307.03148298965385
+                ],
+                [
+                    10.385975547560964,
+                    412.96851701034615
+                ],
+                [
+                    0.0,
+                    412.96851701034615
+                ],
+                [
+                    0.0,
+                    307.03148298965385
+                ],
+                [
+                    10.385975547560964,
+                    307.03148298965385
+                ]
+            ],
+            "object_name": "wall art-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8499675dcc24324a81bc45bafefb714",
+            "id": "wall art-3 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 1.8424048666372341,
+                "z": 5.963933038528264
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    729.524606689921,
+                    594.7866077056527
+                ],
+                [
+                    729.524606689921,
+                    600.0
+                ],
+                [
+                    630.475393310079,
+                    600.0
+                ],
+                [
+                    630.475393310079,
+                    594.7866077056527
+                ],
+                [
+                    729.524606689921,
+                    594.7866077056527
+                ]
+            ],
+            "object_name": "wall art-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1bf3a33b615e47ec84edda60646ec1b3",
+            "id": "large wall clock-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.023264522965690787,
+                "y": 1.9346804299305085,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    2.6529045931381576,
+                    133.99703118643458
+                ],
+                [
+                    2.6529045931381576,
+                    186.00296881356542
+                ],
+                [
+                    0.0,
+                    186.00296881356542
+                ],
+                [
+                    0.0,
+                    133.99703118643458
+                ],
+                [
+                    2.6529045931381576,
+                    133.99703118643458
+                ]
+            ],
+            "object_name": "large wall clock-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "a8bdad23e21a4e9299e3d8103f8a0ba5",
+            "id": "mail organizer-0|console table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.12485344707965851,
+                "y": 0.8834807982477877,
+                "z": 2.6065590381622314
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 309,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f340c6c5652a49a085d6a5457305cc1d",
+            "id": "key bowl-0|console table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.0858873724937439,
+                "y": 0.9196079616016812,
+                "z": 2.3992581367492676
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 280,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1b32c464bf09435194b0b5f90748869f",
+            "id": "soundbar-0|entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.592378616333008,
+                "y": 1.0036032703840398,
+                "z": 5.751497745513916
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cde3de80e796410791b365d2f13c92e6",
+            "id": "gaming console-0|entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.215263366699219,
+                "y": 0.896265292036621,
+                "z": 5.798037052154541
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_19",
+            "id": "coffee table book-2|coffee table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.71176815032959,
+                "y": 0.5029663665443659,
+                "z": 2.5117599964141846
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 9.659346687840298e-06,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_30",
+            "id": "coffee table book-1|coffee table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.935297966003418,
+                "y": 0.4931637596562505,
+                "z": 2.3999950885772705
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 346,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Towel_Statue_3",
+            "id": "decorative statue-1|bookcase-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.3362504243850708,
+                "y": 1.991698456764221,
+                "z": 0.15135081112384796
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "OrangeCabinet 1"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 82,
+                    "y": -30,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 0.5,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 0.638,
+                    "g": 0.843,
+                    "b": 1.0
+                }
+            },
+            {
+                "id": "light|living room",
+                "type": "point",
+                "position": {
+                    "x": 4.0,
+                    "y": 2.1999999999999997,
+                    "z": 3.0
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "living room",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "SkySFDowntown"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "DarkWoodSmooth"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "living room",
+            "roomType": "living room",
+            "floor_design": "dark walnut hardwood, matte",
+            "wall_design": "warm beige paint, textured",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "OrangeCabinet 1"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|living room|west|0|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|west|0",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|north|1|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|north|1",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 2.4,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|north|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|east|2|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|east|2",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 2.4,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|0",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    6.4,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|south|3|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|0|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 6.4,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    6.4,
+                    0.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|1",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 6.4,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    6.4,
+                    0.0
+                ],
+                [
+                    4.8,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|south|3|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|1|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 4.8,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 6.4,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    4.8,
+                    0.0
+                ],
+                [
+                    6.4,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|2",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 4.8,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    4.8,
+                    0.0
+                ],
+                [
+                    3.1999999999999993,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|south|3|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|2|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 3.1999999999999993,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 4.8,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    3.1999999999999993,
+                    0.0
+                ],
+                [
+                    4.8,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|3",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 3.1999999999999993,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    3.1999999999999993,
+                    0.0
+                ],
+                [
+                    1.5999999999999996,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|south|3|3|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|3|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 1.5999999999999996,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 3.1999999999999993,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    1.5999999999999996,
+                    0.0
+                ],
+                [
+                    3.1999999999999993,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|4",
+            "roomId": "living room",
+            "material": {
+                "name": "OrangeCabinet 1"
+            },
+            "polygon": [
+                {
+                    "x": 1.5999999999999996,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    1.5999999999999996,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|living room|south|3|4|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|living room|south|3|4|exterior",
+            "roomId": "living room",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 2.4,
+                    "z": 0.0
+                },
+                {
+                    "x": 1.5999999999999996,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 1.6,
+            "height": 2.4,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    1.5999999999999996,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Slider_60x48",
+            "id": "window|wall|living room|south|3|0|0",
+            "room0": "living room",
+            "room1": "living room",
+            "wall0": "wall|living room|south|3|0",
+            "wall1": "wall|living room|south|3|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.00471713544633826,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 1.4851555586030765,
+                    "y": 2.169436526298523,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.7449363470247073,
+                "y": 1.5847182631492616,
+                "z": 0.0
+            },
+            "roomId": "living room",
+            "windowSegment": [
+                [
+                    7.995282864553662,
+                    0.0
+                ],
+                [
+                    6.5148444413969235,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        7.995282864553662,
+                        -0.1
+                    ],
+                    [
+                        6.5148444413969235,
+                        -0.1
+                    ],
+                    [
+                        6.5148444413969235,
+                        0.0
+                    ],
+                    [
+                        7.995282864553662,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        7.995282864553662,
+                        0.0
+                    ],
+                    [
+                        6.5148444413969235,
+                        0.0
+                    ],
+                    [
+                        6.5148444413969235,
+                        0.1
+                    ],
+                    [
+                        7.995282864553662,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Slider_60x48",
+            "id": "window|wall|living room|south|3|1|1",
+            "room0": "living room",
+            "room1": "living room",
+            "wall0": "wall|living room|south|3|1",
+            "wall1": "wall|living room|south|3|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.06526991815970572,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 1.5457083413164439,
+                    "y": 2.169436526298523,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.8054891297380747,
+                "y": 1.5847182631492616,
+                "z": 0.0
+            },
+            "roomId": "living room",
+            "windowSegment": [
+                [
+                    6.334730081840295,
+                    0.0
+                ],
+                [
+                    4.8542916586835565,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        6.334730081840295,
+                        -0.1
+                    ],
+                    [
+                        4.8542916586835565,
+                        -0.1
+                    ],
+                    [
+                        4.8542916586835565,
+                        0.0
+                    ],
+                    [
+                        6.334730081840295,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        6.334730081840295,
+                        0.0
+                    ],
+                    [
+                        4.8542916586835565,
+                        0.0
+                    ],
+                    [
+                        4.8542916586835565,
+                        0.1
+                    ],
+                    [
+                        6.334730081840295,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Slider_60x48",
+            "id": "window|wall|living room|south|3|2|2",
+            "room0": "living room",
+            "room1": "living room",
+            "wall0": "wall|living room|south|3|2",
+            "wall1": "wall|living room|south|3|2|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.07216463715060037,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 1.5526030603073386,
+                    "y": 2.169436526298523,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.8123838487289695,
+                "y": 1.5847182631492616,
+                "z": 0.0
+            },
+            "roomId": "living room",
+            "windowSegment": [
+                [
+                    4.727835362849399,
+                    0.0
+                ],
+                [
+                    3.247396939692661,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        4.727835362849399,
+                        -0.1
+                    ],
+                    [
+                        3.247396939692661,
+                        -0.1
+                    ],
+                    [
+                        3.247396939692661,
+                        0.0
+                    ],
+                    [
+                        4.727835362849399,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        4.727835362849399,
+                        0.0
+                    ],
+                    [
+                        3.247396939692661,
+                        0.0
+                    ],
+                    [
+                        3.247396939692661,
+                        0.1
+                    ],
+                    [
+                        4.727835362849399,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Slider_60x48",
+            "id": "window|wall|living room|south|3|3|3",
+            "room0": "living room",
+            "room1": "living room",
+            "wall0": "wall|living room|south|3|3",
+            "wall1": "wall|living room|south|3|3|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.018666641213416425,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 1.4991050643701547,
+                    "y": 2.169436526298523,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.7588858527917856,
+                "y": 1.5847182631492616,
+                "z": 0.0
+            },
+            "roomId": "living room",
+            "windowSegment": [
+                [
+                    3.181333358786583,
+                    0.0
+                ],
+                [
+                    1.7008949356298446,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        3.181333358786583,
+                        -0.1
+                    ],
+                    [
+                        1.7008949356298446,
+                        -0.1
+                    ],
+                    [
+                        1.7008949356298446,
+                        0.0
+                    ],
+                    [
+                        3.181333358786583,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        3.181333358786583,
+                        0.0
+                    ],
+                    [
+                        1.7008949356298446,
+                        0.0
+                    ],
+                    [
+                        1.7008949356298446,
+                        0.1
+                    ],
+                    [
+                        3.181333358786583,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Slider_60x48",
+            "id": "window|wall|living room|south|3|4|4",
+            "room0": "living room",
+            "room1": "living room",
+            "wall0": "wall|living room|south|3|4",
+            "wall1": "wall|living room|south|3|4|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.04136143499719702,
+                    "y": 1.0,
+                    "z": 0
+                },
+                {
+                    "x": 1.5217998581539351,
+                    "y": 2.169436526298523,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 0.7815806465755661,
+                "y": 1.5847182631492616,
+                "z": 0.0
+            },
+            "roomId": "living room",
+            "windowSegment": [
+                [
+                    1.5586385650028025,
+                    0.0
+                ],
+                [
+                    0.0782001418460645,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        1.5586385650028025,
+                        -0.1
+                    ],
+                    [
+                        0.0782001418460645,
+                        -0.1
+                    ],
+                    [
+                        0.0782001418460645,
+                        0.0
+                    ],
+                    [
+                        1.5586385650028025,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        1.5586385650028025,
+                        0.0
+                    ],
+                    [
+                        0.0782001418460645,
+                        0.0
+                    ],
+                    [
+                        0.0782001418460645,
+                        0.1
+                    ],
+                    [
+                        1.5586385650028025,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "a living room",
+    "raw_floor_plan": "living room | dark walnut hardwood, matte | warm beige paint, textured | [(0, 0), (0, 6), (8, 6), (8, 0)]",
+    "wall_height": 2.4,
+    "raw_doorway_plan": "exterior | living room | doorway | single | dark wood door with glass panels",
+    "room_pairs": [
+        [
+            "exterior",
+            "living room"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "living room | south | slider | (150, 120) | 5 | 100",
+    "object_selection_plan": {
+        "living room": {
+            "sectional sofa": {
+                "description": "a comfortable l-shaped sectional sofa in a neutral color",
+                "location": "floor",
+                "size": [
+                    350,
+                    200,
+                    90
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "throw blanket",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative pillow",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative tray",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "candle holder",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "sectional sofa"
+            },
+            "coffee table": {
+                "description": "a modern wooden coffee table",
+                "location": "floor",
+                "size": [
+                    150,
+                    100,
+                    45
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "vase with flowers",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "coasters",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "coffee table book",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative bowl",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "coffee table"
+            },
+            "bookcase": {
+                "description": "a tall, open bookcase for storage and display",
+                "location": "floor",
+                "size": [
+                    120,
+                    35,
+                    200
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "decorative statue",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "photo frame",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "book",
+                        "quantity": 15,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "plant pot",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "bookcase"
+            },
+            "entertainment unit": {
+                "description": "a sleek entertainment unit for media devices and storage",
+                "location": "floor",
+                "size": [
+                    220,
+                    50,
+                    55
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "flat-screen tv",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "gaming console",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "soundbar",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "blu-ray player",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "entertainment unit"
+            },
+            "side table": {
+                "description": "a small, modern side table next to the sofa",
+                "location": "floor",
+                "size": [
+                    60,
+                    60,
+                    65
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "table lamp",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "small sculpture",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "side table"
+            },
+            "large wall clock": {
+                "description": "an oversized wall clock for a statement piece",
+                "location": "wall",
+                "size": [
+                    100,
+                    100,
+                    5
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "large wall clock"
+            },
+            "wall art": {
+                "description": "framed pieces of contemporary wall art",
+                "location": "wall",
+                "size": [
+                    80,
+                    120,
+                    5
+                ],
+                "quantity": 4,
+                "variance_type": "varied",
+                "objects_on_top": [],
+                "object_name": "wall art"
+            },
+            "armchair": {
+                "description": "a cozy armchair with a modern design",
+                "location": "floor",
+                "size": [
+                    100,
+                    100,
+                    90
+                ],
+                "quantity": 2,
+                "variance_type": "varied",
+                "objects_on_top": [
+                    {
+                        "object_name": "knitted throw",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "small pillow",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "armchair"
+            },
+            "floor lamp": {
+                "description": "an adjustable floor lamp for additional lighting",
+                "location": "floor",
+                "size": [
+                    40,
+                    40,
+                    160
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "floor lamp"
+            },
+            "console table": {
+                "description": "a sleek console table for entryway vignette",
+                "location": "floor",
+                "size": [
+                    120,
+                    35,
+                    80
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "table vase",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "key bowl",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "mail organizer",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "decorative mirror",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "console table"
+            }
+        }
+    },
+    "selected_objects": {
+        "living room": {
+            "floor": [
+                [
+                    "sectional sofa-0",
+                    "5c3767587d954c4081b8644af416d792"
+                ],
+                [
+                    "bookcase-0",
+                    "8bc65c3eee874b07b46a072f1042785e"
+                ],
+                [
+                    "bookcase-1",
+                    "8bc65c3eee874b07b46a072f1042785e"
+                ],
+                [
+                    "entertainment unit-0",
+                    "101445b04f2f4e299be3a90e0532ebca"
+                ],
+                [
+                    "side table-0",
+                    "b8a06cf0d4e94ee88a8db89554d247f0"
+                ],
+                [
+                    "side table-1",
+                    "b8a06cf0d4e94ee88a8db89554d247f0"
+                ],
+                [
+                    "armchair-0",
+                    "bcb9f16473634bb78dece9628b3030d1"
+                ],
+                [
+                    "armchair-1",
+                    "5652dda9a8094d52a464b13abf66fed3"
+                ],
+                [
+                    "floor lamp-0",
+                    "d29b237e5b9c41c6be293378dacabef5"
+                ],
+                [
+                    "floor lamp-1",
+                    "d29b237e5b9c41c6be293378dacabef5"
+                ],
+                [
+                    "coffee table-0",
+                    "fbe0fc06b6d947348d89acb00c99ab68"
+                ],
+                [
+                    "console table-0",
+                    "Side_Table_203_2"
+                ]
+            ],
+            "wall": [
+                [
+                    "large wall clock-0",
+                    "1bf3a33b615e47ec84edda60646ec1b3"
+                ],
+                [
+                    "wall art-0",
+                    "3196828539324d05a21ea29747076e83"
+                ],
+                [
+                    "wall art-1",
+                    "7f5d9e1912d34f8eb02e64ac4b8322da"
+                ],
+                [
+                    "wall art-2",
+                    "486bb167384240139c1b67fdb9f2c8e9"
+                ],
+                [
+                    "wall art-3",
+                    "b8499675dcc24324a81bc45bafefb714"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "5c3767587d954c4081b8644af416d792",
+            "id": "sectional sofa-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6,
+                "y": 0.4231260568119087,
+                "z": 0.7455295937419971
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    722.1710937878873,
+                    -4.5
+                ],
+                [
+                    722.1710937878873,
+                    153.6059187483994
+                ],
+                [
+                    397.82890621211266,
+                    153.6059187483994
+                ],
+                [
+                    397.82890621211266,
+                    -4.5
+                ]
+            ],
+            "object_name": "sectional sofa-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "101445b04f2f4e299be3a90e0532ebca",
+            "id": "entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.4300828827485277,
+                "z": 5.7988222445354465
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    770.2620552876783,
+                    604.5
+                ],
+                [
+                    770.2620552876783,
+                    555.2644489070892
+                ],
+                [
+                    589.7379447123217,
+                    555.2644489070892
+                ],
+                [
+                    589.7379447123217,
+                    604.5
+                ]
+            ],
+            "object_name": "entertainment unit-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "8bc65c3eee874b07b46a072f1042785e",
+            "id": "bookcase-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.17568077573879698,
+                "y": 0.8976449710142447,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    39.636155147759396,
+                    29.485200260282745
+                ],
+                [
+                    39.636155147759396,
+                    130.51479973971726
+                ],
+                [
+                    -4.5,
+                    130.51479973971726
+                ],
+                [
+                    -4.5,
+                    29.485200260282745
+                ]
+            ],
+            "object_name": "bookcase-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "8bc65c3eee874b07b46a072f1042785e",
+            "id": "bookcase-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.8976449710142447,
+                "z": 0.17568077573879698
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    170.51479973971726,
+                    -4.5
+                ],
+                [
+                    170.51479973971726,
+                    39.636155147759396
+                ],
+                [
+                    69.48520026028274,
+                    39.636155147759396
+                ],
+                [
+                    69.48520026028274,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookcase-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "fbe0fc06b6d947348d89acb00c99ab68",
+            "id": "coffee table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.6,
+                "y": 0.23828139064794782,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    611.212108682902,
+                    291.212108682902
+                ],
+                [
+                    611.212108682902,
+                    188.78789131709797
+                ],
+                [
+                    508.78789131709794,
+                    188.78789131709797
+                ],
+                [
+                    508.78789131709794,
+                    291.212108682902
+                ],
+                [
+                    611.212108682902,
+                    291.212108682902
+                ]
+            ],
+            "object_name": "coffee table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "bcb9f16473634bb78dece9628b3030d1",
+            "id": "armchair-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 4.4,
+                "y": 0.4570536947632917,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    506.2949342704185,
+                    199.56982178331583
+                ],
+                [
+                    506.2949342704185,
+                    280.43017821668417
+                ],
+                [
+                    373.7050657295815,
+                    280.43017821668417
+                ],
+                [
+                    373.7050657295815,
+                    199.56982178331583
+                ],
+                [
+                    506.2949342704185,
+                    199.56982178331583
+                ]
+            ],
+            "object_name": "armchair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "5652dda9a8094d52a464b13abf66fed3",
+            "id": "armchair-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 0.4951885022518654,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    633.9417846311652,
+                    220.20307515112182
+                ],
+                [
+                    633.9417846311652,
+                    339.7969248488782
+                ],
+                [
+                    726.0582153688348,
+                    339.7969248488782
+                ],
+                [
+                    726.0582153688348,
+                    220.20307515112182
+                ],
+                [
+                    633.9417846311652,
+                    220.20307515112182
+                ]
+            ],
+            "object_name": "armchair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8a06cf0d4e94ee88a8db89554d247f0",
+            "id": "side table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.2,
+                "y": 0.25882819934872775,
+                "z": 0.2608579810875655
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    381.1037488519156,
+                    -4.5
+                ],
+                [
+                    381.1037488519156,
+                    56.6715962175131
+                ],
+                [
+                    258.8962511480844,
+                    56.6715962175131
+                ],
+                [
+                    258.8962511480844,
+                    -4.5
+                ]
+            ],
+            "object_name": "side table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8a06cf0d4e94ee88a8db89554d247f0",
+            "id": "side table-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.7391420189124345,
+                "y": 0.25882819934872775,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    743.3284037824869,
+                    298.8962511480844
+                ],
+                [
+                    743.3284037824869,
+                    421.1037488519156
+                ],
+                [
+                    804.5,
+                    421.1037488519156
+                ],
+                [
+                    804.5,
+                    298.8962511480844
+                ]
+            ],
+            "object_name": "side table-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Side_Table_203_2",
+            "id": "console table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.1692415225505829,
+                "y": 0.4340457320213318,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    38.34830451011658,
+                    193.40146243572235
+                ],
+                [
+                    38.34830451011658,
+                    286.59853756427765
+                ],
+                [
+                    -4.5,
+                    286.59853756427765
+                ],
+                [
+                    -4.5,
+                    193.40146243572235
+                ]
+            ],
+            "object_name": "console table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d29b237e5b9c41c6be293378dacabef5",
+            "id": "floor lamp-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 3.2,
+                "y": 0.8198727880229628,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    344.1825927687888,
+                    224.18259119293086
+                ],
+                [
+                    344.1825927687888,
+                    175.81740880706914
+                ],
+                [
+                    295.8174072312112,
+                    175.81740880706914
+                ],
+                [
+                    295.8174072312112,
+                    224.18259119293086
+                ],
+                [
+                    344.1825927687888,
+                    224.18259119293086
+                ]
+            ],
+            "object_name": "floor lamp-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d29b237e5b9c41c6be293378dacabef5",
+            "id": "floor lamp-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.8031740880706915,
+                "y": 0.8198727880229628,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    756.1348176141382,
+                    175.81740723121118
+                ],
+                [
+                    756.1348176141382,
+                    224.18259276878882
+                ],
+                [
+                    804.5,
+                    224.18259276878882
+                ],
+                [
+                    804.5,
+                    175.81740723121118
+                ]
+            ],
+            "object_name": "floor lamp-1",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "wall art-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.975453430563212,
+                "y": 1.7461393892765045,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    800.0,
+                    42.178272008895874
+                ],
+                [
+                    800.0,
+                    117.82172799110413
+                ],
+                [
+                    797.0906861126423,
+                    117.82172799110413
+                ],
+                [
+                    797.0906861126423,
+                    42.178272008895874
+                ],
+                [
+                    800.0,
+                    42.178272008895874
+                ]
+            ],
+            "object_name": "wall art-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7f5d9e1912d34f8eb02e64ac4b8322da",
+            "id": "wall art-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.04647100180387497,
+                "y": 1.6894319772720336,
+                "z": 2.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    7.294200360774994,
+                    196.2348484992981
+                ],
+                [
+                    7.294200360774994,
+                    283.7651515007019
+                ],
+                [
+                    0.0,
+                    283.7651515007019
+                ],
+                [
+                    0.0,
+                    196.2348484992981
+                ],
+                [
+                    7.294200360774994,
+                    196.2348484992981
+                ]
+            ],
+            "object_name": "wall art-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "wall art-2 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.06192987773780482,
+                "y": 1.5456905914258783,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    10.385975547560964,
+                    307.03148298965385
+                ],
+                [
+                    10.385975547560964,
+                    412.96851701034615
+                ],
+                [
+                    0.0,
+                    412.96851701034615
+                ],
+                [
+                    0.0,
+                    307.03148298965385
+                ],
+                [
+                    10.385975547560964,
+                    307.03148298965385
+                ]
+            ],
+            "object_name": "wall art-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b8499675dcc24324a81bc45bafefb714",
+            "id": "wall art-3 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.8,
+                "y": 1.8424048666372341,
+                "z": 5.963933038528264
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    729.524606689921,
+                    594.7866077056527
+                ],
+                [
+                    729.524606689921,
+                    600.0
+                ],
+                [
+                    630.475393310079,
+                    600.0
+                ],
+                [
+                    630.475393310079,
+                    594.7866077056527
+                ],
+                [
+                    729.524606689921,
+                    594.7866077056527
+                ]
+            ],
+            "object_name": "wall art-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1bf3a33b615e47ec84edda60646ec1b3",
+            "id": "large wall clock-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 0.023264522965690787,
+                "y": 1.9346804299305085,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "living room",
+            "vertices": [
+                [
+                    2.6529045931381576,
+                    133.99703118643458
+                ],
+                [
+                    2.6529045931381576,
+                    186.00296881356542
+                ],
+                [
+                    0.0,
+                    186.00296881356542
+                ],
+                [
+                    0.0,
+                    133.99703118643458
+                ],
+                [
+                    2.6529045931381576,
+                    133.99703118643458
+                ]
+            ],
+            "object_name": "large wall clock-0",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "a8bdad23e21a4e9299e3d8103f8a0ba5",
+            "id": "mail organizer-0|console table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.12485344707965851,
+                "y": 0.8834807982477877,
+                "z": 2.6065590381622314
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 309,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "f340c6c5652a49a085d6a5457305cc1d",
+            "id": "key bowl-0|console table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 0.0858873724937439,
+                "y": 0.9196079616016812,
+                "z": 2.3992581367492676
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 280,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1b32c464bf09435194b0b5f90748869f",
+            "id": "soundbar-0|entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 6.592378616333008,
+                "y": 1.0036032703840398,
+                "z": 5.751497745513916
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "cde3de80e796410791b365d2f13c92e6",
+            "id": "gaming console-0|entertainment unit-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 7.215263366699219,
+                "y": 0.896265292036621,
+                "z": 5.798037052154541
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_19",
+            "id": "coffee table book-2|coffee table-0 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 5.71176815032959,
+                "y": 0.5029663665443659,
+                "z": 2.5117599964141846
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 9.659346687840298e-06,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Book_30",
+            "id": "coffee table book-1|coffee table-0 (living room)",
+            "kinematic": false,
+            "position": {
+                "x": 5.935297966003418,
+                "y": 0.4931637596562505,
+                "z": 2.3999950885772705
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 346,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Towel_Statue_3",
+            "id": "decorative statue-1|bookcase-1 (living room)",
+            "kinematic": true,
+            "position": {
+                "x": 1.3362504243850708,
+                "y": 1.991698456764221,
+                "z": 0.15135081112384796
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "living room",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "console table-0 (living room)": [
+            [
+                "decorative mirror-0",
+                "60220f174c974ea288debd09478e10f8",
+                0.7426745295524597
+            ],
+            [
+                "table vase-0",
+                "a1f6e8527fba4224880d670dd5422247",
+                0.26231184643734645
+            ],
+            [
+                "mail organizer-0",
+                "a8bdad23e21a4e9299e3d8103f8a0ba5",
+                0.15743122908804152
+            ],
+            [
+                "key bowl-0",
+                "f340c6c5652a49a085d6a5457305cc1d",
+                0.13694033834669322
+            ]
+        ],
+        "sectional sofa-0 (living room)": [
+            [
+                "throw blanket-0",
+                "38393ff312904bc9b31585b86c6632e3",
+                0.7193975995277446
+            ],
+            [
+                "decorative pillow-2",
+                "1ae3077f108d4775afab873f99b2c44b",
+                0.6837925910949707
+            ],
+            [
+                "throw blanket-1",
+                "f62c74e0fcda42afbe087d5cb1998562",
+                0.6664329767227174
+            ],
+            [
+                "decorative pillow-3",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "decorative tray-0",
+                "7f233bc4e7c24407874aa76d4ff6e721",
+                0.48805769400175186
+            ],
+            [
+                "decorative pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "decorative pillow-4",
+                "pillow_17",
+                0.4087682366371155
+            ],
+            [
+                "decorative pillow-1",
+                "pillow_11",
+                0.3870019018650055
+            ],
+            [
+                "candle holder-1",
+                "Candle_5",
+                0.05131622403860092
+            ],
+            [
+                "candle holder-0",
+                "Candle_3",
+                0.041944149881601334
+            ]
+        ],
+        "entertainment unit-0 (living room)": [
+            [
+                "flat-screen tv-0",
+                "20de33c317ce49a687b9fe8075d60e8a",
+                0.5974255106993756
+            ],
+            [
+                "soundbar-0",
+                "1b32c464bf09435194b0b5f90748869f",
+                0.4329738381420436
+            ],
+            [
+                "blu-ray player-0",
+                "19e9ec41b4234e46a3503e8376f3e7a5",
+                0.3882422617453176
+            ],
+            [
+                "gaming console-0",
+                "cde3de80e796410791b365d2f13c92e6",
+                0.28926611796898
+            ],
+            [
+                "gaming console-1",
+                "cde3de80e796410791b365d2f13c92e6",
+                0.28926611796898
+            ]
+        ],
+        "bookcase-0 (living room)": [
+            [
+                "decorative statue-0",
+                "a2aecea000064543a8c7031504f041bc",
+                0.29922940541926124
+            ]
+        ],
+        "coffee table-0 (living room)": [
+            [
+                "coffee table book-0",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "coffee table book-2",
+                "Book_19",
+                0.30008286237716675
+            ],
+            [
+                "vase with flowers-0",
+                "df2852724f4940c294ee78f7c94a830b",
+                0.26160688725683634
+            ],
+            [
+                "coffee table book-1",
+                "Book_30",
+                0.2219785749912262
+            ],
+            [
+                "decorative bowl-0",
+                "0ab632042d914e179e6758c4e5c9752b",
+                0.15269281424170056
+            ],
+            [
+                "coasters-0",
+                "161fbc23a1234993a7d12006643b2621",
+                0.10597697275742533
+            ]
+        ],
+        "armchair-0 (living room)": [
+            [
+                "small pillow-1",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "small pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "knitted throw-0",
+                "20c2ed72c37b41448d194159a6225ea4",
+                0.18413124639309253
+            ],
+            [
+                "knitted throw-1",
+                "20c2ed72c37b41448d194159a6225ea4",
+                0.18413124639309253
+            ]
+        ],
+        "armchair-1 (living room)": [
+            [
+                "knitted throw-0",
+                "38393ff312904bc9b31585b86c6632e3",
+                0.7193975995277446
+            ],
+            [
+                "knitted throw-1",
+                "38393ff312904bc9b31585b86c6632e3",
+                0.7193975995277446
+            ],
+            [
+                "small pillow-1",
+                "pillow_1",
+                0.5317367315292358
+            ],
+            [
+                "small pillow-0",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ]
+        ],
+        "side table-0 (living room)": [
+            [
+                "table lamp-0",
+                "02cfbdac78054a4b986cc42b5093c3f7",
+                0.3558333498405505
+            ],
+            [
+                "table lamp-1",
+                "02cfbdac78054a4b986cc42b5093c3f7",
+                0.3558333498405505
+            ]
+        ],
+        "side table-1 (living room)": [
+            [
+                "table lamp-0",
+                "a5a31eaca0ea4a4bba96fa4ca09ed9d5",
+                0.3790879672987757
+            ],
+            [
+                "table lamp-1",
+                "a5a31eaca0ea4a4bba96fa4ca09ed9d5",
+                0.3790879672987757
+            ]
+        ],
+        "bookcase-1 (living room)": [
+            [
+                "decorative statue-0",
+                "9866170380b64c12936050e87c66dd30",
+                0.49720099836989873
+            ],
+            [
+                "decorative statue-1",
+                "Towel_Statue_3",
+                0.16406205296516418
+            ]
+        ]
+    }
+}
